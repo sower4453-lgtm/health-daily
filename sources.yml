@@ -1,0 +1,79 @@
+# ─────────────────────────────────────────────────────────────
+# 보건 데일리 수집 설정
+# 이 파일만 고치면 검색 키워드와 수집처를 바꿀 수 있습니다.
+# GitHub 웹에서 이 파일을 열고 연필(✏️) 버튼으로 수정한 뒤 Commit 하면
+# 다음 수집부터 반영됩니다. 들여쓰기(앞 칸 띄우기)는 그대로 지켜 주세요.
+#
+# hint(분류 힌트) 값:
+#   news 뉴스 / law 법령·입법예고 / chem 화학물질 규제 / notice 공지·지침
+#   case 재해·직업병 사례 / fund 지원사업 / edu 교육·행사 / job 채용 / info 정보·자료
+# AI가 내용을 보고 최종 분류를 정하지만, AI를 쓸 수 없는 날에는 이 힌트로 분류합니다.
+# ─────────────────────────────────────────────────────────────
+
+gemini:
+  # 위에서부터 차례로 시도합니다. 첫 모델이 없어지거나 한도에 걸리면 다음 모델을 씁니다.
+  models:
+    - gemini-flash-lite-latest
+    - gemini-2.5-flash-lite
+    - gemini-flash-latest
+  batch_size: 20          # 한 번에 AI에 보내는 소식 수
+  max_candidates: 80      # 하루에 AI에 보내는 최대 소식 수
+  max_items_per_day: 30   # 하루에 웹앱에 올리는 최대 소식 수
+
+lookback_days: 3          # 며칠 이내 게시물을 새 소식으로 볼지
+keep_days: 120            # 웹앱에 며칠치 소식을 남길지
+
+# 구글 뉴스 검색(RSS). q는 검색어입니다. 큰따옴표로 묶으면 그 구절이 그대로 들어간 기사만 찾습니다.
+news_queries:
+  - {q: "특수건강진단", hint: news}
+  - {q: "직업병 근로자", hint: news}
+  - {q: "보건관리자", hint: news}
+  - {q: "근골격계질환 근로자", hint: news}
+  - {q: "직무스트레스 근로자", hint: news}
+  - {q: "온열질환 근로자 OR 한랭질환 근로자", hint: notice}
+  - {q: "야간작업 근로자 건강", hint: news}
+  - {q: "급성중독 근로자 OR 화학물질 누출 사업장", hint: case}
+  - {q: "업무상질병 산재 인정", hint: case}
+  - {q: "산업안전보건법 개정 OR 산업안전보건법 시행령 OR 산업안전보건법 시행규칙", hint: law}
+  - {q: "입법예고 고용노동부 산업안전", hint: law}
+  - {q: "노출기준 고시 OR 특별관리물질 OR 관리대상 유해물질", hint: chem}
+  - {q: "물질안전보건자료 OR MSDS 제도", hint: chem}
+  - {q: "화학물질관리법 OR 유독물질 지정", hint: chem}
+  - {q: "KOSHA GUIDE OR 안전보건기술지침", hint: info}
+  - {q: "안전보건공단 지원사업 신청", hint: fund}
+  - {q: "근로자건강센터", hint: fund}
+  - {q: "건강일터 OR 클린사업장 지원", hint: fund}
+  - {q: "산업보건 세미나 OR 산업보건 심포지엄", hint: edu}
+  - {q: "직업환경의학회 학술대회 OR 산업간호 학술대회 OR 산업위생학회 학술대회", hint: edu}
+  - {q: "보건관리자 직무교육 OR 보건관리자 보수교육", hint: edu}
+  - {q: "직업병안심센터", hint: edu}
+  - {q: "보건관리자 채용", hint: job}
+  - {q: "산업간호사 채용", hint: job}
+
+# 기관 게시판 목록 페이지. 목록에서 link 에 적은 글자가 들어간 링크를 새 글로 봅니다.
+# keywords 를 적으면 제목에 그 단어가 들어간 글만 가져옵니다.
+boards:
+  - name: 고용노동부 보도자료
+    url: https://www.moel.go.kr/news/enews/report/enewsList.do
+    link: enewsView.do
+    hint: notice
+  - name: 고용노동부 입법·행정예고
+    url: https://www.moel.go.kr/info/lawinfo/lawmaking/list.do
+    link: view.do
+    hint: law
+  - name: 고용노동부 훈령·예규·고시
+    url: https://www.moel.go.kr/info/lawinfo/instruction/list.do
+    link: view.do
+    hint: law
+  - name: 고용노동부 정책자료실
+    url: https://www.moel.go.kr/policy/policydata/list.do
+    link: view.do
+    hint: case
+    keywords: [중대재해사이렌, 중대재해, 직업병, 건강, 한랭, 폭염, 온열, 화학, 보건]
+  - name: 고용노동부 재해조사보고서
+    url: https://www.moel.go.kr/info/dsstExaminRpt/list.do
+    link: view.do
+    hint: case
+
+# 보도자료 제목에 이 단어가 하나도 없으면 건너뜁니다(보건과 관계없는 보도자료를 줄이기 위함).
+board_filter_words: [안전, 보건, 건강, 산재, 재해, 질병, 화학, 중독, 폭염, 한파, 온열, 한랭, 감독, 점검, 노동자, 근로자, 작업, 위험성평가, 고시, 입법, 개정]

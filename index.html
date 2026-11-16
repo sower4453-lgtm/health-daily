@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>보건 데일리 — 보건관리자 아침 브리핑</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  /* 레이아웃: '보건관리자 실무노트' 썸네일과 같은 문법 — 흰 바탕, 네이비 점+라벨, 굵은 제목과 오렌지 핵심어, 2px 먹색 선으로 구획 */
+  :root{
+    color-scheme:light;
+    --bg:#FFFFFF; --ink:#16222C; --navy:#34536B; --sub:#4A5763;
+    --mist:#E3EBF0; --steel:#9DB4C4; --line:#DCE4EA; --wash:#F5F8FA;
+    --accent:#D9622B; --accent-ink:#B44E1E; --accent-soft:#FBEEE7;
+    --ok:#2F8F63;
+    --font:"Noto Sans KR","Noto Sans CJK KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);font-size:16px;line-height:1.65;word-break:keep-all}
+  a{color:inherit}
+  button{font:inherit;color:inherit}
+  :focus-visible{outline:2px solid var(--navy);outline-offset:2px;border-radius:4px}
+  .wrap{max-width:1120px;margin:0 auto;padding:36px 24px 56px}
+  .dot{display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--navy);flex:none}
+
+  /* 상단 줄: 점 + 라벨 / 상태 */
+  .top{display:flex;align-items:center;justify-content:space-between;gap:12px 20px;flex-wrap:wrap}
+  .kicker{display:flex;align-items:center;gap:10px;font-size:18px;font-weight:700;color:var(--navy);letter-spacing:-.02em}
+  .kicker .dot{width:13px;height:13px}
+  .status{display:flex;align-items:center;gap:8px;font-size:14px;font-weight:500;color:var(--sub);font-variant-numeric:tabular-nums}
+  .status b{color:var(--ink);font-weight:700}
+  .status .lamp{width:8px;height:8px;border-radius:50%;background:var(--steel)}
+  .status .lamp.ok{background:var(--ok)}
+  .status .lamp.warn{background:var(--accent)}
+
+  /* 머리: 굵은 두 줄 제목 + 한 줄 요약 + 선 그림 */
+  .hero{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;padding:34px 0 30px}
+  .hero h1{margin:0;font-size:clamp(31px,5.4vw,56px);font-weight:700;line-height:1.24;letter-spacing:-.045em;text-wrap:balance}
+  .hero h1 .hl{color:var(--accent)}
+  .hero p{margin:16px 0 0;font-size:clamp(15px,1.9vw,19px);color:var(--sub);letter-spacing:-.02em}
+  .hero svg{flex:none;width:clamp(96px,17vw,176px);height:auto}
+
+  .banner{background:var(--accent-soft);color:var(--accent-ink);border-radius:10px;padding:10px 14px;font-size:14px;font-weight:500;margin-bottom:18px;display:none}
+
+  /* 분류별 건수 */
+  .counts{display:grid;grid-template-columns:repeat(4,1fr);border-top:2px solid var(--ink);border-bottom:1px solid var(--line)}
+  .count{display:flex;align-items:center;gap:12px;border:0;background:var(--bg);padding:16px 14px;cursor:pointer;text-align:left;transition:background .15s}
+  .count:hover{background:var(--wash)}
+  .count.zero{opacity:.48}
+  .count.zero:hover{opacity:1}
+  .count svg{flex:none;width:46px;height:46px}
+  .count .l{display:block;font-size:13.5px;font-weight:700;color:var(--navy);letter-spacing:-.02em;line-height:1.3}
+  .count .n{display:block;font-size:27px;font-weight:700;line-height:1.2;letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+  .count .n small{font-size:14px;font-weight:500;color:var(--sub);margin-left:2px}
+
+  /* 꼭 볼 소식 */
+  .must{padding:20px 0 4px}
+  .label{display:flex;align-items:center;gap:8px;font-size:14.5px;font-weight:700;color:var(--navy);letter-spacing:-.02em;margin:0 0 8px}
+  .hlrow{display:flex;gap:10px;align-items:baseline;padding:5px 0;font-size:16px;font-weight:500;letter-spacing:-.02em}
+  .hlrow a{text-decoration:none}
+  .hlrow a:hover{text-decoration:underline;text-underline-offset:3px}
+  .badge{flex:none;font-size:12px;font-weight:700;border-radius:5px;padding:1px 7px;line-height:1.6}
+  .badge.imp{background:var(--accent);color:#fff}
+  .badge.new{border:1.5px solid var(--accent);color:var(--accent-ink);padding:0 6px}
+  .badge.dday{background:var(--mist);color:var(--navy);font-variant-numeric:tabular-nums}
+  .badge.dday.soon{background:var(--accent-soft);color:var(--accent-ink)}
+  .badge.dday.past{background:var(--wash);color:var(--steel)}
+
+  /* 이번 달 챙길 일 */
+  .monthly{border-top:2px solid var(--ink);margin-top:22px;padding:14px 0 2px}
+  .monthly summary{display:flex;align-items:center;gap:8px;cursor:pointer;list-style:none;font-size:15.5px;font-weight:700;color:var(--navy);letter-spacing:-.02em}
+  .monthly summary::-webkit-details-marker{display:none}
+  .monthly .prog{margin-left:auto;font-size:13.5px;font-weight:500;color:var(--sub);font-variant-numeric:tabular-nums}
+  .monthly .chev{width:9px;height:9px;border-right:2px solid var(--navy);border-bottom:2px solid var(--navy);transform:rotate(-45deg);margin:0 4px 0 6px;transition:transform .15s}
+  .monthly[open] .chev{transform:rotate(45deg);margin-top:-4px}
+  .todo{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 40px;margin-top:8px}
+  .todo-item{display:flex;gap:11px;padding:13px 0;border-bottom:1px solid var(--line)}
+  .todo-item input{accent-color:var(--navy);width:17px;height:17px;margin:5px 0 0;flex:none;cursor:pointer}
+  .todo-item .t{font-size:15.5px;font-weight:700;letter-spacing:-.03em;line-height:1.45;cursor:pointer;margin-right:7px}
+  .todo-item .d{font-size:13.5px;color:var(--sub);margin:4px 0 0;line-height:1.6}
+  .todo-item .b{font-size:12.5px;color:var(--navy);margin:5px 0 0;font-weight:500}
+  .todo-item .b a{text-underline-offset:3px}
+  .todo-item.done .t{text-decoration:line-through;color:var(--sub)}
+  .todo-item.done .d,.todo-item.done .b{opacity:.55}
+  .badge.kind{display:inline-block;line-height:1.5;padding:1px 7px;background:var(--wash);color:var(--sub);vertical-align:2px}
+  .badge.kind.legal{background:var(--mist);color:var(--navy)}
+  .fine{font-size:12.5px;color:var(--sub);margin:10px 0 0}
+
+  /* 본문 2단 */
+  .grid{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:44px;align-items:start;margin-top:30px}
+
+  /* 필터 */
+  .tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
+  .tab{border:1.5px solid var(--line);background:var(--bg);border-radius:999px;padding:6px 14px;font-size:14.5px;font-weight:500;cursor:pointer;letter-spacing:-.02em}
+  .tab:hover{border-color:var(--navy)}
+  .tab .k{color:var(--sub);font-size:12.5px;margin-left:5px;font-variant-numeric:tabular-nums}
+  .tab.on{background:var(--navy);border-color:var(--navy);color:#fff;font-weight:700}
+  .tab.on .k{color:var(--mist)}
+  .filters{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+  .seg{display:inline-flex;border:1.5px solid var(--line);border-radius:10px;overflow:hidden}
+  .seg button{border:0;background:none;padding:6px 11px;font-size:13.5px;cursor:pointer;color:var(--sub)}
+  .seg button.on{background:var(--mist);color:var(--navy);font-weight:700}
+  .search{flex:1;min-width:190px;border:1.5px solid var(--line);border-radius:10px;padding:7px 12px;font:inherit;font-size:14.5px;background:var(--bg);color:var(--ink)}
+  .search::placeholder{color:var(--steel)}
+  .search:focus{outline:none;border-color:var(--navy)}
+  .chk{display:inline-flex;align-items:center;gap:6px;font-size:14px;color:var(--sub);cursor:pointer;user-select:none}
+  .chk input{accent-color:var(--navy);width:15px;height:15px}
+
+  .catlinks{display:flex;gap:6px 20px;flex-wrap:wrap;align-items:baseline;margin-top:14px;padding:11px 14px;background:var(--mist);border-radius:10px;font-size:14.5px;letter-spacing:-.02em}
+  .catlinks[hidden]{display:none}
+  .catlinks .h{font-size:12.5px;font-weight:700;color:var(--sub)}
+  .catlinks a{font-weight:700;color:var(--navy);text-underline-offset:3px}
+  .catlinks small{font-size:12.5px;color:var(--sub);margin-left:5px;font-weight:400}
+
+  /* 목록: 카드 없이 선으로만 나눔 */
+  .day-h{margin:30px 0 0;padding-top:12px;border-top:2px solid var(--ink);font-size:15.5px;font-weight:700;letter-spacing:-.02em}
+  .day-h span{color:var(--sub);font-weight:500;margin-left:6px}
+  .item{position:relative;padding:20px 0 20px;border-bottom:1px solid var(--line)}
+  .item:has(+ .day-h){border-bottom:0}
+  .item.read>*:not(.star){opacity:.5}
+  .item.read:hover>*{opacity:1}
+  .meta{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:6px;padding-right:40px}
+  .cat{display:inline-flex;align-items:center;gap:7px;font-size:13.5px;font-weight:700;color:var(--navy);letter-spacing:-.02em}
+  .src{font-size:13px;color:var(--sub);font-variant-numeric:tabular-nums}
+  .item h3{margin:0 0 6px;font-size:19px;font-weight:700;line-height:1.42;letter-spacing:-.035em}
+  .item h3 a{text-decoration:none}
+  .item h3 a:hover{text-decoration:underline;text-decoration-color:var(--accent);text-decoration-thickness:2px;text-underline-offset:4px}
+  .sum{margin:0;color:var(--sub);font-size:15px;letter-spacing:-.01em;max-width:68ch}
+  .point{margin-top:12px;background:var(--mist);border-radius:10px;padding:10px 14px;font-size:14.5px;color:var(--ink);letter-spacing:-.01em;max-width:72ch}
+  .point b{color:var(--navy);margin-right:6px}
+  .tags{margin-top:10px;display:flex;gap:4px 12px;flex-wrap:wrap}
+  .tags button{border:0;background:none;padding:0;font-size:13px;color:var(--sub);cursor:pointer}
+  .tags button:hover{color:var(--accent-ink);text-decoration:underline}
+  .star{position:absolute;top:14px;right:0;border:0;background:none;font-size:21px;cursor:pointer;color:var(--steel);line-height:1;padding:5px}
+  .star:hover{color:var(--navy)}
+  .star.on{color:var(--accent)}
+  .star:disabled{display:none}
+  .empty{margin-top:24px;border:1.5px dashed var(--line);border-radius:12px;padding:36px 20px;text-align:center;color:var(--sub);font-size:15px}
+  .more{display:block;margin:20px auto 0;border:1.5px solid var(--navy);background:var(--bg);color:var(--navy);font-weight:700;border-radius:10px;padding:8px 20px;cursor:pointer}
+  .more:hover{background:var(--mist)}
+  .skel{height:92px;border-bottom:1px solid var(--line);background:linear-gradient(90deg,var(--bg) 25%,var(--wash) 50%,var(--bg) 75%);background-size:200% 100%;animation:sh 1.3s infinite}
+  @keyframes sh{0%{background-position:200% 0}100%{background-position:-200% 0}}
+
+  /* 옆 단 */
+  aside .box{border-top:2px solid var(--ink);padding:14px 0 6px;margin-bottom:26px}
+  .links .grp{font-size:12.5px;font-weight:700;color:var(--sub);margin:14px 0 2px}
+  .links .grp:first-of-type{margin-top:4px}
+  .links a{display:flex;justify-content:space-between;align-items:baseline;gap:10px;text-decoration:none;font-size:14.5px;font-weight:500;padding:7px 0;border-bottom:1px solid var(--line);letter-spacing:-.02em}
+  .links a:hover{color:var(--navy)}
+  .links a:hover span{text-decoration:underline;text-underline-offset:3px}
+  .links a small{color:var(--sub);font-size:12px;font-weight:400;flex:none}
+  .region{display:flex;align-items:center;gap:10px;padding:8px 0 6px}
+  .region label{font-size:13px;font-weight:700;color:var(--navy)}
+  .region select{flex:1;border:1.5px solid var(--line);border-radius:8px;padding:5px 8px;font:inherit;font-size:14px;background:var(--bg);color:var(--ink)}
+  .region select:focus{outline:none;border-color:var(--navy)}
+  .rhint{font-size:12.5px;color:var(--sub);padding:4px 0 8px;line-height:1.6}
+  .note{font-size:13.5px;color:var(--sub);line-height:1.7;margin:6px 0 8px}
+  .note b{color:var(--ink);font-weight:700}
+
+  /* 바닥: 굵은 선 + 로고 */
+  footer{margin-top:44px;border-top:2px solid var(--ink);padding-top:18px;display:flex;align-items:center;justify-content:space-between;gap:10px 24px;flex-wrap:wrap}
+  .sign{display:flex;align-items:center;gap:10px;font-size:17px;font-weight:700;letter-spacing:-.02em;text-decoration:none}
+  .sign svg{width:28px;height:28px}
+  footer p{margin:0;font-size:12.5px;color:var(--sub)}
+
+  .legal{margin-top:22px;padding:16px 18px;background:var(--wash);border-radius:10px;font-size:12.5px;line-height:1.75;color:var(--sub)}
+  .legal h2{margin:0 0 6px;font-size:13px;font-weight:700;color:var(--ink);letter-spacing:-.02em}
+  .legal ul{margin:0;padding-left:17px}
+  .legal li{margin:2px 0}
+  .legal a{color:var(--navy);text-underline-offset:3px}
+  .legal .copy{margin:10px 0 0;font-weight:500}
+
+  @media (max-width:920px){
+    .grid{grid-template-columns:1fr;gap:10px}
+  }
+  @media (max-width:760px){
+    .counts{grid-template-columns:repeat(2,1fr)}
+    .todo{grid-template-columns:1fr}
+  }
+  @media (max-width:560px){
+    .wrap{padding:24px 16px 44px}
+    .hero{padding:24px 0 22px;align-items:flex-start}
+    .count{padding:13px 10px;gap:9px}
+    .count svg{width:38px;height:38px}
+    .item h3{font-size:17.5px}
+  }
+  @media (prefers-reduced-motion:reduce){.skel{animation:none}.count,.monthly .chev{transition:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="kicker"><span class="dot"></span>보건 데일리</div>
+    <div class="status" id="status"><span class="lamp"></span>불러오는 중</div>
+  </header>
+
+  <section class="hero">
+    <div>
+      <h1 id="heroTitle">오늘의 보건 소식을<br><span class="hl">한곳에</span> 모읍니다</h1>
+      <p id="heroSub">뉴스, 법령, 화학물질 규제, 재해 사례, 공지, 지원사업, 교육·행사, 채용, 자료를 매일 아침 정리합니다.</p>
+    </div>
+    <svg viewBox="0 0 120 120" fill="none" stroke="#34536B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M60 8 C88 6 112 26 110 58 C108 90 90 112 58 110 C28 108 8 88 10 56 C12 28 32 10 60 8 Z" fill="#E3EBF0" stroke="none"/>
+      <path d="M26 32 Q26 28 30 28 L80 27 Q84 27 84 31 L84 88 Q84 94 90 94 L32 95 Q26 95 26 89 Z" fill="#FFFFFF"/>
+      <path d="M84 46 L96 46 Q99 46 99 49 L99 86 Q99 94 90 94" fill="#FFFFFF"/>
+      <path d="M36 41 L74 40"/>
+      <path d="M36 54 L52 54 L52 70 L36 70 Z"/>
+      <path d="M60 54 L74 54 M60 62 L74 62 M60 70 L74 70 M36 81 L74 81"/>
+      <path d="M40.5 62 L47.5 62 M44 58.5 L44 65.5" stroke="#D9622B" stroke-width="3.4"/>
+    </svg>
+  </section>
+
+  <div class="banner" id="banner" role="status"></div>
+
+  <section id="brief" hidden>
+    <div class="counts" id="counts"></div>
+    <div class="must" id="must">
+      <p class="label"><span class="dot"></span>꼭 볼 소식</p>
+      <div id="highlights"></div>
+    </div>
+  </section>
+
+  <details class="monthly" id="monthly" hidden open>
+    <summary><span class="dot"></span><span id="monthlyTitle">이번 달 챙길 일</span><span class="prog" id="monthlyProg"></span><span class="chev" aria-hidden="true"></span></summary>
+    <div class="todo" id="todo"></div>
+    <p class="fine">법령의 일반적인 주기를 기준으로 한 알림입니다. 우리 사업장의 실제 측정·검진 일정에 맞춰 확인하세요. </p>
+  </details>
+
+  <div class="grid">
+    <main>
+      <nav class="tabs" id="tabs" aria-label="분류"></nav>
+      <div class="filters">
+        <div class="seg" id="period" role="group" aria-label="기간">
+          <button data-p="2">어제·오늘</button>
+          <button data-p="3">3일</button>
+          <button data-p="7" class="on">7일</button>
+          <button data-p="30">30일</button>
+          <button data-p="0">전체</button>
+        </div>
+        <input class="search" id="q" type="search" placeholder="제목·요약·태그 검색 (예: 특수건강진단)" aria-label="검색">
+        <label class="chk"><input type="checkbox" id="onlyImp">중요만</label>
+        <label class="chk"><input type="checkbox" id="onlyUnread">안 읽은 것만</label>
+      </div>
+      <div class="catlinks" id="catlinks" hidden></div>
+      <div id="list">
+        <div class="skel" style="margin-top:30px;border-top:2px solid var(--ink)"></div><div class="skel"></div><div class="skel"></div>
+      </div>
+    </main>
+
+    <aside>
+      <div class="box">
+        <p class="label"><span class="dot"></span>출처 바로가기</p>
+        <div class="links">
+          <div class="grp">법령·행정</div>
+          <a href="https://www.law.go.kr/" target="_blank" rel="noopener"><span>국가법령정보센터</span><small>법령 원문</small></a>
+          <a href="https://opinion.lawmaking.go.kr/gcom/ogLmPp" target="_blank" rel="noopener"><span>국민참여입법센터</span><small>입법예고</small></a>
+          <a href="https://www.moel.go.kr/news/enews/report/enewsList.do" target="_blank" rel="noopener"><span>고용노동부 보도자료</span><small>정책</small></a>
+          <a href="https://www.moel.go.kr/info/lawinfo/instruction/list.do" target="_blank" rel="noopener"><span>고용노동부 훈령·예규·고시</span><small>고시</small></a>
+          <a href="https://www.moel.go.kr/info/publicdata/majorpublish/majorPublishList.do?searchDivCd=4" target="_blank" rel="noopener"><span>고용노동부 질의회시집</span><small>행정해석</small></a>
+          <div class="grp">화학물질</div>
+          <a href="https://msds.kosha.or.kr/" target="_blank" rel="noopener"><span>KOSHA MSDS 시스템</span><small>MSDS·노출기준</small></a>
+          <a href="https://ncis.nier.go.kr/" target="_blank" rel="noopener"><span>화학물질정보시스템</span><small>규제 물질</small></a>
+          <a href="https://nics.mcee.go.kr/" target="_blank" rel="noopener"><span>화학물질안전원</span><small>화관법·화학사고</small></a>
+          <a href="https://monographs.iarc.who.int/agents-classified-by-the-iarc/" target="_blank" rel="noopener"><span>IARC 발암물질 분류</span><small>영문</small></a>
+          <div class="grp">재해 사례</div>
+          <a href="https://www.moel.go.kr/policy/policydata/list.do" target="_blank" rel="noopener"><span>중대재해 발생 알림</span><small>고용노동부 월별 공개</small></a>
+          <a href="https://www.moel.go.kr/info/dsstExaminRpt/list.do" target="_blank" rel="noopener"><span>재해조사보고서 공개</span><small>고용노동부</small></a>
+          <div class="grp">기관 공지·자료</div>
+          <a href="https://www.kosha.or.kr/" target="_blank" rel="noopener"><span>안전보건공단</span><small>공지·가이드</small></a>
+          <a href="https://portal.kosha.or.kr/" target="_blank" rel="noopener"><span>산업안전포털</span><small>KOSHA GUIDE·자료실</small></a>
+          <a href="https://www.kdca.go.kr/" target="_blank" rel="noopener"><span>질병관리청</span><small>감염병·건강</small></a>
+          <a href="https://www.mohw.go.kr/" target="_blank" rel="noopener"><span>보건복지부</span><small>보건정책</small></a>
+          <a href="https://www.kiha21.or.kr/" target="_blank" rel="noopener"><span>대한산업보건협회</span><small>교육·소식</small></a>
+          <div class="grp">건강상담·산재</div>
+          <div class="region"><label for="regionSel">내 지역</label><select id="regionSel"><option value="">지역 선택</option></select></div>
+          <div id="regionLinks"></div>
+          <a href="https://www.comwel.or.kr/" target="_blank" rel="noopener"><span>근로복지공단</span><small>산재·업무상질병</small></a>
+          <div class="grp">채용</div>
+          <a href="https://www.work24.go.kr/" target="_blank" rel="noopener"><span>고용24</span><small>공공 채용</small></a>
+          <a href="https://www.gojobs.go.kr/" target="_blank" rel="noopener"><span>나라일터</span><small>공무원 경채</small></a>
+          <a href="https://job.alio.go.kr/" target="_blank" rel="noopener"><span>잡알리오</span><small>공공기관</small></a>
+          <a href="https://www.saramin.co.kr/zf_user/search?searchword=%EB%B3%B4%EA%B1%B4%EA%B4%80%EB%A6%AC%EC%9E%90" target="_blank" rel="noopener"><span>사람인 ‘보건관리자’</span><small>민간</small></a>
+        </div>
+      </div>
+      <div class="box">
+        <p class="label"><span class="dot"></span>자동 업데이트</p>
+        <p class="note">매일 <b>오전 8시 무렵</b> 자동 수집 프로그램이 위 기관과 주요 언론을 살펴 <b>새 소식만</b> 골라 올리고, AI가 요약하고 분류합니다. 매월 첫 수집 때는 <b>이번 달 챙길 일</b>도 새로 올립니다. <b>실무 포인트</b>는 제조업 사업장 보건관리자 관점에서 덧붙인 메모입니다.</p>
+        <p class="note">★ 저장, 체크 표시, 읽음 표시는 이 브라우저에만 남습니다. 근로자건강센터 대표전화는 1577-6497입니다.</p>
+      </div>
+    </aside>
+  </div>
+
+  <footer>
+    <a class="sign" href="https://blog.naver.com/health_manager4453" target="_blank" rel="noopener">
+      <svg viewBox="0 0 100 100" aria-hidden="true"><path d="M22 0 H68 L100 32 V78 A22 22 0 0 1 78 100 H22 A22 22 0 0 1 0 78 V22 A22 22 0 0 1 22 0 Z" fill="#34536B"/><path d="M68 0 V32 H100 Z" fill="#9DB4C4"/><rect x="41" y="34" width="12" height="44" rx="3" fill="#FFFFFF"/><rect x="25" y="50" width="44" height="12" rx="3" fill="#FFFFFF"/></svg>
+      보건관리자 실무노트
+    </a>
+    <p>요약은 자동 생성입니다. 법적 효력은 관보와 국가법령정보센터 원문을 기준으로 확인하세요.</p>
+  </footer>
+
+  <section class="legal" aria-label="이용 안내 및 면책">
+    <h2>이용 안내 및 면책</h2>
+    <ul>
+      <li>이 웹앱은 보건관리 실무자의 정보 확인을 돕기 위해 무료로 제공하는 참고 자료이며, 법률·의학·노무 자문이 아닙니다.</li>
+      <li>요약, 실무 포인트, 이번 달 챙길 일은 AI(Google Gemini)가 자동으로 작성하므로 오류, 누락, 지연이 있을 수 있습니다. 법령·고시의 내용과 시행일, 신청·접수 마감일, 채용 조건은 반드시 원문과 소관 기관에서 확인하세요.</li>
+      <li>이 웹앱의 내용을 바탕으로 한 판단과 조치의 책임은 이용자에게 있으며, 제작자는 그로 인해 생긴 손해에 책임을 지지 않습니다.</li>
+      <li>기사, 공고, 자료의 저작권은 각 원저작자와 해당 기관에 있습니다. 이 웹앱은 제목과 짧은 요약, 원문 링크만 제공하며, 외부 사이트의 내용과 운영은 해당 사이트의 책임입니다.</li>
+      <li>특정 기관이나 기업과 제휴하지 않았고, 그 입장을 대변하지 않습니다.</li>
+      <li>출처를 밝힌 비영리 목적의 공유는 자유롭게 하실 수 있습니다. 내용 정정이나 게시 중단 요청은 <a href="https://blog.naver.com/health_manager4453" target="_blank" rel="noopener">보건관리자 실무노트 블로그</a>로 알려 주시면 확인 후 조치합니다.</li>
+    </ul>
+    <p class="copy">© 2026 보건관리자 실무노트</p>
+  </section>
+</div>
+
+<script>
+(function(){
+  "use strict";
+  var CATS = [
+    {k:"all",   l:"전체"},
+    {k:"news",  l:"뉴스"},
+    {k:"law",   l:"법령·입법예고"},
+    {k:"chem",  l:"화학물질 규제"},
+    {k:"notice",l:"공지·지침"},
+    {k:"case",  l:"재해·직업병 사례"},
+    {k:"fund",  l:"지원사업"},
+    {k:"edu",   l:"교육·행사"},
+    {k:"job",   l:"채용"},
+    {k:"info",  l:"정보·자료"},
+    {k:"star",  l:"★ 저장함"}
+  ];
+  var CAT = {}; CATS.forEach(function(c){ CAT[c.k]=c; });
+
+  // 썸네일과 같은 선 그림(연한 하늘색 바탕 + 네이비 선)
+  var BLOB='<path d="M60 8 C88 6 112 26 110 58 C108 90 90 112 58 110 C28 108 8 88 10 56 C12 28 32 10 60 8 Z" fill="#E3EBF0" stroke="none"/>';
+  var ICON={
+    news:'<path d="M28 34 Q28 30 32 30 L78 29 Q82 29 82 33 L82 86 Q82 92 88 92 L34 93 Q28 93 28 87 Z" fill="#FFFFFF"/><path d="M82 48 L92 48 Q95 48 95 51 L95 84 Q95 92 88 92" fill="#FFFFFF"/><path d="M38 43 L72 42 M38 56 L52 56 L52 70 L38 70 Z M60 56 L72 56 M60 70 L72 70 M38 81 L72 81"/>',
+    law:'<path d="M60 40 C48 30 30 30 18 34 L18 88 C30 84 48 84 60 94 C72 84 90 84 102 88 L102 34 C90 30 72 30 60 40 Z" fill="#FFFFFF"/><path d="M60 40 L60 94 M28 48 Q40 46 50 50 M28 62 Q40 60 50 64 M70 50 Q82 46 92 48 M70 64 Q82 60 92 62"/>',
+    chem:'<path d="M60 16 L104 60 L60 104 L16 60 Z" fill="#FFFFFF"/><path d="M60 84 C47 84 41 74 43 65 C44 58 49 55 50 48 C55 52 56 57 56 61 C59 53 59 44 55 36 C66 42 76 53 77 65 C78 76 72 84 60 84 Z"/>',
+    case:'<path d="M60 22 Q63 22 65 25 L101 88 Q104 94 97 94 L23 94 Q16 94 19 88 L55 25 Q57 22 60 22 Z" fill="#FFFFFF"/><path d="M60 46 L60 70 M60 81 L60 82"/>',
+    fund:'<path d="M60 26 C80 25 95 40 94 60 C93 80 80 95 60 94 C40 93 25 80 26 60 C27 40 40 27 60 26 Z" fill="#FFFFFF"/><path d="M43 47 L51 75 L60 52 L69 75 L77 47 M40 60 L80 60"/>',
+    edu:'<path d="M28 36 Q28 32 32 32 L88 31 Q92 31 92 35 L93 90 Q93 94 89 94 L32 95 Q28 95 28 91 Z" fill="#FFFFFF"/><path d="M28 50 Q60 48 93 50 M44 24 L44 38 M76 24 L76 38"/><path d="M60 60 L70 80 L50 80 Z M60 60 L60 56"/>',
+    notice:'<path d="M26 52 Q26 49 29 49 L44 49 L78 30 L78 92 L44 73 L29 73 Q26 73 26 70 Z" fill="#FFFFFF"/><path d="M44 49 L44 73 M46 75 L52 94 L63 94 L58 81 M88 50 Q97 61 88 72"/>',
+    job:'<path d="M26 76 C26 48 40 32 60 32 C80 32 94 48 94 76 Z" fill="#FFFFFF"/><path d="M17 76 L103 76 Q107 76 107 81 Q107 86 103 86 L17 86 Q13 86 13 81 Q13 76 17 76 Z" fill="#FFFFFF"/><path d="M60 46 L60 64 M51 55 L69 55"/>',
+    info:'<path d="M34 32 Q34 28 38 28 L82 28 Q86 28 86 32 L86 92 Q86 96 82 96 L38 96 Q34 96 34 92 Z" fill="#FFFFFF"/><path d="M48 22 L72 22 L72 34 L48 34 Z" fill="#FFFFFF"/><path d="M45 52 L75 52 M45 66 L75 66 M45 80 L63 80"/>'
+  };
+  function icon(k){ return '<svg viewBox="0 0 120 120" fill="none" stroke="#34536B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'+BLOB+ICON[k]+'</svg>'; }
+
+  var state = { days: [], cat:"all", period:7, q:"", onlyImp:false, onlyUnread:false, stars:{}, shown:60, meta:null };
+  try{ var ls0=JSON.parse(localStorage.getItem("hd-stars")||"{}"); if(ls0 && typeof ls0==="object") state.stars=ls0; }catch(e){}
+  var db=true, uid="local", starRef=null;
+  state.stars = lsGet("hd-stars", {}) || {};
+
+  // ---------- 로컬 저장(읽음/마지막 방문) ----------
+  function lsGet(k, d){ try{ var v=localStorage.getItem(k); return v?JSON.parse(v):d; }catch(e){ return d; } }
+  function lsSet(k, v){ try{ localStorage.setItem(k, JSON.stringify(v)); }catch(e){} }
+  var readSet = lsGet("hd-read", {});
+  var prevVisit = lsGet("hd-lastVisit", 0);
+  var savedUi = lsGet("hd-ui", null);
+  if(savedUi){ state.cat = CAT[savedUi.cat]?savedUi.cat:"all"; state.period = (savedUi.period!=null?savedUi.period:7); }
+  window.addEventListener("beforeunload", function(){ lsSet("hd-lastVisit", Date.now()); });
+  setTimeout(function(){ lsSet("hd-lastVisit", Date.now()); }, 15000);
+
+  // ---------- 유틸 ----------
+  function $(id){ return document.getElementById(id); }
+  function esc(s){ return String(s==null?"":s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];}); }
+  function safeUrl(u){ u=String(u||""); return /^https?:\/\//i.test(u)?u:"#"; }
+  function hash(s){ var h=0; s=String(s||""); for(var i=0;i<s.length;i++){ h=((h<<5)-h+s.charCodeAt(i))|0; } return "h"+(h>>>0).toString(36); }
+  function kstToday(){ var d=new Date(Date.now()+9*3600e3); return d.toISOString().slice(0,10); }
+  function dayDiff(a,b){ return Math.round((Date.parse(a+"T00:00:00Z")-Date.parse(b+"T00:00:00Z"))/864e5); }
+  var WD=["일","월","화","수","목","금","토"];
+  function dayLabel(d){ var x=new Date(d+"T00:00:00Z"); return (x.getUTCMonth()+1)+"월 "+x.getUTCDate()+"일 ("+WD[x.getUTCDay()]+")"; }
+  function dayWord(d){ var diff=dayDiff(kstToday(),d); return diff===0?"오늘":diff===1?"어제":""; }
+  function fmtDay(d){ var w=dayWord(d); return (w?w+" · ":"")+dayLabel(d); }
+  function shortDate(d){ return /^\d{4}-\d{2}-\d{2}$/.test(d||"") ? d.slice(5,7)+"."+d.slice(8,10) : String(d||""); }
+  function fmtTime(iso){ try{ var d=new Date(iso); return d.toLocaleString("ko-KR",{timeZone:"Asia/Seoul",month:"numeric",day:"numeric",hour:"2-digit",minute:"2-digit"}); }catch(e){ return iso; } }
+
+  function allItems(){
+    var out=[], seen={};
+    state.days.forEach(function(day){
+      (day.items||[]).forEach(function(it){
+        if(!it || !it.title) return;
+        var id = it.id || hash(it.url||it.title);
+        if(seen[id]) return; seen[id]=1;
+        out.push(Object.assign({}, it, {id:id, batch:day.date, day:(/^\d{4}-\d{2}-\d{2}$/.test(it.date||"")?it.date:day.date), cat:(ICON[it.cat]?it.cat:"info")}));
+      });
+    });
+    out.sort(function(a,b){ return b.day.localeCompare(a.day) || (b.imp||0)-(a.imp||0); });
+    return out;
+  }
+
+  // ---------- 렌더 ----------
+  function renderStatus(){
+    var el=$("status");
+    var m=state.meta, latest=state.days[0];
+    if(!latest){ el.innerHTML='<span class="lamp warn"></span>아직 수집된 소식이 없습니다'; return; }
+    var when = m && m.lastRun ? fmtTime(m.lastRun) : fmtDay(latest.date);
+    var fresh = dayDiff(kstToday(), latest.date) <= 1;
+    el.innerHTML='<span class="lamp '+(fresh?"ok":"warn")+'"></span>마지막 업데이트 <b>'+esc(when)+'</b>';
+  }
+
+  function renderBrief(items){
+    var brief=$("brief");
+    if(!state.days.length){ brief.hidden=true; return; }
+    brief.hidden=false;
+    var latest=state.days[0].date;
+    var todays=items.filter(function(i){ return i.batch===latest; });
+    var isToday = dayDiff(kstToday(),latest)===0;
+    var keyN = todays.filter(function(i){ return (i.imp||0)>=3; }).length;
+    $("heroTitle").innerHTML = (isToday?"오늘 새 보건 소식":"최근 수집한 보건 소식")+'<br><span class="hl">'+todays.length+'건</span>'+(isToday?"이 올라왔습니다":"입니다");
+    $("heroSub").textContent = fmtDay(latest)+" 수집"+(keyN?" · 꼭 볼 소식 "+keyN+"건":"");
+    var html="";
+    ["news","law","chem","notice","case","fund","edu","job","info"].forEach(function(k){
+      var n=todays.filter(function(i){return i.cat===k;}).length;
+      html+='<button class="count'+(n?"":" zero")+'" data-cat="'+k+'">'+icon(k)+'<span><span class="l">'+CAT[k].l+'</span><span class="n">'+n+'<small>건</small></span></span></button>';
+    });
+    $("counts").innerHTML=html;
+    var hi=todays.filter(function(i){return (i.imp||0)>=3;}).slice(0,4);
+    $("must").hidden = !hi.length;
+    $("highlights").innerHTML = hi.map(function(i){
+      return '<div class="hlrow"><span class="badge imp">중요</span><a href="'+esc(safeUrl(i.url))+'" target="_blank" rel="noopener" data-read="'+esc(i.id)+'">'+esc(i.title)+'</a></div>';
+    }).join("");
+  }
+
+  function renderTabs(items){
+    var html=CATS.map(function(c){
+      var n = c.k==="all"? items.length : c.k==="star"? Object.keys(state.stars).length : items.filter(function(i){return i.cat===c.k;}).length;
+      return '<button class="tab'+(state.cat===c.k?" on":"")+'" data-cat="'+c.k+'">'+esc(c.l)+'<span class="k">'+n+'</span></button>';
+    }).join("");
+    $("tabs").innerHTML=html;
+    Array.prototype.forEach.call(document.querySelectorAll("#period button"),function(b){ b.classList.toggle("on", +b.dataset.p===state.period); });
+  }
+
+  function filtered(items){
+    var t=kstToday(), q=state.q.trim().toLowerCase();
+    var list = state.cat==="star"
+      ? Object.keys(state.stars).map(function(id){ var s=state.stars[id]; return Object.assign({},s,{id:id, cat:ICON[s.cat]?s.cat:"info", day:s.day||s.date}); }).sort(function(a,b){ return String(b.day).localeCompare(String(a.day)); })
+      : items.filter(function(i){ return state.cat==="all" || i.cat===state.cat; });
+    if(state.cat!=="star" && state.period>0){ list=list.filter(function(i){ return dayDiff(t,i.day) < state.period; }); }
+    if(state.onlyImp) list=list.filter(function(i){ return (i.imp||0)>=3; });
+    if(state.onlyUnread) list=list.filter(function(i){ return !readSet[i.id]; });
+    if(q){ list=list.filter(function(i){ return [i.title,i.summary,i.point,i.source,(i.tags||[]).join(" ")].join(" ").toLowerCase().indexOf(q)>=0; }); }
+    return list;
+  }
+
+  function card(i){
+    var c=CAT[i.cat]||CAT.info, t=kstToday();
+    var isNew = prevVisit && i.addedAt && Date.parse(i.addedAt) > prevVisit;
+    var dd="";
+    if(i.eventDate && /^\d{4}-\d{2}-\d{2}$/.test(i.eventDate)){ var ed=dayDiff(i.eventDate,t); dd+='<span class="badge dday'+(ed<0?" past":"")+'">'+(ed<0?"행사 종료":"행사 "+shortDate(i.eventDate)+(i.eventEnd&&i.eventEnd!==i.eventDate?"~"+shortDate(i.eventEnd):""))+'</span>'; }
+    if(i.deadline){ var d=dayDiff(i.deadline,t); dd+='<span class="badge dday'+(d<0?" past":d<=3?" soon":"")+'">'+(i.cat==="fund"?"신청마감 ":(i.cat==="law"||i.cat==="chem")?"의견마감 ":(i.cat==="info"||i.cat==="edu")?"접수마감 ":"마감 ")+(d<0?"종료":d===0?"D-day":"D-"+d)+'</span>'; }
+    return '<article class="item'+(readSet[i.id]?" read":"")+'">'+
+      '<button class="star'+(state.stars[i.id]?" on":"")+'" data-star="'+esc(i.id)+'" aria-label="저장" title="저장">'+(state.stars[i.id]?"★":"☆")+'</button>'+
+      '<div class="meta"><span class="cat"><span class="dot"></span>'+esc(c.l)+'</span>'+
+        ((i.imp||0)>=3?'<span class="badge imp">중요</span>':"")+(isNew?'<span class="badge new">NEW</span>':"")+dd+
+        '<span class="src">'+esc(i.source||"")+(i.date?' · '+esc(shortDate(i.date)):"")+'</span></div>'+
+      '<h3><a href="'+esc(safeUrl(i.url))+'" target="_blank" rel="noopener" data-read="'+esc(i.id)+'">'+esc(i.title)+'</a></h3>'+
+      (i.summary?'<p class="sum">'+esc(i.summary)+'</p>':"")+
+      (i.point?'<div class="point"><b>실무 포인트</b>'+esc(i.point)+'</div>':"")+
+      ((i.tags&&i.tags.length)?'<div class="tags">'+i.tags.map(function(g){return '<button data-tag="'+esc(g)+'">#'+esc(g)+'</button>';}).join("")+'</div>':"")+
+    '</article>';
+  }
+
+  function renderList(items){
+    var el=$("list");
+    var list=filtered(items);
+    if(!list.length){
+      var msg = !state.days.length ? "첫 수집이 끝나면 이곳에 소식이 표시됩니다." :
+                state.cat==="star" ? "☆ 버튼으로 저장한 소식이 여기에 모입니다." : "조건에 맞는 소식이 없습니다. 기간을 넓히거나 검색어를 바꿔 보세요.";
+      el.innerHTML='<div class="empty">'+msg+'</div>'; return;
+    }
+    var html="", last=null, shown=list.slice(0,state.shown);
+    shown.forEach(function(i){
+      if(i.day!==last){ var w=dayWord(i.day); html+='<h2 class="day-h">'+(w?esc(w):esc(dayLabel(i.day)))+(w?'<span>'+esc(dayLabel(i.day))+'</span>':"")+'</h2>'; last=i.day; }
+      html+=card(i);
+    });
+    if(list.length>state.shown) html+='<button class="more" id="more">더 보기 ('+(list.length-state.shown)+'건)</button>';
+    el.innerHTML=html;
+  }
+
+  // ---------- 이번 달 챙길 일 ----------
+  var month = { ym: kstToday().slice(0,7), items: [] };
+  var todoDone = lsGet("hd-todo", {});
+  var todoRef=null, todoWriting=false, todoDirty=false;
+  function renderMonthly(){
+    var el=$("monthly");
+    if(!month.items.length){ el.hidden=true; return; }
+    el.hidden=false;
+    var done=todoDone[month.ym]||{};
+    var n=month.items.filter(function(i){ return done[i.id]; }).length;
+    $("monthlyTitle").textContent = (+month.ym.slice(5))+"월 챙길 일";
+    $("monthlyProg").textContent = n+" / "+month.items.length+" 완료";
+    $("todo").innerHTML = month.items.map(function(i){
+      var u=safeUrl(i.url), id="td-"+esc(i.id);
+      return '<div class="todo-item'+(done[i.id]?" done":"")+'"><input type="checkbox" id="'+id+'" data-todo="'+esc(i.id)+'"'+(done[i.id]?" checked":"")+'>'+
+        '<div><label class="t" for="'+id+'">'+esc(i.title)+'</label>'+(i.kind?'<span class="badge kind'+(i.kind==="법정"?" legal":"")+'">'+esc(i.kind)+'</span>':"")+
+        (i.detail?'<p class="d">'+esc(i.detail)+'</p>':"")+
+        (i.basis?'<p class="b">'+(u!=="#"?'<a href="'+esc(u)+'" target="_blank" rel="noopener">'+esc(i.basis)+'</a>':esc(i.basis))+'</p>':"")+
+        '</div></div>';
+    }).join("");
+  }
+  function saveTodo(){
+    lsSet("hd-todo", todoDone);
+    if(!todoRef) return;
+    if(todoWriting){ todoDirty=true; return; }
+    todoWriting=true;
+    todoRef.set({done:todoDone, updatedAt:new Date().toISOString()}).then(fin, fin);
+    function fin(){ todoWriting=false; if(todoDirty){ todoDirty=false; saveTodo(); } }
+  }
+  document.addEventListener("change", function(e){
+    var id=e.target && e.target.dataset ? e.target.dataset.todo : null;
+    if(!id) return;
+    var m=todoDone[month.ym]||(todoDone[month.ym]={});
+    if(e.target.checked) m[id]=1; else delete m[id];
+    Object.keys(todoDone).sort().slice(0,-6).forEach(function(k){ delete todoDone[k]; });
+    renderMonthly(); saveTodo();
+  });
+  try{ $("monthly").open = lsGet("hd-monthly-open", true); }catch(e){}
+  $("monthly").addEventListener("toggle", function(){ lsSet("hd-monthly-open", $("monthly").open); });
+
+  // ---------- 내 지역 근로자건강센터·직업병안심센터 ----------
+  var WHC_CALL="근로자건강센터 대표전화 1577-6497";
+  var OD_CENTRAL={n:"직업병안심센터 (중앙센터)",d:"권역 센터 안내",u:"https://seoul.hyumc.com/tp/occupational/conts.do?tplMenuCd=004002000000000"};
+  var OD_DG={n:"대구경북직업병안심센터",d:"계명대 동산병원",u:"https://dongsan.dsmc.or.kr:49870/content/02depart/03_0102.php?mc_idx=26&prepage=%2Fcontent%2F02depart%2F01_0102.php%3Fmp_idx%3D71"};
+  var OD_SEOUL={n:"서울직업병안심센터",d:"한양대병원",u:OD_CENTRAL.u};
+  function W(n,u){ return {n:n+" 근로자건강센터",d:"건강상담",u:u}; }
+  var REGIONS={
+    "서울":{w:[W("서울","http://suwhc.or.kr/"),W("서울강서","http://www.sgwhc.or.kr/")],o:[OD_SEOUL]},
+    "부산":{w:[W("부산","http://bswhc.or.kr/")],o:[OD_CENTRAL],on:"부산·울산직업병안심센터(인제대 부산백병원)"},
+    "대구":{w:[W("대구","https://dgwhc.or.kr/")],o:[OD_DG]},
+    "인천":{w:[W("인천","http://icwhc.or.kr/")],o:[OD_CENTRAL]},
+    "광주":{w:[W("광주","http://www.gjwhc.or.kr/")],o:[OD_CENTRAL]},
+    "대전":{w:[W("대전","http://www.tjwhc.or.kr/")],o:[OD_CENTRAL],on:"대전·충청직업병안심센터(충북대병원)"},
+    "울산":{w:[W("울산","http://www.uswhc.or.kr/")],o:[OD_CENTRAL],on:"부산·울산직업병안심센터(인제대 부산백병원)"},
+    "세종":{w:[W("대전","http://www.tjwhc.or.kr/")],o:[OD_CENTRAL],on:"대전·충청직업병안심센터(충북대병원)"},
+    "경기":{w:[W("경기남부","http://www.gnwhc.or.kr/"),W("경기동부","http://www.gdwhc.or.kr/"),W("부천","http://www.bcwhc.or.kr/")],o:[OD_CENTRAL]},
+    "강원":{w:[W("원주","http://www.wjwhc.or.kr/")],o:[OD_CENTRAL]},
+    "충북":{w:[],o:[OD_CENTRAL],on:"대전·충청직업병안심센터(충북대병원)"},
+    "충남":{w:[W("충남","http://cnwhc.or.kr/")],o:[OD_CENTRAL],on:"대전·충청직업병안심센터(충북대병원)"},
+    "전북":{w:[W("전주","http://www.jjwhc.or.kr/")],o:[OD_CENTRAL]},
+    "전남":{w:[W("전남동부","https://jdwhc.or.kr/")],o:[OD_CENTRAL]},
+    "경북":{w:[W("경북북부(구미)","http://www.gbwhc.or.kr/"),W("경산","http://www.gsswhc.or.kr/")],o:[OD_DG]},
+    "경남":{w:[W("경남","http://www.knwhc.or.kr/")],o:[OD_CENTRAL]},
+    "제주":{w:[W("제주","http://jejuwhc.or.kr/")],o:[OD_CENTRAL]}
+  };
+  function linkRow(x){ return '<a href="'+esc(x.u)+'" target="_blank" rel="noopener"><span>'+esc(x.n)+'</span><small>'+esc(x.d)+'</small></a>'; }
+  function renderRegion(){
+    var sel=$("regionSel"), r=sel.value, el=$("regionLinks"), R=REGIONS[r];
+    if(!R){ el.innerHTML='<p class="rhint">지역을 고르면 가까운 근로자건강센터와 직업병안심센터 링크가 나옵니다. 선택은 이 브라우저에 기억됩니다. '+esc(WHC_CALL)+'</p>'; return; }
+    var h=R.w.map(linkRow).join("");
+    if(!R.w.length) h+='<p class="rhint">이 지역 센터 누리집은 아직 확인하지 못했습니다. '+esc(WHC_CALL)+'로 가까운 센터를 안내받으세요.</p>';
+    h+=R.o.map(linkRow).join("");
+    if(R.on) h+='<p class="rhint">이 지역 담당: '+esc(R.on)+'</p>';
+    el.innerHTML=h;
+  }
+  (function(){
+    var sel=$("regionSel");
+    Object.keys(REGIONS).forEach(function(k){ var o=document.createElement("option"); o.value=k; o.textContent=k; sel.appendChild(o); });
+    var saved=lsGet("hd-region",""); if(REGIONS[saved]) sel.value=saved;
+    sel.addEventListener("change",function(){ lsSet("hd-region",sel.value); renderRegion(); });
+    renderRegion();
+  })();
+
+  // 분류별 원문 바로가기
+  var CATLINKS = {
+    "case": [
+      {l:"고용노동부 중대재해 발생 알림", d:"정책자료실 · 중대재해사이렌 월별 공개자료", u:"https://www.moel.go.kr/policy/policydata/list.do"},
+      {l:"재해조사보고서 공개", d:"고용노동부", u:"https://www.moel.go.kr/info/dsstExaminRpt/list.do"}
+    ]
+  };
+  function renderCatLinks(){
+    var el=$("catlinks"), ls=CATLINKS[state.cat];
+    if(!ls){ el.hidden=true; return; }
+    el.hidden=false;
+    el.innerHTML='<span class="h">원문 바로가기</span>'+ls.map(function(x){
+      return '<span><a href="'+esc(x.u)+'" target="_blank" rel="noopener">'+esc(x.l)+'</a><small>'+esc(x.d)+'</small></span>';
+    }).join("");
+  }
+
+  function render(){
+    var items=allItems();
+    renderStatus(); renderBrief(items); renderTabs(items); renderCatLinks(); renderList(items);
+    lsSet("hd-ui",{cat:state.cat,period:state.period});
+  }
+
+  // ---------- 이벤트 ----------
+  document.addEventListener("click", function(e){
+    var t=e.target.closest("[data-cat],[data-p],[data-star],[data-read],[data-tag],#more");
+    if(!t) return;
+    if(t.id==="more"){ state.shown+=60; render(); return; }
+    if(t.dataset.cat){ state.cat=t.dataset.cat; state.shown=60; render(); if(t.classList.contains("count")){ try{ $("tabs").scrollIntoView({behavior:"smooth",block:"start"}); }catch(err){} } return; }
+    if(t.dataset.p!=null){ state.period=+t.dataset.p; state.shown=60; render(); return; }
+    if(t.dataset.tag){ $("q").value=t.dataset.tag; state.q=t.dataset.tag; render(); return; }
+    if(t.dataset.read){ readSet[t.dataset.read]=Date.now(); lsSet("hd-read", readSet); setTimeout(render, 300); return; }
+    if(t.dataset.star){ toggleStar(t.dataset.star); }
+  });
+  var qt; $("q").addEventListener("input", function(e){ clearTimeout(qt); qt=setTimeout(function(){ state.q=e.target.value; state.shown=60; render(); },180); });
+  $("onlyImp").addEventListener("change", function(e){ state.onlyImp=e.target.checked; render(); });
+  $("onlyUnread").addEventListener("change", function(e){ state.onlyUnread=e.target.checked; render(); });
+
+  // ---------- 저장(★) : 내 계정 전용 ----------
+  var starWriting=false, starDirty=false;
+  function toggleStar(id){
+    if(state.stars[id]){ delete state.stars[id]; }
+    else{
+      var it=allItems().filter(function(x){return x.id===id;})[0]; if(!it) return;
+      state.stars[id]={title:it.title,url:it.url,source:it.source,date:it.date,day:it.day,cat:it.cat,summary:it.summary||"",point:it.point||"",tags:it.tags||[],deadline:it.deadline||null,imp:it.imp||0};
+    }
+    render(); saveStars();
+  }
+  function saveStars(){
+    lsSet("hd-stars", state.stars);
+    if(!starRef) return;
+    if(starWriting){ starDirty=true; return; }
+    starWriting=true;
+    starRef.set({stars:state.stars, updatedAt:new Date().toISOString()}).then(done, function(){ starRef=null; done(); });
+    function done(){ starWriting=false; if(starDirty){ starDirty=false; saveStars(); } }
+  }
+
+  function showBanner(msg){ var b=$("banner"); b.textContent=msg; b.style.display="block"; }
+
+  // ---------- 데이터 불러오기 (GitHub Pages의 data/*.json) ----------
+  function getJSON(path){
+    return fetch(path+"?t="+Date.now(),{cache:"no-store"}).then(function(r){ if(!r.ok) throw new Error(r.status); return r.json(); });
+  }
+  render();
+  getJSON("data/items.json").then(function(x){
+    var days=(x&&Array.isArray(x.days))?x.days:[];
+    state.days=days.filter(function(d){return d&&d.date;}).map(function(d){ return {date:d.date, items:Array.isArray(d.items)?d.items:[]}; })
+      .sort(function(a,b){ return b.date.localeCompare(a.date); }).slice(0,120);
+    render();
+  }).catch(function(){ showBanner("소식을 불러오지 못했습니다. 잠시 후 페이지를 다시 열어 주세요."); render(); });
+  getJSON("data/status.json").then(function(m){ state.meta=m; renderStatus(); }).catch(function(){});
+  getJSON("data/monthly.json").then(function(all){
+    var x=(all&&all[month.ym])||{};
+    month.items=Array.isArray(x.items)?x.items.filter(function(i){ return i&&i.id&&i.title; }):[];
+    renderMonthly();
+  }).catch(function(){});
+})();
+</script>
+</body>
+</html>
