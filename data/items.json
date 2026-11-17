@@ -1,4 +1,521 @@
 {
- "updatedAt": null,
- "days": []
+ "updatedAt": "2026-11-17T00:02:02+00:00",
+ "days": [
+  {
+   "date": "2026-11-17",
+   "items": [
+    {
+     "id": "ce28956efb1655b1",
+     "cat": "news",
+     "imp": 3,
+     "date": "2026-11-16",
+     "source": "하이뉴스",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9RVUFGcEZSTlJDSU5zWTcxdkFudTBYSzVUcUpOMXZWd1Z0bjhheEFSdXRtUkN1SnpJSHhEVlFxVjhsaExVSThHREh1RHRydkRxTjRiSlVhUk9VTC1EbUFySkY2WGFZSmJKeVVBX1BuMFJnNHFYUnlj?oc=5",
+     "title": "노동자 납 수치 조작 의혹...킬레이션 주사 의료기관 2곳 행정조사",
+     "summary": "노동자의 납 수치 조작 의혹과 관련해 킬레이션 주사를 투여한 의료기관 두 곳에 대한 행정조사가 진행되었습니다.",
+     "point": "사업장 내 유해물질 취급 공정의 건강진단 결과 신뢰성을 점검하고 이상 소견자에 대한 사후관리를 철저히 해야 합니다.",
+     "tags": [
+      "직업병",
+      "화학물질",
+      "건강진단"
+     ],
+     "addedAt": "2026-11-17T00:02:02+00:00"
+    },
+    {
+     "id": "6b6693edad14b055",
+     "cat": "case",
+     "imp": 3,
+     "date": "2026-11-16",
+     "source": "매일노동뉴스",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5zejBDT3Fhb2dCQUMzUDNCU3ZkWlBzOWh2Y0RRbnh1WjY4N3JzSW5SN21pMVVwemJLMFdWYktWUTZnanpiVTRQc3Y1TFBLV0VGYWEyOUZyVTJwb2hLWHMyekYxdDlNVmpwNXc1ZERmYWU?oc=5",
+     "title": "18년간 일한 70대 조리 노동자의 돌연사, 법원 “산재”",
+     "summary": "장기간 조리 업무를 수행하다 돌연사한 고령 노동자에 대해 법원이 업무와 사망 간의 인과관계를 인정하여 산재 판정을 내렸습니다.",
+     "point": "장기 근속 조리원 및 유해 요인 노출 직근로자의 뇌심혈관계 질환 위험 요인을 정기적으로 평가하고 관리해야 합니다.",
+     "tags": [
+      "산재",
+      "뇌심혈관질환",
+      "직업병"
+     ],
+     "addedAt": "2026-11-17T00:02:02+00:00"
+    },
+    {
+     "id": "33630c2aa6f86722",
+     "cat": "law",
+     "imp": 3,
+     "date": "2026-11-16",
+     "source": "고용노동부 입법·행정예고",
+     "url": "https://www.moel.go.kr/info/lawinfo/lawmaking/view.do?bbs_seq=20261100581",
+     "title": "[행정] 근로감독관 집무규정 일부개정안 행정예고",
+     "summary": "근로감독관 집무규정의 일부 내용을 변경하기 위한 행정예고가 진행되었습니다.",
+     "point": "노동부의 근로감독 방향 변화를 파악하고 사업장 내 안전보건 점검 사항을 선제적으로 점검해야 합니다.",
+     "tags": [
+      "근로감독",
+      "법령개정",
+      "고용노동부"
+     ],
+     "addedAt": "2026-11-17T00:02:02+00:00"
+    },
+    {
+     "id": "efef8275092b371c",
+     "cat": "law",
+     "imp": 3,
+     "date": "2026-11-16",
+     "source": "고용노동부 입법·행정예고",
+     "url": "https://www.moel.go.kr/info/lawinfo/lawmaking/view.do?bbs_seq=20261100576",
+     "title": "[행정] 지방노동감독관 집무규정 제정안 행정예고",
+     "summary": "지방노동감독관의 직무 집무규정 제정안에 대한 행정예고가 공고되었습니다.",
+     "point": "새롭게 제정되는 지방노동감독 지침을 확인하여 현장 지도·점검 규정에 대비해야 합니다.",
+     "tags": [
+      "지방노동감독",
+      "법령개정",
+      "고용노동부"
+     ],
+     "addedAt": "2026-11-17T00:02:02+00:00"
+    },
+    {
+     "id": "d12f5add81b9e97d",
+     "cat": "law",
+     "imp": 3,
+     "date": "2026-11-16",
+     "source": "고용노동부 입법·행정예고",
+     "url": "https://www.moel.go.kr/info/lawinfo/lawmaking/view.do?bbs_seq=20261100575",
+     "title": "[행정] 지방노동감독관 수사규칙 제정안 행정예고",
+     "summary": "지방노동감독관의 수사 절차와 규칙을 새로 제정하기 위한 행정예고가 실시되었습니다.",
+     "point": "노동부의 수사 규칙 제정 내용을 숙지하여 산업안전보건법 위반 수사 및 조사 절차에 대응해야 합니다.",
+     "tags": [
+      "수사규칙",
+      "법령개정",
+      "고용노동부"
+     ],
+     "addedAt": "2026-11-17T00:02:02+00:00"
+    },
+    {
+     "id": "09c722e24141582e",
+     "cat": "law",
+     "imp": 3,
+     "date": "2026-11-15",
+     "source": "재경일보",
+     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE93b3FzaDNDUlhneklhbV9vaXI1VTloa09Vd1pwNVJMamFXQXpFTUZfOU5qc3BVd21CdEtqdzdJOG83bzZLbVNNVHR6OA?oc=5",
+     "title": "국민 누구나 산재 신고…내년부터 포상금 지급 : 사회",
+     "summary": "내년부터 일반 국민 누구나 산업재해 은폐나 미신고 건을 신고할 수 있도록 하고 포상금이 지급되는 제도가 시행됩니다.",
+     "point": "사내 산재 발생 시 은폐 없이 투명하게 보고하고 처리하는 프로세스를 확립해야 합니다.",
+     "tags": [
+      "산재신고",
+      "포상금",
+      "법령개정"
+     ],
+     "addedAt": "2026-11-17T00:02:02+00:00"
+    },
+    {
+     "id": "06e9e4f4e44a7106",
+     "cat": "law",
+     "imp": 3,
+     "date": "2026-11-15",
+     "source": "비즈중앙",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5xUGxnNUg3NWdiUExXZFBsRjRpcWd4V1Baa08zTXgyWlJUMXlNTURhZTVWdlhZRXBEY01fSGF3ZThNR3EyaUxpMTdIX0psbTNKbUtyRjJFOGE4ay1faUhiLXpjOXozY1NwZm8ySVQxN2k?oc=5",
+     "title": "산재 은폐 신고에 최대 500만원…부정수급 땐 5년간 지급 제한 추진",
+     "summary": "산업재해 은폐를 신고하면 최대 500만 원의 포상금을 지급하고 부정수급 시 제재를 가하는 방안이 추진됩니다.",
+     "point": "현장에서의 산재 은폐 가능성을 차단하고 안전보건 관리 기록을 철저히 관리해야 합니다.",
+     "tags": [
+      "산재은폐",
+      "신고포상금",
+      "산업안전보건법"
+     ],
+     "addedAt": "2026-11-17T00:02:02+00:00"
+    },
+    {
+     "id": "e1152a4814b91b14",
+     "cat": "law",
+     "imp": 3,
+     "date": "2026-11-15",
+     "source": "한국공공정책신문",
+     "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5FYlBxcjVoQk5QU1ZtX1Rxa0ZCeERfeGxmNXYzU2Q3OUtUR3VhbGpXZkxTU0lLa2ZFRS1QQWhyaFNqM1U?oc=5",
+     "title": "올겨울 한파 관리, 소규모 현장 사업주의 비용·법적 리스크로 직결된다",
+     "summary": "동절기 한파에 대비한 현장 안전보건 관리가 미흡할 경우 소규모 사업장에 직접적인 법적 책임과 비용 리스크로 이어질 수 있습니다.",
+     "point": "겨울철 한파 취약 작업장에 대한 방한 대책과 온열·한랭질환 예방 가이드를 사전에 점검해야 합니다.",
+     "tags": [
+      "한파관리",
+      "동절기안전",
+      "법적책임"
+     ],
+     "addedAt": "2026-11-17T00:02:02+00:00"
+    },
+    {
+     "id": "bc1904da45b1862f",
+     "cat": "info",
+     "imp": 2,
+     "date": "2026-11-17",
+     "source": "세이프티퍼스트닷뉴스",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBkX3o0b1Fpc25pRUVMVTh3eXIwQXk2RXo0NkM1b05nZC1qeWZaSzhKMWI3NWU5ajZadDZBaExFYXUtbVJjRXZUMERYSVROdGowZFRoQ0FNY1h3S2xlSi0yaVE0SHBhTE1vUGxEX0JxWQ?oc=5",
+     "title": "일환경건강센터, 소규모 사업장 노동법률 사례집 『찾아가는 작은 공장 노동상담소』 발간",
+     "summary": "일환경건강센터가 소규모 사업장에서 유용하게 활용할 수 있는 노동법률 및 상담 사례집을 발간했습니다.",
+     "point": "소규모 사업장의 보건 및 노무 관리 실무에 참고하여 현장 상담과 지도에 활용할 수 있습니다.",
+     "tags": [
+      "노동법률",
+      "사례집",
+      "소규모사업장"
+     ],
+     "addedAt": "2026-11-17T00:02:02+00:00"
+    },
+    {
+     "id": "bb001bd4de7c3f48",
+     "cat": "fund",
+     "imp": 2,
+     "date": "2026-11-17",
+     "source": "서울경제TV",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4tS2NOc21tZGFHTVRhcTd6S2pfLXZraEpBeGVBZnQ5dV9rYnJDbkptaGVZYjRnVnI0QTI5UnFQQ1JZV3NKNEowTzJTbmZxNGVOWl90a2ZrUkFNRGhhRlB4dUpnank?oc=5",
+     "title": "외국인 근로자·가족 무료 건강검진 진행…경산시, 올해 337명 참여",
+     "summary": "경산시에서 지역 내 외국인 근로자와 그 가족들을 대상으로 무료 건강검진을 진행하여 올해 총 337명이 참여했습니다.",
+     "point": "사내 외국인 근로자가 지역 사회나 보건소에서 제공하는 무료 건강검진 혜택을 받을 수 있도록 안내해 주세요.",
+     "tags": [
+      "경북 경산시",
+      "외국인근로자",
+      "건강검진"
+     ],
+     "addedAt": "2026-11-17T00:02:02+00:00"
+    },
+    {
+     "id": "cf2b044938469aca",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-16",
+     "source": "영등포투데이",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1iYUFXUW9ZdnZrdjU3Zy1QVTE3T0ZDczdWNXRwTmdPaXNsN2M4YkFNTDV5RlFrbEN6eG5pZndhY2E5Uy0yRUlpOG9zNFhCTEJQeVZoeEZkNFM1dkFzUUlWNnpsSDBfYjlUWmc?oc=5",
+     "title": "문래동 금속가공업 종사자 462명 조사 “하청·납기 구조가 장시간 노동 강제”",
+     "summary": "금속가공업 종사자 실태조사 결과 하청 구조와 촉박한 납기가 장시간 노동을 강제하는 주요 요인으로 지목되었습니다.",
+     "point": "제조업 하도급 공정에서 납기 압박으로 인한 장시간 노동과 과로 위험 요소를 모니터링해야 합니다.",
+     "tags": [
+      "장시간노동",
+      "직무스트레스",
+      "금속가공"
+     ],
+     "addedAt": "2026-11-17T00:02:02+00:00"
+    },
+    {
+     "id": "4bbf8ed4a84a84a4",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-16",
+     "source": "경기헤럴드",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1zclYyVjk1SVY3emczMnUySmxKY0EtUFlKc3BmNDkzY2V6YmQwYWdTdmVpRG9SYjB3bWpPTFpQbWlTUHdxLS03MGhUcmVFWEEwWk5FX2RlNTJFSUo0dTU2Tkg1YWNROEZJMy10eFlORkFyM2otb2tXRWpySjQ?oc=5",
+     "title": "군포도시공사, 근골격계질환 예방을 위한 스포츠테이핑 교육 실시",
+     "summary": "근로자들의 근골격계질환을 예방하기 위해 스포츠테이핑 활용법을 다룬 맞춤형 건강 교육이 시행되었습니다.",
+     "point": "현장 작업자의 신체 부담을 줄이기 위한 근골격계 예방 운동 및 테이핑 교육 프로그램을 자체 보건관리에도 활용해 보세요.",
+     "tags": [
+      "온라인",
+      "근골격계질환",
+      "보건교육"
+     ],
+     "addedAt": "2026-11-17T00:02:02+00:00"
+    },
+    {
+     "id": "58211f630d7634b7",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-16",
+     "source": "글로벌뉴스통신GNA",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE15Yi1zLUhjX1VBbzRXUFBuMVZObFM2cDNpUkwwVXhGVTh2SGo2VmkxVV8xRVVqTmU4b0psV01EbXdrdGRxd3oxajNNb2pHbVNCbXgtT05PRW1UR2hzT04wLXJrRWh0Y284UGFaaGFYcm44VlVI?oc=5",
+     "title": "군포도시공사, 근골격계질환 예방 스포츠테이핑 교육 실시",
+     "summary": "근골격계질환 예방을 목적으로 스포츠테이핑 교육 프로그램이 운영되었습니다.",
+     "point": "신체 부담 작업이 많은 공정의 근로자들을 대상으로 자가 관리법 교육을 병행해 보세요.",
+     "tags": [
+      "온라인",
+      "근골격계질환",
+      "보건교육"
+     ],
+     "addedAt": "2026-11-17T00:02:02+00:00"
+    },
+    {
+     "id": "1d6c82fd4a8bd811",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-16",
+     "source": "아주경제",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9qY3JnSEpkQnV4UTZOdE1GMEg5NUI0MU12MTJwU3FGbE9Bb1VJU090RU5OaWczTHdNN2J2bTMxdFE1VFFvVjlXT0R3Tm9KaUYwc0xvSkg3ZTLSAVhBVV95cUxPamNyZ0hKZEJ1eFE2TnRNRjBIOTVCNDFNdjEycFNxRmxPQW9VSVNPdEVOTmlnM0x3TTdidm0zMXRRNVRRb1Y5V09Ed05vSmlGMHNMb0pIN2Uy?oc=5",
+     "title": "군포도시공사 건강한 일터 조성 위한 맞춤형 교육 운영",
+     "summary": "건강한 일터 조성을 위한 종사자 대상 맞춤형 건강증진 교육이 진행되었습니다.",
+     "point": "사업장 내 유해 요인과 연계된 맞춤형 건강증진 프로그램을 기획해 운영해 보세요.",
+     "tags": [
+      "온라인",
+      "건강증진",
+      "보건교육"
+     ],
+     "addedAt": "2026-11-17T00:02:02+00:00"
+    },
+    {
+     "id": "52c6aa2a11d4b663",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-16",
+     "source": "세이프티퍼스트닷뉴스",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5UWWdoaGxNdEp6VjV5NG5zcmVBVHFKam5HREFBWnhDNEV5d1FzRHJVUGZOdGpZZ3NSTWtFTS13OERJY3Y0OWFzR2pnX2M2QVQ0TkF5dk5neENFODhOakpPcXVFaGR0V2pMUy1keGNnOA?oc=5",
+     "title": "EU-OSHA 보고서, 업종별 심혈관 위험평가 제안…건설·야간교대 우선",
+     "summary": "유럽안전보건청(EU-OSHA) 보고서에서 건설업과 야간교대 근무자를 우선으로 하는 업종별 심혈관 위험평가 도입이 제안되었습니다.",
+     "point": "야간작업이 포함된 교대근무 사업장에서는 심혈관계 질환 고위험군에 대한 특별 건강관리를 검토해야 합니다.",
+     "tags": [
+      "야간근로",
+      "심혈관질환",
+      "직무스트레스"
+     ],
+     "addedAt": "2026-11-17T00:02:02+00:00"
+    },
+    {
+     "id": "3c65b76de837f9c0",
+     "cat": "case",
+     "imp": 2,
+     "date": "2026-11-16",
+     "source": "아웃소싱타임스",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBXYThrd2lRa3dqUGlpMTdtYnlHVUlCUFBsX0xkcHQ4UDZuWHQzXzZuNGhHUlNqRVZwVUxfdlVOdTlzdkhRSzNlV3dId2t1YVB2aElLMW5ESURUNXd4Z1ZYQUE4TzhCaGg3ZXpidmhFY1dwZw?oc=5",
+     "title": "[산업재해 뉴스] 70대 식당 조리원 사망에 법원 “업무상 재해”인정",
+     "summary": "연이은 강행군과 고강도 작업 중 발생한 사망 사고에 대해 법원이 업무상 재해로 판결했습니다.",
+     "point": "현장 조리 및 서서 하는 작업의 특성을 고려하여 신체부하와 휴식 시간을 적절히 배분해야 합니다.",
+     "tags": [
+      "산업재해",
+      "과로",
+      "근골격계부하"
+     ],
+     "addedAt": "2026-11-17T00:02:02+00:00"
+    },
+    {
+     "id": "864398baf9b2b16d",
+     "cat": "notice",
+     "imp": 2,
+     "date": "2026-11-16",
+     "source": "투어코리아",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9vSzFqYzIwZUlFeEFSSXFQZ0J6OXJRbUZqYUV1YnNQakNnNjdJTTdvelRCYkFFcGZ2WmFLdGRrNURSTlBZY3RVdXNadFI0ODFOU0F0WFlyaUVrTmxTLUpxdERBR2ljQ2gwQmdjOHhB?oc=5",
+     "title": "안전보건공단, 베트남 진출기업 대상 '현지 맞춤형' 안전보건 워크숍 개최",
+     "summary": "안전보건공단이 베트남에 진출한 국내 기업들을 대상으로 현지 실정에 맞춘 안전보건 워크숍을 개최했습니다.",
+     "point": "해외 사업장을 보유한 기업은 현지 법령과 공단 가이드라인에 따른 안전보건 체계를 구축해야 합니다.",
+     "tags": [
+      "온라인",
+      "안전보건공단",
+      "해외진출기업"
+     ],
+     "addedAt": "2026-11-17T00:02:02+00:00"
+    },
+    {
+     "id": "e2fa7f2a4b5298db",
+     "cat": "fund",
+     "imp": 2,
+     "date": "2026-11-16",
+     "source": "경북일보",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1KNHVJckVjR1gwaTRKTnVCQmpybmd1ZGJCRmVuMjlzbjhQb1lOM1hMUFNTRnBHOE50dnlaTnVOOHpJZGRseW9jcmpkQm45Y3ZEcjMtbDJHaklpdTY3Z3JlMFM5N0ZEei1ta0FrblZMSQ?oc=5",
+     "title": "경산시, 외국인 근로자 의료 사각지대 해소…무료 건강검진 지원",
+     "summary": "경산시가 의료 사각지대에 놓인 외국인 근로자를 위한 무료 건강검진 지원 사업을 추진하고 있습니다.",
+     "point": "외국인 근로자의 건강 관리 및 의료 지원 정책을 사업장 보건 관리에 참고하시기 바랍니다.",
+     "tags": [
+      "경북 경산시",
+      "외국인근로자",
+      "건강검진"
+     ],
+     "addedAt": "2026-11-17T00:02:02+00:00"
+    },
+    {
+     "id": "eb5fa3e70c37e1f2",
+     "cat": "fund",
+     "imp": 2,
+     "date": "2026-11-16",
+     "source": "한국사회복지저널",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1iQXJQZHpqcFZwQlEtNk8zTEl1UWs2Y2dKMTVCNkNaN1hzM0g2ZmxLZ09KR2l2WHNMMTlsdzFpcmhTdnFYcFQ0WVVSb1lGeFFhUVd6d3ZYclc1LTd0Q3RxVk1fekx1RTVxcEtz?oc=5",
+     "title": "경산시, 외국인 근로자 무료 건강검진 실시…총 29종 병리 검사 지원",
+     "summary": "경산시가 외국인 근로자를 대상으로 총 29종의 병리 검사가 포함된 무료 건강검진을 실시합니다.",
+     "point": "사업장 내 외국인 근로자들에게 해당 무료 검진 정보를 안내하여 건강 증진을 도모하세요.",
+     "tags": [
+      "경북 경산시",
+      "외국인근로자",
+      "건강검진"
+     ],
+     "addedAt": "2026-11-17T00:02:02+00:00"
+    },
+    {
+     "id": "738fdaf60460f899",
+     "cat": "fund",
+     "imp": 2,
+     "date": "2026-11-16",
+     "source": "거제타임즈",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5sc1hvaGxoRnhoR0l2bl9meEIyNTNQS1had3hFcXRBbExXYUU2Rl8wRjZYNW5QMEdDWm81czlDcV9LTzNKSGFzaEozNEpYQWRYZFhwaGFGREhOSzN1QVMyRUxtNU1BVnpVazB3QVIwZw?oc=5",
+     "title": "거제 사업장 점심시간에 찾아간 건강홍보관…올해 운영 마무리",
+     "summary": "거제 지역 사업장의 점심시간을 활용해 찾아가는 건강홍보관 운영이 올해 일정을 마무리했습니다.",
+     "point": "지역 보건소나 유관기관의 찾아가는 건강증진 프로그램을 활용한 사내 건강 캠페인 운영 방안을 검토해 보세요.",
+     "tags": [
+      "경남 거제시",
+      "건강홍보관",
+      "건강증진"
+     ],
+     "addedAt": "2026-11-17T00:02:02+00:00"
+    },
+    {
+     "id": "668303a363916029",
+     "cat": "fund",
+     "imp": 2,
+     "date": "2026-11-16",
+     "source": "꽁지환경늬우스",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1ON3JLSlItNjREcGZub2NsU3lObDNnWkhsWmthS0w4bV9kc1ZaTXpkOVV5UWdMdFM1elgtSkNOODMtX3gzLTljd2E1QTdDV0hDb3FZWmlDeUR4Sld0NFFORA?oc=5",
+     "title": "경산시, 외국인 근로자 및 가족 무료 건강검진 실시",
+     "summary": "경산시가 관내 외국인 근로자와 그 가족을 대상으로 무료 건강검진을 진행합니다.",
+     "point": "사내 외국인 근로자들이 지역 보건 지원 혜택을 누릴 수 있도록 관련 일정을 안내해 주세요.",
+     "tags": [
+      "경북 경산시",
+      "외국인근로자",
+      "건강검진"
+     ],
+     "addedAt": "2026-11-17T00:02:02+00:00"
+    },
+    {
+     "id": "50aa0a98178f1753",
+     "cat": "fund",
+     "imp": 2,
+     "date": "2026-11-16",
+     "source": "더쎈뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ucEh0YlVpMVVCRFZnTnY5T2ltUktTbzFtdnBQOXprTVU5a0dSS0pLbFJUZGdRam5tV3FBNlh4VnY1M213eTdHZ09EQWl5cDREbnVPQ2p0SXFKMlB2NVdMLTh5c196NWs?oc=5",
+     "title": "경산시, 외국인 근로자·가족 무료 건강검진… 의료 사각지대 해소 앞장",
+     "summary": "경산시가 의료 사각지대 해소를 위해 외국인 근로자와 가족을 대상으로 무료 건강검진을 실시합니다.",
+     "point": "외국인 노동자의 건강 불평등 해소를 위한 지자체 지원 사업을 파악해 두세요.",
+     "tags": [
+      "경북 경산시",
+      "외국인근로자",
+      "건강검진"
+     ],
+     "addedAt": "2026-11-17T00:02:02+00:00"
+    },
+    {
+     "id": "313b4ece17e37ad7",
+     "cat": "edu",
+     "imp": 2,
+     "date": "2026-11-16",
+     "source": "매일일보",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1YMXhaRzNWbGprRlB0WW1qNXllXzFyaUJoQzRkVlJzUVBDeDU0Uy1CNzVGXzVUSjVmRjdKdW5UMkpiQ2hpU1BVemNNSTR3dGh0TzlValFPVDl1eVBtN1ZvanhvQlM?oc=5",
+     "title": "부영그룹, 전 임직원 대상 KOSHA-MS 안전교육 실시",
+     "summary": "부영그룹이 전 임직원을 대상으로 KOSHA-MS 안전보건경영시스템 관련 교육을 실시했습니다.",
+     "point": "사내 안전보건경영시스템(KOSHA-MS) 인증 유지 및 임직원 안전 의식 고취를 위한 정기 교육을 계획하고 시행하세요.",
+     "tags": [
+      "온라인",
+      "KOSHA-MS",
+      "안전보건교육"
+     ],
+     "addedAt": "2026-11-17T00:02:02+00:00"
+    },
+    {
+     "id": "6a3d47b0b7fe5d99",
+     "cat": "edu",
+     "imp": 2,
+     "date": "2026-11-16",
+     "source": "주간한국",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1hbVlVYmNiQ0xrZVNCemVYVmp3Z2V5T2ZnaGlWQ3VaSEFhTkpSQWNHUkpndjNzblNRdG8waDdRU0FKc2VPdnExdTlOd1VxdmREZFkydHY0OEh5OVF3RGptd3U3d2dlYkxrVmw0bXFmMnrSAXRBVV95cUxPc0p6SEUtRmlWNi04OTZoYmdEdERwWkk1VFdJcElsZzYwcUlKNVd1UDc4R3d5d3RQaHFCVWRLamw3a3U1bUxkSVAwcktRVENvd1ZVMjE1b0FtZUpycWN5NGhUVWFPZEJrRU5pQU10Wlk4X3RHMQ?oc=5",
+     "title": "부영그룹, 안전보건경영시스템 전 임직원 대상 교육 돌입",
+     "summary": "부영그룹이 전 임직원을 대상으로 안전보건경영시스템 교육에 돌입했습니다.",
+     "point": "사업장 내 전사적 안전보건 역량 강화를 위해 임직원 대상 안전보건경영시스템 교육을 추진해 보세요.",
+     "tags": [
+      "온라인",
+      "KOSHA-MS",
+      "안전보건교육"
+     ],
+     "addedAt": "2026-11-17T00:02:02+00:00"
+    },
+    {
+     "id": "341c6309e86e1e95",
+     "cat": "edu",
+     "imp": 2,
+     "date": "2026-11-16",
+     "source": "중부시사신문",
+     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBEOTFuVkJLeUFTa1dJbDk1MzRYNDV6Q3dIQUc2T0k1eWhJSDJyOFNiVGNOQkpBcmNXdVd0WDJKVU9kYXJtYkVMd0NHdTg5VlotTWhsOWl1VnFjT2hCU1ZJeDVXZw?oc=5",
+     "title": "화성특례시, '안전보건총괄책임자 역량 강화 특별교육' 실시",
+     "summary": "화성특례시가 안전보건총괄책임자를 대상으로 역량 강화를 위한 특별 교육을 실시했습니다.",
+     "point": "사업장 경영 책임자 및 관리감독자의 법정 안전보건 교육 이수 현황을 점검하고 참여를 독려하세요.",
+     "tags": [
+      "경기 화성시",
+      "안전보건교육",
+      "관리감독자"
+     ],
+     "addedAt": "2026-11-17T00:02:02+00:00"
+    },
+    {
+     "id": "e80c468dff07778c",
+     "cat": "case",
+     "imp": 2,
+     "date": "2026-11-15",
+     "source": "인천투데이",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBZUkp2MHUwcFZaYVl5bWNDWDBkdjJGQWtfQlFiZkRUM2Zic0Zrb2JVOEJCeHdDZEdxN1lJaThvYjBIdUthRkF3ZFE5clNlYWhKWWllVUhqRWhoTnhuQ0Y1Y0gwaldzU05xOTV4SlEwaGk?oc=5",
+     "title": "[슬기로운 노동생활] 주 52시간 미만이면 과로 산재가 아닐까",
+     "summary": "법정 근로시간에 못 미치더라도 누적된 피로와 과중한 업무 강도가 인정되면 과로사로 인정받을 수 있다는 판례 관련 소식입니다.",
+     "point": "교대근무 및 장시간 서서 일하는 작업 환경에서 근로자의 누적 피로도를 관리하고 뇌심혈관질환 위험 요인을 모니터링해야 합니다.",
+     "tags": [
+      "과로사",
+      "산재",
+      "뇌심혈관질환"
+     ],
+     "addedAt": "2026-11-17T00:02:02+00:00"
+    },
+    {
+     "id": "819d55f75efc84d7",
+     "cat": "case",
+     "imp": 2,
+     "date": "2026-11-15",
+     "source": "경기일보",
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9LM3BGYlg3NDVyb1laWkxUMldqR0FTVDl1WTFzVzZOaVl6M1ZtYzI5OTZ0MUdvOW43WFlXRzBOZUVuaEFVQmhfQXgxY0FOQndsQkZodnpiQUpoZmM?oc=5",
+     "title": "25일 중 하루 쉬고 심정지로 숨진 70대 조리사…“산재 인정”",
+     "summary": "휴일이 턱없이 부족한 상태로 근무하다가 심정지로 사망한 고령 노동자의 건에 대해 법원이 산재로 최종 인정했습니다.",
+     "point": "연속 근무 일수가 길어지지 않도록 교대제 및 휴일 배정을 점검해야 합니다.",
+     "tags": [
+      "산재인정",
+      "과로사",
+      "심정지"
+     ],
+     "addedAt": "2026-11-17T00:02:02+00:00"
+    },
+    {
+     "id": "8cb26f99a4c85671",
+     "cat": "case",
+     "imp": 2,
+     "date": "2026-11-15",
+     "source": "중도일보",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE12NGxJb19vX2R2WUZZdGVDXy1wQTRtLVBQSXdEMVlpbGVhZDJ2UVFwZHhsMzZFS3R1OFVzMGRJaDJvSU11a3oyX2pPVzF2WmtvY1RFNXRUQ2luSlZNTEhBUG51X0RsOGJrRFpLMw?oc=5",
+     "title": "[전문인칼럼] 주 52시간 시대, 과로사 인정 기준은 여전히 ‘주 60시간'",
+     "summary": "주 52시간 근무 시대에도 여전히 과로사 인정 기준의 핵심 잣대로 작용하는 업무 시간 및 강도에 대한 전문가 칼럼입니다.",
+     "point": "법정 근로시간 준수뿐만 아니라 실제 업무 밀도와 누적 피로도를 종합적으로 관리하는 보건 체계를 유지해야 합니다.",
+     "tags": [
+      "과로사",
+      "근로시간",
+      "산재기준"
+     ],
+     "addedAt": "2026-11-17T00:02:02+00:00"
+    },
+    {
+     "id": "31e74e97b87fe32c",
+     "cat": "case",
+     "imp": 2,
+     "date": "2026-11-15",
+     "source": "진일보 | 전남일보",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9OSTV5dnp1WDNza2JldDY3OVlObnB5ZDlFdmlLQ0FQcFFBTGVOOHpGWDRUcUY0VzRtWkVvVC1sZHlLY1VhQW5IbmNQSjNUdEZsS2lLSEZyVHlyMm45c3d2NTlVcnVNLWZ0UjFLWmVYdw?oc=5",
+     "title": "25일 중 하루만 쉬고 주방일…심정지 사망 70대 산재 인정",
+     "summary": "한 달에 하루만 쉬고 장시간 주방 업무를 지속하다 심정지로 숨진 사례에서 법원이 업무상 재해 판정을 내렸습니다.",
+     "point": "고령 노동자의 체력적 한계를 고려한 배치와 충분한 휴게 시간 보장이 필요합니다.",
+     "tags": [
+      "산업재해",
+      "돌발사망",
+      "휴게시간"
+     ],
+     "addedAt": "2026-11-17T00:02:02+00:00"
+    },
+    {
+     "id": "b8700b89a697880b",
+     "cat": "case",
+     "imp": 2,
+     "date": "2026-11-15",
+     "source": "더팩트",
+     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5SNTRoZ3ZWSnJ1Tlhlb2F5X1FNekdwTjZydU1iZHJDUjVlU3lPVUVWQ3hFODh4MmpPaEhveHF4NEFxUDE2cWo1bmF2M2tTaS1n0gFQQVVfeXFMTlI1NGhndlZKcnVOWGVvYXlfUU16R3BONnJ1TWJkckNSNWVTeU9VRVZDeEU4OHgyak9oSG94cXg0QXFQMTZxajVuYXYza1NpLWc?oc=5",
+     "title": "출근 준비 중 숨진 식당 노동자, 26일 중 하루만 쉬어 …법원 \"업무상 재해\"",
+     "summary": "휴일을 거의 보장받지 못한 채 장기간 근무하다 출근 준비 중 사망한 노동자에 대해 법원이 업무와 사망 간의 인과관계를 인정했습니다.",
+     "point": "지속적인 연장 근무나 휴일 부족이 발생하지 않는지 근로 형태를 면밀히 살펴야 합니다.",
+     "tags": [
+      "업무상재해",
+      "출근길사망",
+      "과로"
+     ],
+     "addedAt": "2026-11-17T00:02:02+00:00"
+    }
+   ],
+   "updatedAt": "2026-11-17T00:02:02+00:00"
+  }
+ ]
 }
