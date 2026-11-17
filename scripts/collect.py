@@ -99,17 +99,27 @@ def collect_news(cfg) -> list[dict]:
     out = []
     days = int(cfg.get("lookback_days", 3))
     for q in cfg.get("news_queries", []):
+        qd = int(q.get("days", days))
         url = (
             "https://news.google.com/rss/search?q="
-            + quote_plus(f"{q['q']} when:{days}d")
+            + quote_plus(f"{q['q']} when:{qd}d")
             + "&hl=ko&gl=KR&ceid=KR:ko"
         )
-        try:
-            r = requests.get(url, headers=UA, timeout=20)
-            r.raise_for_status()
-            feed = feedparser.parse(r.content)
-        except Exception as e:  # noqa: BLE001
-            log(f"[뉴스] '{q['q']}' 실패: {e}")
+        feed = None
+        for attempt in range(3):
+            try:
+                r = requests.get(url, headers=UA, timeout=20)
+                if r.status_code == 429:
+                    time.sleep(30 * (attempt + 1))  # 너무 자주 요청하면 잠시 쉬었다가 다시 시도
+                    continue
+                r.raise_for_status()
+                feed = feedparser.parse(r.content)
+                break
+            except Exception as e:  # noqa: BLE001
+                pass
+                time.sleep(5)
+        if feed is None:
+            log(f"[뉴스] '{q['q']}' 실패: 요청 제한 또는 접속 오류")
             continue
         n = 0
         for e in feed.entries[:15]:
@@ -126,7 +136,7 @@ def collect_news(cfg) -> list[dict]:
             })
             n += 1
         log(f"[뉴스] '{q['q']}' {n}건")
-        time.sleep(1)
+        time.sleep(4)
     return out
 
 
@@ -165,6 +175,28 @@ def collect_boards(cfg) -> list[dict]:
             out.append({"title": title, "url": url, "source": b["name"], "date": date,
                         "snippet": "", "hint": b.get("hint", "notice")})
             n += 1
+        if n == 0 and b.get("view"):
+            for el in soup.find_all(attrs={"onclick": True}):
+                m = re.search(r"(\d{8,})", el.get("onclick", ""))
+                if not m:
+                    continue
+                url = b["view"].replace("{id}", m.group(1))
+                if url in seen_urls:
+                    continue
+                title = clean(el.get_text(" "), 200)
+                if len(title) < 6:
+                    continue
+                row = el.find_parent("tr") or el.find_parent("li") or el.parent
+                date = find_date(row.get_text(" ") if row else "")
+                if date and dt.date.fromisoformat(date) < since:
+                    continue
+                words = b.get("keywords") or filt
+                if words and not any(w in title for w in words):
+                    continue
+                seen_urls.add(url)
+                out.append({"title": title, "url": url, "source": b["name"], "date": date,
+                            "snippet": "", "hint": b.get("hint", "notice")})
+                n += 1
         log(f"[게시판] {b['name']} {n}건" + ("  ← 링크를 찾지 못했습니다. 게시판 구조가 바뀌었을 수 있습니다." if n == 0 else ""))
         time.sleep(1)
     return out
@@ -175,7 +207,10 @@ def collect_boards(cfg) -> list[dict]:
 PROMPT = """당신은 한국 제조업 사업장 보건관리자(산업간호사 등)를 위한 공용 웹앱 '보건 데일리'의 편집자입니다.
 아래 후보 목록(JSON)은 오늘 모은 새 글의 제목, 출처, 게시일, 짧은 설명입니다. 각 후보를 판단해 JSON 배열로만 답하세요.
 
+오늘 날짜: {today}
+
 판단 기준:
+- 교육·행사(edu): 앞으로 열릴 직무교육(신규·보수), 보건관리자 세미나·워크숍, 학술대회, 심포지엄·포럼, 설명회, 웨비나이거나 접수 중인 것만 keep=true. 이미 열린 행사의 결과 기사('개최했다', '성료', '열렸다', '참석했다')는 keep=false. 보건관리자·산업보건과 관계없는 다른 직종 교육(요양보호사, 방사선 등)도 keep=false.
 - keep: 사업장 보건관리자 업무(산업보건, 직업병, 건강진단, 화학물질, 근골격계, 직무스트레스, 온열·한랭질환, 감염병의 사업장 대응, 산업안전보건 법령·감독, 산재, 보건 관련 교육·행사·지원사업·채용)와 관련 있으면 true. 연예·정치 일반·광고·병원 홍보·보건과 무관한 노동 기사는 false.
 - cat: news(뉴스) | law(법령·입법예고) | chem(화학물질 규제) | notice(정부·기관 공지·지침) | case(재해·직업병 사례, 판결) | fund(지원사업 공고) | edu(교육·세미나·학술대회·설명회) | job(채용) | info(자료·통계·KOSHA GUIDE)
 - imp: 3(법령 개정·화학물질 규제 변경·건강진단 제도 변경·감독 강화처럼 업무에 직접 영향), 2(알아두면 좋은 정책·지원사업·직무교육·설명회·채용), 1(참고)
@@ -234,7 +269,7 @@ def enrich(cands: list[dict], cfg) -> tuple[list[dict], str]:
         batch = cands[i:i + size]
         payload = [{"k": c["k"], "title": c["title"], "source": c["source"], "date": c["date"],
                     "desc": c["snippet"], "hint": c["hint"]} for c in batch]
-        text, info = gemini_call(models, PROMPT + json.dumps(payload, ensure_ascii=False))
+        text, info = gemini_call(models, PROMPT.replace("{today}", TODAY.isoformat()) + json.dumps(payload, ensure_ascii=False))
         if text is None:
             log(f"[AI] 요약 실패 ({info}) — 이 묶음은 제목과 설명만 올립니다.")
             continue
@@ -342,7 +377,7 @@ def main() -> int:
     for c in raw:
         if not c["title"] or not c["url"].startswith("http"):
             continue
-        if c["date"] and c["date"] < since and c["hint"] != "edu":
+        if c["date"] and c["date"] < since and not (c["hint"] == "edu" and c["date"] >= (TODAY - dt.timedelta(days=31)).isoformat()):
             continue
         k = key_of(c["url"], c["title"])
         if k in seen or k in keys:

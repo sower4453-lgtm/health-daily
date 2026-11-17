@@ -43,10 +43,16 @@ news_queries:
   - {q: "안전보건공단 지원사업 신청", hint: fund}
   - {q: "근로자건강센터", hint: fund}
   - {q: "건강일터 OR 클린사업장 지원", hint: fund}
-  - {q: "산업보건 세미나 OR 산업보건 심포지엄", hint: edu}
-  - {q: "직업환경의학회 학술대회 OR 산업간호 학술대회 OR 산업위생학회 학술대회", hint: edu}
-  - {q: "보건관리자 직무교육 OR 보건관리자 보수교육", hint: edu}
-  - {q: "직업병안심센터", hint: edu}
+  # 교육·행사: 행사 공지는 미리 올라오므로 최근 30일(days: 30)까지 찾습니다.
+  - {q: "보건관리자 직무교육", hint: edu, days: 30}
+  - {q: "보건관리자 보수교육 OR 보건관리자 신규교육", hint: edu, days: 30}
+  - {q: "보건관리자 세미나 OR 보건관리자 워크숍", hint: edu, days: 30}
+  - {q: "산업보건 세미나 OR 산업보건 심포지엄 OR 산업보건 포럼", hint: edu, days: 30}
+  - {q: "직업환경의학회 학술대회 OR 산업보건학회 학술대회 OR 산업위생학회 학술대회", hint: edu, days: 30}
+  - {q: "산업간호 학술대회 OR 직업건강간호협회 OR 산업간호협회", hint: edu, days: 30}
+  - {q: "근로자건강센터 세미나 OR 직업병안심센터 심포지엄", hint: edu, days: 30}
+  - {q: "안전보건공단 설명회 OR 산업안전보건법 개정 설명회", hint: edu, days: 30}
+  - {q: "산업보건 사전등록 OR 산업보건 참가신청", hint: edu, days: 30}
   - {q: "보건관리자 채용", hint: job}
   - {q: "산업간호사 채용", hint: job}
 
@@ -73,7 +79,11 @@ boards:
   - name: 고용노동부 재해조사보고서
     url: https://www.moel.go.kr/info/dsstExaminRpt/list.do
     link: view.do
+    view: https://www.moel.go.kr/info/dsstExaminRpt/view.do?bbs_seq={id}   # 링크가 자바스크립트로 되어 있을 때 쓰는 주소
     hint: case
+
+# 교육기관 일정 게시판을 여기에 추가할 수 있습니다(위 boards 와 같은 형식, hint: edu).
+# 예) 대한산업보건협회 교육 공지, 한국직업건강간호협회 교육 일정, 안전보건공단 교육 공지
 
 # 보도자료 제목에 이 단어가 하나도 없으면 건너뜁니다(보건과 관계없는 보도자료를 줄이기 위함).
 board_filter_words: [안전, 보건, 건강, 산재, 재해, 질병, 화학, 중독, 폭염, 한파, 온열, 한랭, 감독, 점검, 노동자, 근로자, 작업, 위험성평가, 고시, 입법, 개정]

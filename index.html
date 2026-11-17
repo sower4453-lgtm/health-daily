@@ -436,7 +436,11 @@
     var list = state.cat==="star"
       ? Object.keys(state.stars).map(function(id){ var s=state.stars[id]; return Object.assign({},s,{id:id, cat:ICON[s.cat]?s.cat:"info", day:s.day||s.date}); }).sort(function(a,b){ return String(b.day).localeCompare(String(a.day)); })
       : items.filter(function(i){ return state.cat==="all" || i.cat===state.cat; });
-    if(state.cat!=="star" && state.period>0){ list=list.filter(function(i){ return dayDiff(t,i.day) < state.period; }); }
+    if(state.cat==="edu"){
+      // 교육·행사는 게시일과 상관없이 아직 끝나지 않은 것을 행사일(없으면 접수마감) 순으로 보여 줌
+      list=list.filter(function(i){ var end=i.eventEnd||i.eventDate||i.deadline; return !end || end>=t; });
+      list.sort(function(a,b){ return String(a.eventDate||a.deadline||"9999").localeCompare(String(b.eventDate||b.deadline||"9999")); });
+    } else if(state.cat!=="star" && state.period>0){ list=list.filter(function(i){ return dayDiff(t,i.day) < state.period; }); }
     if(state.onlyImp) list=list.filter(function(i){ return (i.imp||0)>=3; });
     if(state.onlyUnread) list=list.filter(function(i){ return !readSet[i.id]; });
     if(q){ list=list.filter(function(i){ return [i.title,i.summary,i.point,i.source,(i.tags||[]).join(" ")].join(" ").toLowerCase().indexOf(q)>=0; }); }
@@ -470,8 +474,9 @@
       el.innerHTML='<div class="empty">'+msg+'</div>'; return;
     }
     var html="", last=null, shown=list.slice(0,state.shown);
+    if(state.cat==="edu") html+='<h2 class="day-h">다가오는 교육·행사<span>행사일 순 · 기간 설정과 관계없이 끝나지 않은 일정만</span></h2>';
     shown.forEach(function(i){
-      if(i.day!==last){ var w=dayWord(i.day); html+='<h2 class="day-h">'+(w?esc(w):esc(dayLabel(i.day)))+(w?'<span>'+esc(dayLabel(i.day))+'</span>':"")+'</h2>'; last=i.day; }
+      if(state.cat!=="edu" && i.day!==last){ var w=dayWord(i.day); html+='<h2 class="day-h">'+(w?esc(w):esc(dayLabel(i.day)))+(w?'<span>'+esc(dayLabel(i.day))+'</span>':"")+'</h2>'; last=i.day; }
       html+=card(i);
     });
     if(list.length>state.shown) html+='<button class="more" id="more">더 보기 ('+(list.length-state.shown)+'건)</button>';
