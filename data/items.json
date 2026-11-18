@@ -1,6 +1,517 @@
 {
- "updatedAt": "2026-11-17T00:02:02+00:00",
+ "updatedAt": "2026-11-18T03:59:17+00:00",
  "days": [
+  {
+   "date": "2026-11-18",
+   "items": [
+    {
+     "id": "df058608828c1cdb",
+     "cat": "law",
+     "imp": 3,
+     "date": "2026-11-18",
+     "source": "아파트관리신문",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB6VGp0am5WTHhidTZJNFNDV0pvY19wdTA2UUY4bE00N0ZfZGtoZFk5TVFoVzFTcWZaQzFKZGxvWS0zWHR5dDkyY0p1WndXSS1VQUpuNUFnUGp3MFlPZ09nTmJpalM2Y1HSAWtBVV95cUxNNUwwTklYZDB1WkprTGlXX0hjY2VRalhtS0xMbmQxQ1NQczJ5UnJIbVFWMkhINy1nY1ZMX25rX0Jvc2xmZFBMbjB1UEl0ZGVQX2cwNTRRM2tsbFFwaVNSRWdVRnJZd0MtVlk4VQ?oc=5",
+     "title": "고용부, 산업안전보건법 위반 행위 신고 시 포상금 지급",
+     "summary": "고용노동부가 산업안전보건법 위반 행위를 신고하는 경우 포상금을 지급하는 제도를 운영합니다.",
+     "point": "사내 법 위반 소지가 없도록 안전보건 기준 준수 여부를 상시 점검하세요.",
+     "tags": [
+      "산안법",
+      "포상금",
+      "고용노동부"
+     ],
+     "addedAt": "2026-11-18T03:59:17+00:00"
+    },
+    {
+     "id": "2f8cdaf7ee970eec",
+     "cat": "law",
+     "imp": 3,
+     "date": "2026-11-17",
+     "source": "대한건설기계신문",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ZTVpSMHRCWGdsY2gwTDZRVUxSNHJFTmgtN2l0Z19YQmFFM2M1OEowU0FEN3JTRXdqSUVmVkxpZmZCRWxwNGJmUkIwWG93dW00bnhoRlBfekpPTFFaMWNGTUFkMTllMkVi?oc=5",
+     "title": "노동부, 건설현장 200곳 한파 집중점검",
+     "summary": "고용노동부가 동절기를 맞아 건설현장을 중심으로 한파 대비 집중 점검에 나섭니다.",
+     "point": "겨울철 한파 취약 사업장에서는 한랭질환 예방 가이드라인 준수 여부를 자체 점검하세요.",
+     "tags": [
+      "한파대비",
+      "고용노동부",
+      "감독"
+     ],
+     "addedAt": "2026-11-18T03:59:17+00:00"
+    },
+    {
+     "id": "a1b377d3a518d887",
+     "cat": "news",
+     "imp": 3,
+     "date": "2026-11-16",
+     "source": "중소기업뉴스",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5HeHFVTlRKZlRxeHJibUppcmlhUG52Qm5ZbDJQOWlONkx1ci1JN2V0bi1McU5rVkF6a1ZhVE5GcW8zZ3MzeWFkTmtGc29wbUt1ZTlOeUZTV0FnVE9zQ3otNG0tc2trZThoWUFKcmxB0gFwQVVfeXFMUC1NWG5BcVBWYVhkZmxGbkJMTXdaajg1U2Q2dFg0eGdrRUJ2UTdHQW1NbzhfV0dTbWYtUDVEQTcyVWFuOEs4dTBJd0xpSXFPZ0psOU4taU5LU2JNUE92VUx6akFiUWVCaEIxWXdWb3hjcw?oc=5",
+     "title": "소규모 사업장 자체활동시 안전·보건관리자 선임 인정키로",
+     "summary": "소규모 사업장에서 자체 안전·보건 관리 활동을 수행할 경우 관련 선임 기준을 인정하는 방안이 추진됩니다.",
+     "point": "소규모 사업장 보건관리자 선임 및 자체 안전보건활동 인정 기준 변화에 주목하세요.",
+     "tags": [
+      "보건관리자",
+      "법령제도"
+     ],
+     "addedAt": "2026-11-18T03:59:17+00:00"
+    },
+    {
+     "id": "10bb7355b95816a9",
+     "cat": "chem",
+     "imp": 3,
+     "date": "2026-11-16",
+     "source": "인천일보",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1Hc1EzZS1IZWxlcEpMS2FmSm5zVnlVdDR5MWF3NjdoRGNhTk56M0dOMUhINHM3R0JuUm5wRG0wb3ZwZnVlRnZGS3VIa0lCUld3NDJQeUlwZ3FKZ3BQall3Q3FpSGJlNmJteldubmNiRng?oc=5",
+     "title": "한강유역환경청, 화학물질 관리 위반 업체 36곳 적발",
+     "summary": "한강유역환경청의 화학물질 관리 실태 점검에서 다수의 위반 업체가 적발되었습니다.",
+     "point": "사내 화학물질 취급 시설과 보관 기준이 적법하게 관리되고 있는지 점검하세요.",
+     "tags": [
+      "화학물질",
+      "환경부",
+      "점검"
+     ],
+     "addedAt": "2026-11-18T03:59:17+00:00"
+    },
+    {
+     "id": "e76c1b8b5ee4e39d",
+     "cat": "law",
+     "imp": 3,
+     "date": "2026-11-06",
+     "source": "아웃소싱타임스",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5tQWJTTEViYlU1SG8yZU9Qb2xiY0pLSVl5T21zeFkxX3pqSFFaZEFPMkozNEFnZlhHeWxPUEwzSWs3ZXA2cUhjWHE1a0hwQ2wyemxSbklCQU5qUEk1dFNWSExVQXRXNGNfRHRJS2p5cExNQQ?oc=5",
+     "title": "[정책뉴스] 20인이상 소규모사업장도 안전·보건관리자 선임해야",
+     "summary": "소규모 사업장의 안전보건 강화를 위해 20인 이상 사업장까지 안전·보건관리자 선임 의무화를 추진한다.",
+     "point": "법 개정 동향을 모니터링하고 사업장 규모별 보건관리 체계를 사전 정비하세요.",
+     "tags": [
+      "정책",
+      "보건관리자",
+      "선임기준"
+     ],
+     "addedAt": "2026-11-18T03:59:17+00:00"
+    },
+    {
+     "id": "47a9985da2ddd6a2",
+     "cat": "news",
+     "imp": 3,
+     "date": "2026-11-05",
+     "source": "와이드경제",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE53YTJjQUVUcnVvRHo1dXoyYXk2LTlubHMxOGZlbGlNSG1DUlBoUTlrY0g0RHhTbl9NdVBqVlVfVl9ienNnVE1TYWh4TklBYmVPeWJORHRzU0pnVzE1aVc5RXBEZ2JaTF9WTlFEQg?oc=5",
+     "title": "20~49인 사업장도 '전문 안전·보건관리자' 둔다…현 정부 첫 노사정 합의",
+     "summary": "노사정 합의를 통해 20~49인 소규모 사업장에도 전문 안전·보건관리자를 두는 방안이 추진됩니다.",
+     "point": "소규모 사업장 안전보건 관리 체계 개편 동향에 대비하세요.",
+     "tags": [
+      "보건관리자",
+      "법령개정",
+      "소규모사업장"
+     ],
+     "addedAt": "2026-11-18T03:59:17+00:00"
+    },
+    {
+     "id": "6e55b3c38d584879",
+     "cat": "news",
+     "imp": 3,
+     "date": "2026-11-05",
+     "source": "전자신문",
+     "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5mOGdLMXpBbnlXanlobE56el9FOHI5V0l6VGpneXByckl6X0lHa0VHVWZOZ3U5ZmVoOXlpUnZ1TVFIalVvYVU0RmdHTlJRQQ?oc=5",
+     "title": "“소규모 사업장도 안전·보건관리자 선임해야”…경사노위, 李 정부 첫 합의",
+     "summary": "경사노위에서 소규모 사업장에도 안전·보건관리자를 선임하도록 하는 노사정 첫 합의가 이루어졌습니다.",
+     "point": "향후 법령 개정 가능성에 따른 소규모 사업장 보건관리 의무화에 주목하세요.",
+     "tags": [
+      "경사노위",
+      "보건관리자",
+      "선임의무화"
+     ],
+     "addedAt": "2026-11-18T03:59:17+00:00"
+    },
+    {
+     "id": "76ff8e2a5426f37c",
+     "cat": "news",
+     "imp": 3,
+     "date": "2026-11-05",
+     "source": "뉴스핌",
+     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5qNVlRVDF5YmdZeEM4YVJmMURZTGEwR1QtQ01ZZGMtd2NkaTBmTEhQMDNWZHB2ZmQwcWZRSElJbnlndWk5NXBoc2xaYWVxd052blF4S3BZZl9GYXk5?oc=5",
+     "title": "소규모 사업장 안전관리자·보건관리자 둔다…경사노위 첫 합의",
+     "summary": "소규모 사업장에 안전관리자와 보건관리자를 두는 내용의 경사노위 첫 합의가 도출되었습니다.",
+     "point": "안전보건관리자 선임 대상 확대 관련 입법 동향을 모니터링하세요.",
+     "tags": [
+      "경사노위",
+      "보건관리자",
+      "소규모사업장"
+     ],
+     "addedAt": "2026-11-18T03:59:17+00:00"
+    },
+    {
+     "id": "b649e947afcc8741",
+     "cat": "news",
+     "imp": 3,
+     "date": "2026-11-05",
+     "source": "경향신문",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA1cEpSQ0xEM2tkTGFkXzNFS3BHbGtYV1hRUmtoMXhjbFZ5VF9CTEhqRnhhZmpXN3NmNENiMFpYUzBrMGNfUjhxSm1xQjlLaWJESFZENTdQWFN4d9IBX0FVX3lxTE1mcFNfYVJNZDZoNnkxQUVLYkxWd2w2cXRIRE4wdEx1WGwzX2VxWlVwUzZHbzY5Zm9ybkJOZkZ3YWJsMHBHUm9hbXliLXh3aHZPSXNlcm11WTFSaWwwWnZr?oc=5",
+     "title": "‘안전·보건관리자’ 20인 사업장도 선임해야",
+     "summary": "20인 이상 사업장에도 안전 및 보건관리자를 선임해야 한다는 노사정 합의 소식이 전해졌습니다.",
+     "point": "20인 이상 사업장 보건관리자 선임 의무화 법 개정 추이를 확인하세요.",
+     "tags": [
+      "보건관리자",
+      "선임의무",
+      "노사정합의"
+     ],
+     "addedAt": "2026-11-18T03:59:17+00:00"
+    },
+    {
+     "id": "e5d14f2a1a8c4a55",
+     "cat": "news",
+     "imp": 3,
+     "date": "2026-11-05",
+     "source": "안전저널",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8wSzl5RmlNUEVHYngtWk9Da0k4bkxwbHhoYnMtYkljTkxsemxDWl8yNERUdmk0cUkxc1pMTjFnSm1KVnhrOWo0cUZIbThZRi1NdndVeVZLTGFRYUFWdWk4eE1QWmwxWmM?oc=5",
+     "title": "20~50인 사업장에 '안전·보건관리자 선임 의무화' 추진",
+     "summary": "20~50인 미만 사업장을 대상으로 안전·보건관리자 선임 의무화를 추진하는 방안이 논의되고 있습니다.",
+     "point": "중소규모 사업장 보건관리자 선임 제도 변화에 대비하세요.",
+     "tags": [
+      "보건관리자",
+      "선임의무화",
+      "중소규모사업장"
+     ],
+     "addedAt": "2026-11-18T03:59:17+00:00"
+    },
+    {
+     "id": "e3641234bb6fa404",
+     "cat": "law",
+     "imp": 3,
+     "date": "2026-11-05",
+     "source": "안전신문",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9DdFctSFBQVjRzNm4xQWcxVVp6Tnlad0RIS1F3OXdWV2hKSVotT3pnNnhBYlJTZFcyRV9YUlVKRDlpZU51UVViLXVOQ1BrZktQa04wUGxzWTdoa0FJNUs2TXUwVTdhY1FXQU1BOC01UEk?oc=5",
+     "title": "20~49명 사업장 안전관리자 선임 의무 강화… 기존 인력 활용도 인정",
+     "summary": "20~49인 소규모 사업장을 대상으로 안전·보건관리자 선임 의무화가 추진되며 기존 인력 활용도 인정될 예정이다.",
+     "point": "향후 법령 개정 추이에 따라 사업장 내 자격 요건 충족 및 인력 선임 계획을 미리 점검해 두세요.",
+     "tags": [
+      "법령",
+      "보건관리자",
+      "소규모사업장"
+     ],
+     "addedAt": "2026-11-18T03:59:17+00:00"
+    },
+    {
+     "id": "d28f77a5aab69629",
+     "cat": "law",
+     "imp": 3,
+     "date": "2026-11-05",
+     "source": "뉴시스",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1NSUVoa0pHTEhpemFGS05WX3pwZzg5OE1fZF9pQ3NFRlphNF9JMldUMjUtMHdweVEwTVllbnJBcFR2cnR1QlpLTDh4RFJnenBhNnBrSUp3am1fem03Y2JjOdIBeEFVX3lxTE0ycUN3bjE1YTdWbkhFaV9Qd1l5OGFJOEtrbXBXdWJHZFJSWUhVYW8xZXpUbmtnRnZpbWppZ2VGNUY1dGVhMktpRmR1Q285c2lXcEw0SlZPdk5WTXlOM0JtN2hySnVNM0pJa0pQUmpjT05oRGkwWWlXZg?oc=5",
+     "title": "\"20~49인 사업장, 안전보건관리자 선임해야\"…2028년 시행 추진(종합)",
+     "summary": "노사정 합의에 따라 2028년 시행을 목표로 20~49인 사업장에도 안전보건관리자 선임 의무 부과가 추진된다.",
+     "point": "제도 시행에 대비하여 사업장의 보건관리 전담 인력 확보 및 자격 기준을 미리 확인하세요.",
+     "tags": [
+      "법령",
+      "안전보건관리자",
+      "선임의무"
+     ],
+     "addedAt": "2026-11-18T03:59:17+00:00"
+    },
+    {
+     "id": "48bc6be25d6bc49b",
+     "cat": "law",
+     "imp": 3,
+     "date": "2026-11-05",
+     "source": "간호사신문",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1MUTR4bVR4Nk9oOHg0MUZYSjl5WGlkNngxcXdyanVyRnpQNjJfSXk1Q2xDcndoNHRnV0lnNEQtUHFGbW9UMW1wbXBlY0hjc01LanF1MF9xdEU2WHVjS3ZVZWxhOGlfUjBRc2w4YlNn?oc=5",
+     "title": "소규모 사업장, 안전·보건관리자 선임 확대 추진",
+     "summary": "소규모 사업장의 재해 예방을 위해 안전 및 보건관리자 선임 대상 확대를 추진하는 방안이 논의되고 있다.",
+     "point": "관련 법안 입법 예고 및 개정 사항을 지속적으로 확인하여 대응 준비를 하세요.",
+     "tags": [
+      "산업안전보건법",
+      "보건관리자",
+      "소규모사업장"
+     ],
+     "addedAt": "2026-11-18T03:59:17+00:00"
+    },
+    {
+     "id": "271d7c8401803cb6",
+     "cat": "law",
+     "imp": 3,
+     "date": "2026-11-05",
+     "source": "한국재난안전뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5FQlVEaC16cGJEWlJSZ1RtNmU4VGtWS01zTWVEOHFmMjZTS0NubUhaMzRvV2VMQlBHbkdheHZWSk1Kb1k0WjRJM0JucXQ1UnRqRE40OGdGTkJja1BDeFE?oc=5",
+     "title": "[이슈 NOW] 28년부터 20~49인 사업장도 안전·보건관리자 의무화.. 노사정 첫 합의",
+     "summary": "노사정 첫 합의를 통해 2028년부터 20~49인 사업장에도 안전 및 보건관리자 선임이 의무화될 전망이다.",
+     "point": "향후 세부 시행령 개정안에 따른 보건관리자 선임 기준과 자격 요건 변화를 주시하세요.",
+     "tags": [
+      "노사정합의",
+      "보건관리자",
+      "법령개정"
+     ],
+     "addedAt": "2026-11-18T03:59:17+00:00"
+    },
+    {
+     "id": "a518e62c654060e0",
+     "cat": "law",
+     "imp": 3,
+     "date": "2026-11-05",
+     "source": "MTN 머니투데이방송",
+     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9Qcm1wdU9CR2VSTGFwODN0aVN6NHo2N05sdm5VZVBJLW9Ib0dJWmNMNmVSSk9IeTI1cllIeUx1X3NXajJMbHNrNXZtVDNsSktqeV9xbzRpX0hvSHZJOThv?oc=5",
+     "title": "李정부 경사노위 첫 노사정 합의…\"소규모 사업장도 안전·보건관리자 둔다\"",
+     "summary": "경사노위 노사정 합의에 따라 소규모 사업장에도 안전·보건관리자를 두는 제도 개선이 추진된다.",
+     "point": "소규모 사업장 보건관리 의무화에 대비해 사내 보건관리 방안을 검토하세요.",
+     "tags": [
+      "경사노위",
+      "보건관리자",
+      "정책"
+     ],
+     "addedAt": "2026-11-18T03:59:17+00:00"
+    },
+    {
+     "id": "6d55c8bc889fa75a",
+     "cat": "law",
+     "imp": 3,
+     "date": "2026-11-05",
+     "source": "문화일보",
+     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5wX2VoMEtGRlRIUThWY2g3NnhsUUt2TWF4VmJOZTBkTDlpSVFyOUNUTlNlNnh1QW55YUw3aWlValpfOUUwLS1FeVVqTDdKSmVv?oc=5",
+     "title": "20명이상 사업장서도 안전·보건관리자 선임",
+     "summary": "안전보건 관리 사각지대 해소를 위해 20인 이상 사업장에서도 안전 및 보건관리자를 선임하도록 제도가 바뀐다.",
+     "point": "사업장 규모에 따른 보건관리자 선임 기준 변경 사항을 숙지하세요.",
+     "tags": [
+      "법령",
+      "보건관리자",
+      "선임"
+     ],
+     "addedAt": "2026-11-18T03:59:17+00:00"
+    },
+    {
+     "id": "0cb8226d54abedb4",
+     "cat": "law",
+     "imp": 3,
+     "date": "2026-11-05",
+     "source": "뉴스저널리즘",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8tb2diYnZzcDRlSW41YjZodjFIX3V4aVRXNmVPZ0ZjTnZFTnFmbU0tQ3dscUF0X2NKNVBBZjdOUi1jNEtRR1V5ODRZdG5Xc1gtLVBoelNGbjdHaTYxMVMweXdsUEZwVmdYT0FV?oc=5",
+     "title": "20~49인 사업장 안전·보건관리자 선임 추진…노사정 첫 합의",
+     "summary": "노사정 합의를 바탕으로 20~49인 사업장 대상 안전·보건관리자 선임 의무화 추진이 본격화된다.",
+     "point": "제도 도입에 따른 현장 영향과 준비 사항을 미리 파악하세요.",
+     "tags": [
+      "노사정",
+      "보건관리자",
+      "법령"
+     ],
+     "addedAt": "2026-11-18T03:59:17+00:00"
+    },
+    {
+     "id": "66f450c16c270cc7",
+     "cat": "law",
+     "imp": 3,
+     "date": "2026-11-05",
+     "source": "뉴데일리",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1tOWRPNlVIT19jSHFHdUJQejd1V1ZLYXYwQkFlbHNPWkJpRUhSZVhzTjVuY3A5S3JGdzA3eUpXeG5Od0NyMXVWUnJBMjMyS0NsTllnS3RIa0RzbW8zcnN0algxYUVNbzNpNWUwb0JXUEwtUWZOQWpsaUtQd9IBgAFBVV95cUxORHBfU1NZSGZBQW5meEpPUFNUOGY2REpCRG9vX3FBbGJqRnpNbVUtUWQ3ZlViZ2I5WjZfQW1jcWZBQ2dmdFVEcmI1VEhTZzI1TV8wbGhfSU5DM1A4WVVmWFd2ODlGcVhzN2J0Rm03SnNTR2EwX09yemJlZm5wbEtVZQ?oc=5",
+     "title": "소규모 사업장 3만곳 안전·보건관리자 의무화 … 영세기업 부담 커진다",
+     "summary": "소규모 사업장 다수 곳에 안전·보건관리자 선임이 의무화되면서 영세 기업들의 부담과 대응책 마련이 이슈가 되고 있다.",
+     "point": "사업장 내 보건관리 체계 구축 시 소요되는 자원과 지원사업 활용 방안을 검토하세요.",
+     "tags": [
+      "소규모사업장",
+      "보건관리자",
+      "규제"
+     ],
+     "addedAt": "2026-11-18T03:59:17+00:00"
+    },
+    {
+     "id": "22a04596d8b09157",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-18",
+     "source": "연합뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9aTkFHblRiQWF4NDhfd3FqRmQ3RGFjdTkzQUZ2cnBxN3NvMFJLSFE4MDJBSU1SQVNRbzM5dTdpRHljajBJTE04ZVVfNHVkQTJQTS1UVXlSeU1QN2REdm0tRdIBYEFVX3lxTE9aTkFHblRiQWF4NDhfd3FqRmQ3RGFjdTkzQUZ2cnBxN3NvMFJLSFE4MDJBSU1SQVNRbzM5dTdpRHljajBJTE04ZVVfNHVkQTJQTS1UVXlSeU1QN2REdm0tRQ?oc=5",
+     "title": "평창군, 연말까지 전 사업장 위험성평가…위험요인 선제 개선",
+     "summary": "지자체가 관내 전 사업장을 대상으로 위험성평가를 실시하고 위험요인을 선제적으로 개선합니다.",
+     "point": "사업장의 위험성평가 실시 상태를 점검하고 개선 대책이 현장에 반영되어 있는지 확인하세요.",
+     "tags": [
+      "위험성평가",
+      "안전점검"
+     ],
+     "addedAt": "2026-11-18T03:59:17+00:00"
+    },
+    {
+     "id": "45f58ae393aafde9",
+     "cat": "notice",
+     "imp": 2,
+     "date": "2026-11-18",
+     "source": "이로운넷",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5XUkRyQVhHMVBSbnlXcElJRjdFQ3VlSDd4TDhmVlpsM0xUaEpjbkduTTJCR05aR2xKUnVXV2ZtcVNkbTlyVFVXWV84UzlnUHNpcUh6Nmtsa0RQbHlSVzBLYlg2OTBiQQ?oc=5",
+     "title": "영주시, 겨울철 한파 대비 근로자 안전관리 강화… 한랭질환 예방 '총력'",
+     "summary": "영주시가 겨울철 한파에 대비하여 근로자 안전관리와 한랭질환 예방 활동을 강화합니다.",
+     "point": "겨울철 한파에 대비해 옥외 작업자들의 한랭질환 예방수칙 준수 여부를 점검하고 보온 장비를 정비하세요.",
+     "tags": [
+      "경북",
+      "한랭질환",
+      "동절기안전"
+     ],
+     "addedAt": "2026-11-18T03:59:17+00:00"
+    },
+    {
+     "id": "0110ee5303057a0b",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-17",
+     "source": "라포르시안",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9ESDJXOFpIOERlN1JkTWdOUEw1dDZadEwwaVVZSnM4TVJRSTMzeTkzbzJkVVFNdUlMZ050SHhMNjVxVjVPbE51SlNGaFFiaXZFdmRub09VX0lVN3U3QzNwRmpBdVMwZWFRSzRQcXV3?oc=5",
+     "title": "경북동부근로자건강센터 개소…50인 미만 사업장 노동자 건강관리 지원",
+     "summary": "50인 미만 사업장 노동자의 건강관리를 지원하는 경북동부근로자건강센터가 개소했습니다.",
+     "point": "50인 미만 사업장의 경우 근로자건강센터의 무료 건강상담 및 직무스트레스 예방 프로그램을 적극 활용하세요.",
+     "tags": [
+      "근로자건강센터",
+      "건강관리"
+     ],
+     "addedAt": "2026-11-18T03:59:17+00:00"
+    },
+    {
+     "id": "a6d5d712cb6c49d3",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-17",
+     "source": "비욘드포스트",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBlTVZlR3RmMnVfdmtLY0pZVXdrdWd6THhKeFpkdkhtcVNIMnZpcVp3T0NLNXRYRnowbFB1aU1wTW01YzdLREpweWdVSXUzSlJhV3l1dTFXcEo0NzBBcGgzZF9tUk5VaUlWY1VSb09LTkNld0lJYVdtMjliQlU?oc=5",
+     "title": "직업건강협회, 경북동부근로자건강센터 개소…50인 미만 사업장 무료 건강관리",
+     "summary": "직업건강협회가 경북동부근로자건강센터를 개소하여 소규모 사업장 노동자들에게 무료 건강관리 서비스를 제공합니다.",
+     "point": "취약 사업장 근로자의 건강증진 프로그램 연계를 위해 지역 센터의 지원 내용을 파악해 두세요.",
+     "tags": [
+      "근로자건강센터",
+      "무료건강관리"
+     ],
+     "addedAt": "2026-11-18T03:59:17+00:00"
+    },
+    {
+     "id": "aa3f0c39bfde02ad",
+     "cat": "case",
+     "imp": 2,
+     "date": "2026-11-17",
+     "source": "세이프티퍼스트닷뉴스",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFByUTQ4dkoxdE05clNURHR5c2RQNGpDdVFJdEFxWnc2WTdoVXVteWpMY19HeWhJRWJrT3VJVTBVRVVZTTJic3hSZm5PQUZxd2dEb1p0ZEFmLWU3ejloTUN6TndPS0lodVBkT2lSZnpmSQ?oc=5",
+     "title": "18년 식당 조리하다 숨진 70대, 법원 \"업무상 재해\"…사망 전 12주 주 평균 57시간 45분",
+     "summary": "장시간 노동에 시달리다 사망한 고령 노동자의 건에 대해 법원이 과로에 따른 업무상 재해를 인정했습니다.",
+     "point": "장시간 근로 및 야간작업이 포함된 직무의 노동시간 관리와 뇌심혈관계 질환 예방대책을 철저히 점검하세요.",
+     "tags": [
+      "업무상재해",
+      "장시간근로",
+      "뇌심혈관질환"
+     ],
+     "addedAt": "2026-11-18T03:59:17+00:00"
+    },
+    {
+     "id": "97c9ddde93678d17",
+     "cat": "notice",
+     "imp": 2,
+     "date": "2026-11-17",
+     "source": "투어코리아",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9QWG40dmZhVFk4WUhhUEg0clZseTBEOGFHalJDTzdnTnFTNUQ1UDhDOHNJcWl4MHNJLUFodmVzZ2V1RS0tNjJ6WjlvdU5UUzBmcTBHTXc3bUFBVDdBczJyRkNpYnhBUkVPLTg0OTh3?oc=5",
+     "title": "성남시, 대형 건축공사장 35곳 집중 안전점검…현장 중심 안전관리 강화",
+     "summary": "성남시가 대형 건축공사장을 대상으로 현장 중심의 집중 안전점검을 실시합니다.",
+     "point": "사내 건설 및 시설 공사 현장이 있다면 자체 안전점검을 병행하여 위험 요소를 사전에 제거하세요.",
+     "tags": [
+      "경기",
+      "건설안전",
+      "안전점검"
+     ],
+     "addedAt": "2026-11-18T03:59:17+00:00"
+    },
+    {
+     "id": "96b6412e9d3317b4",
+     "cat": "fund",
+     "imp": 2,
+     "date": "2026-11-17",
+     "source": "매일일보",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE54S0YxLUdKT296MmxCZ2ZBaEVwbEpSaFI4REY0UkhSWDRvNUZsRDM0TFZsZDF2clJJNWVEM1pEc09ha3pBRmhQd0RXR0FwVkYxSEVkeFhGR0ZuRk9zQ204V3ctdng?oc=5",
+     "title": "의왕도시공사 건강증진활동 우수사업장 선정…포일스포츠센터 위험성평가 인정",
+     "summary": "지방공사의 시설이 건강증진활동 우수사업장 선정 및 위험성평가 인정을 획득했습니다.",
+     "point": "사내 위험성평가 우수사업장 인정 신청을 준비하여 산재 예방 체계를 구축하세요.",
+     "tags": [
+      "경기",
+      "위험성평가",
+      "건강증진"
+     ],
+     "addedAt": "2026-11-18T03:59:17+00:00"
+    },
+    {
+     "id": "6f4db188ac42c84d",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-17",
+     "source": "경기헤럴드",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE15V3hHUjhqbnFLU2JaWWgwRmhjYjlUTHNESTFCc0dlYjFMa2FmQmU0RkNxUUlwbGQ1cXhDSGh4N3ItdlZ5Nnk4VHJBbFB0Wkg5cmtmV3pYSHpkR1FTd1BfU0M2N2V0bERmWm80LTJnYVdTRjFiMnd1Q3BFZmc?oc=5",
+     "title": "의왕도시공사, 근로자 건강증진활동·위험성평가 우수사업장 동시 선정",
+     "summary": "의왕도시공사가 근로자 건강증진활동 우수사업장과 위험성평가 우수사업장에 동시 선정되었습니다.",
+     "point": "사업장 건강증진활동 우수사업장 인증 및 위험성평가 제도를 점검하세요.",
+     "tags": [
+      "경기",
+      "건강증진활동",
+      "위험성평가"
+     ],
+     "addedAt": "2026-11-18T03:59:17+00:00"
+    },
+    {
+     "id": "4f60e57c2dfa3738",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-17",
+     "source": "비욘드포스트",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1ZaWxnSEpZX2ZPLThucGxjdmFiYlZmb0I1U0hrSVNvb2xaUWlScUkwZ2I4aWxZSWcwUzJxMFc0OHBaT2ZxemVINnA2M2JESkQ3U2x4M1h5SnpySi1RMlJKWHlhNTRmbVVzZXNfbC1YUnROcVlCbXp0UmZoWGg?oc=5",
+     "title": "산업안전보건연구원, 경영컨설팅학회 '연구혁신 대상'…산재예방 기업 경영 분야로 확대",
+     "summary": "산업안전보건연구원이 경영컨설팅학회 연구혁신 대상을 수상하며 산재예방 영역을 기업 경영 분야로 넓혔습니다.",
+     "point": "ESG 경영 및 기업 경영 측면의 산재 예방 트렌드를 업무에 반영하세요.",
+     "tags": [
+      "산업안전보건연구원",
+      "산재예방",
+      "기업경영"
+     ],
+     "addedAt": "2026-11-18T03:59:17+00:00"
+    },
+    {
+     "id": "662b2817993dd240",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-16",
+     "source": "매일노동뉴스",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5IQjJ0ODVhekdHclpwVGxKdGl3YnpCbXRydFN6cThKRWYwMnVtX3NheU5neXg4VktFUDE3RlZPM05Ra2NGdzE4cDRsS1k5SzI2UElvODdWR0c5THR4dEhWbmlFUWVBeFEza29TSU1NU18?oc=5",
+     "title": "질병사망 절반이 50명 미만서, 더딘 직업병 예방 제도 개선",
+     "summary": "소규모 사업장을 중심으로 직업병 질병 사망자가 다수 발생하고 있어 제도적 개선의 목소리가 높습니다.",
+     "point": "소규모 사업장 환경에 맞는 직업병 예방 대책과 건강진단 사후관리를 강화하세요.",
+     "tags": [
+      "직업병",
+      "소규모사업장"
+     ],
+     "addedAt": "2026-11-18T03:59:17+00:00"
+    },
+    {
+     "id": "30b4e36fbe2d09a1",
+     "cat": "case",
+     "imp": 2,
+     "date": "2026-11-15",
+     "source": "한겨레",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9wdE9JVXBnTFlNeGM5c3BsdU9GTjBmbWkzQjY2RlZub3ZCNE80MDJ5X0xmNkF2dnRiTm1rSmZrMVVGZmM1d2lLckpyazg1RHNXSFFWR2dUck51eUtFc3JXOTd4d3ltaUlGTlYwNTlkUnM1UQ?oc=5",
+     "title": "18년간 하루 12시간 식당 주방일 하다 사망…법원 “과로사 맞다”",
+     "summary": "장기간 장시간 근로에 시달리다 사망한 노동자의 질병에 대해 법원이 과로사를 인정했습니다.",
+     "point": "장시간 근로 사업장의 야간·연장근무 실태를 점검하고 뇌심혈관질환 위험요인을 관리하세요.",
+     "tags": [
+      "과로사",
+      "산재",
+      "판례"
+     ],
+     "addedAt": "2026-11-18T03:59:17+00:00"
+    },
+    {
+     "id": "fa85013fcfdfdd9a",
+     "cat": "case",
+     "imp": 2,
+     "date": "2026-11-15",
+     "source": "부산일보",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1ZdzRSN21PX29zSnMzTE52TGVYa0o4ZU1ZRDgxYTVGZVI5V3hYNVh3dnEzX3RtREZyZmotMk5Pd1ZONm85SzFIV0J5NWVmU0tBSWNRN05qY2xkNXVXazVSX1N0dVh1VXRMSVN6QzUxMjJEMnZJZHZGOA?oc=5",
+     "title": "18년간 매일 12시간씩 식당 일하다 숨진 70대…법원 \"업무상 재해\"",
+     "summary": "오랫동안 매일 장시간 노동을 하던 노동자의 사망 건에 대해 법원이 업무상 재해로 판결했습니다.",
+     "point": "근로자의 누적 피로도와 장시간 근무 이력을 모니터링하고 뇌심혈관계 질환 예방대책을 보완하세요.",
+     "tags": [
+      "업무상재해",
+      "과로사",
+      "판례"
+     ],
+     "addedAt": "2026-11-18T03:59:17+00:00"
+    }
+   ],
+   "updatedAt": "2026-11-18T03:59:17+00:00"
+  },
   {
    "date": "2026-11-17",
    "items": [
