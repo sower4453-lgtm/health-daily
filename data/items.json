@@ -1,6 +1,420 @@
 {
- "updatedAt": "2026-11-18T03:59:17+00:00",
+ "updatedAt": "2026-11-19T03:55:36+00:00",
  "days": [
+  {
+   "date": "2026-11-19",
+   "items": [
+    {
+     "id": "8e35ddb3f3cec8d8",
+     "cat": "case",
+     "imp": 3,
+     "date": "2026-11-19",
+     "source": "고용노동부 보도자료",
+     "url": "https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=20274",
+     "title": "(참고) 고소작업대 과부하방지장치(AML) ‘위법 개조’ A제조업체 적발(익산지청)",
+     "summary": "고용노동부 지청 점검 결과 고소작업대 과부하방지장치를 위법 개조한 제조업체가 적발되었습니다.",
+     "point": "사업장 내 고소작업대 등 방호장치 임의 개조 여부를 점검하고 안전관리를 철저히 해야 합니다.",
+     "tags": [
+      "고소작업대",
+      "안전검사",
+      "산업안전"
+     ],
+     "addedAt": "2026-11-19T03:55:36+00:00"
+    },
+    {
+     "id": "94bf3e48b1ac0ed1",
+     "cat": "law",
+     "imp": 3,
+     "date": "2026-11-18",
+     "source": "청년일보",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1rakxzZTkzalJxS2F0S1h4VFlBaDhMX1BvWHFlMDNZaFpfY1FTOFQwb0dUZldTckt3R0xkM0p3T2N1aDM3S2xscW5VNWJTVUIzNjJMX2dpcDdlOHllM1FBZEdmbnhzYU0?oc=5",
+     "title": "\"일터에서 다친 마음 보호\"…'노동자 자살예방' 5개 법령 개정안 공개",
+     "summary": "일터에서 발생하는 정신적 피해를 보호하기 위한 노동자 자살예방 관련 5개 법령 개정안이 공개되었습니다.",
+     "point": "향후 개정되는 관련 법령에 맞춰 사내 정신건강 증진 프로그램과 위기 대응 절차를 정비하세요.",
+     "tags": [
+      "정신건강",
+      "법령개정"
+     ],
+     "addedAt": "2026-11-19T03:55:36+00:00"
+    },
+    {
+     "id": "e5a40e0c63069c59",
+     "cat": "law",
+     "imp": 3,
+     "date": "2026-11-17",
+     "source": "월간노동법률",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5QR2ZkSzg0YlV4ZnhwdjNnWVN6WWN4dlJaV2VoTFNkaGxnSFZ2dEJSVE1vWHdMa3FmVDFaaVJHZlV5RUk3M2JmT0lRZmw1emkzOWF4TnhieDdnLWFHcnRRRy1jQm5qdWRUMGVSYjdOOA?oc=5",
+     "title": "위험성평가 ‘과태료’ 내년 1월 시행…“개선 이행 기록까지 남겨야”",
+     "summary": "위험성평가 미실시 및 미이행 시 과태료 부과가 내년 1월부터 시행됨에 따라 개선 이행 기록 유지가 중요해졌습니다.",
+     "point": "위험성평가 실시 규정을 확인하고, 유해위험요인 발굴부터 개선 조치 및 이행 기록까지 누락 없이 관리하세요.",
+     "tags": [
+      "위험성평가",
+      "과태료"
+     ],
+     "addedAt": "2026-11-19T03:55:36+00:00",
+     "deadline": "2027-01-01"
+    },
+    {
+     "id": "ffafb8c21bd4ab55",
+     "cat": "law",
+     "imp": 3,
+     "date": "2026-11-05",
+     "source": "아시아투데이",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1STTRZMFFUMU9GdjJGWkFaX29wVGxIcjRXYkU4OXRjYzlWT1JCazJpQVVLU29YaG9zZy1aaVFKcVZ6SFZIckszWlUwNVdpbmdSTnRiMjU2d0FkNHlKWm1DcFdJOWp2VXF4THlITWlB?oc=5",
+     "title": "소규모 사업장 3만곳 안전관리자 선임 의무화…2028년 시행 추진",
+     "summary": "소규모 사업장 3만 곳을 대상으로 안전관리자 선임 의무화를 2028년 시행하기 위한 추진이 진행되고 있습니다.",
+     "point": "사업장 규모별 안전·보건관리자 선임 기준 변화 추이를 미리 확인하고 대비하세요.",
+     "tags": [
+      "안전관리자",
+      "법령개정"
+     ],
+     "addedAt": "2026-11-19T03:55:36+00:00"
+    },
+    {
+     "id": "8a395dfad5262552",
+     "cat": "law",
+     "imp": 3,
+     "date": "2026-11-05",
+     "source": "경향신문",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA5Z0ZqN1lSa3NhV1l4UEd4anNqcG1LSVZxaGNRYmJUYVczUUFIcWNnVDdDM2ozRno2dk40NHRDN0ktRFo0Ylphb3dpbFl0SFNZQTFGTWZGRHlfQdIBX0FVX3lxTE5rcGF5cmZSNXlGNVNVNUJBRXZkeVg0R2xZTUdETTJvTVdkNExWNzJYQkUxa2xUdGNXa2tzczhtNkY3N2hZZTV6VGY5U0ZUbWVDZUh4b1JwMFN3TlgxNjR3?oc=5",
+     "title": "소규모 사업장도 안전관리자 선임…경사노위, 현 정부 첫 노사정 합의",
+     "summary": "경제사회노동위원회에서 소규모 사업장 안전관리자 선임 의무화에 대한 노사정 합의가 이루어졌습니다.",
+     "point": "안전보건 인력 배치 기준 확대에 따른 사업장의 법적 의무 사항 변동을 주시하세요.",
+     "tags": [
+      "안전관리자",
+      "노사정합의"
+     ],
+     "addedAt": "2026-11-19T03:55:36+00:00"
+    },
+    {
+     "id": "c691b54406e1b91c",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-19",
+     "source": "https://www.kgdm.kr/",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBjTmE5VzNoWUxIVzJubHZZelotdFg5UHpFZHU0aHNPS2d3Z3dDT1FLalNTbFdaNWhKS3IxSWRncFA2VlI0QmFEQi1rYzMxUUdjdVpDMzNnMVltTENwa3dJRnF4Sjl0Zw?oc=5",
+     "title": "한국노총, 소규모 사업장 안전보건 관리 체계 강화 촉구",
+     "summary": "한국노총이 소규모 사업장의 안전보건 관리 체계를 강화할 것을 촉구했습니다.",
+     "point": "소규모 사업장일수록 체계적인 안전보건 관리 시스템과 보건 지원 인력 연계를 검토하세요.",
+     "tags": [
+      "안전보건관리",
+      "소규모사업장"
+     ],
+     "addedAt": "2026-11-19T03:55:36+00:00"
+    },
+    {
+     "id": "298fd5fa70cc2e60",
+     "cat": "notice",
+     "imp": 2,
+     "date": "2026-11-19",
+     "source": "뉴스파이어",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5JMFNaUlh4LXI2YjNTWi13MF81dnFvVjRLSHRvdHJBWEJMRUM3UERXcXZzYTJoaUNlVVFlQzhRd0FWNmZaOTEtLTA0bGd6UGRZSGdsTXlsb3RiN3VUbVc3bVNaeGxjY0l4SGY1aktjWQ?oc=5",
+     "title": "김성태 의원, “농업인이 쓰러지면 농업도 지속될 수 없다”… 온열질환 예방정책 촉구",
+     "summary": "농업 분야 등 야외 작업자의 온열질환 예방 정책 강화를 촉구하는 목소리가 나왔습니다.",
+     "point": "하절기 및 폭염 대비 야외 작업자의 온열질환 예방수칙 준수 및 대책을 점검하세요.",
+     "tags": [
+      "온열질환",
+      "보건정책"
+     ],
+     "addedAt": "2026-11-19T03:55:36+00:00"
+    },
+    {
+     "id": "c09cadabd5f32dd7",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-19",
+     "source": "인천뉴스",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1pZXZIcElYZmFUYzdEc2ljeHNuamZQZVBnbTFXbGtMVDdqY0txZW9pNjU5TVhFVWFSTHNTYkhGekFIMHByNDNWN3k3em5UOFo2ZURGTjJuajhUbGdfcjVYTWJpM2l4blNNZXd1dEJJdw?oc=5",
+     "title": "[노동현안] 김교흥 “노동자 정신건강, 개인 아닌 사회가 책임져야”",
+     "summary": "노동자 정신건강 문제를 개인의 문제가 아닌 사회적·조직적 차원에서 책임져야 한다는 주장이 제기되었습니다.",
+     "point": "사내 감정노동 및 직무스트레스 유발 요인을 점검하고 예방 대책을 마련하세요.",
+     "tags": [
+      "정신건강",
+      "직무스트레스"
+     ],
+     "addedAt": "2026-11-19T03:55:36+00:00"
+    },
+    {
+     "id": "98ff6ce2a5eb7f5e",
+     "cat": "law",
+     "imp": 2,
+     "date": "2026-11-19",
+     "source": "알티케이뉴스",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB1eG5XU2RLYUkzcUc5OVYxc1l6UFpnVVpNZUI5S0JzQ0pXRlhFRTg2eVVxcnRsckxCdWhuRnRTTG1TcTFlS2V0cHR0c011VFV3enBuWEtfZ1hFUTU5YjZ2ajdJMF9NeTVGSVlnNw?oc=5",
+     "title": "KT 현장 노동자 겨울 안전 '빨간불'…노조, 혹한기 작업중지권 요구",
+     "summary": "겨울철 현장 노동자의 안전을 위해 혹한기 작업중지권 보장을 요구하는 목소리가 높아지고 있습니다.",
+     "point": "한파 대비 현장 근로자의 한랭질환 예방 수칙과 비상 대응 절차를 점검하세요.",
+     "tags": [
+      "한랭질환",
+      "작업중지권"
+     ],
+     "addedAt": "2026-11-19T03:55:36+00:00"
+    },
+    {
+     "id": "1e7fbf1a43bfcea1",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-18",
+     "source": "안전신문",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9paXpydE1BVTV6bmxXOUNJOGRQaHBaU1RaWXBPRkVHZmZHVnJRRVBFOEFjdkE3YVJiWGpUdGZHcjA3d1pidFkwWm5zUDVJV05YVWcyQ1RtYVotSi00ZUFSTExPYWN5dTBxSENSeXNkWFE?oc=5",
+     "title": "경북동부근로자건강센터 개소… 소규모 사업장 노동자 건강관리 지원",
+     "summary": "소규모 사업장 노동자들의 건강 관리를 지원하기 위한 경북동부근로자건강센터가 문을 열었습니다.",
+     "point": "인근 소규모 사업장의 경우 근로자건강센터의 무료 건강상담 및 직무스트레스 예방 프로그램을 적극 활용하세요.",
+     "tags": [
+      "경북",
+      "근로자건강센터",
+      "소규모사업장"
+     ],
+     "addedAt": "2026-11-19T03:55:36+00:00"
+    },
+    {
+     "id": "0fa1ae4654fc941b",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-18",
+     "source": "한국노총",
+     "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9faGE1YV84SWZ0OVlYMUd1UDRaN0dxREoyVXdqTUNmZm9HSk0yaXNuSm1uanpuSkE0aW5OelZOSVphY01rNEFZMg?oc=5",
+     "title": "“소규모 사업장, 최소한의 안전보건 인력확보와 민간전문기관 협력체계 강화돼야”",
+     "summary": "소규모 사업장의 재해 예방을 위해 최소한의 안전보건 인력 확보와 민간전문기관과의 협력 체계를 강화해야 한다는 주장이 제기되었습니다.",
+     "point": "사내 보건관리 인력 부족 시 전문기관과의 협력 체계를 점검하고 지원사업 활용을 검토하세요.",
+     "tags": [
+      "안전보건인력",
+      "민간전문기관"
+     ],
+     "addedAt": "2026-11-19T03:55:36+00:00"
+    },
+    {
+     "id": "21b9ac44f60fb5b6",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-18",
+     "source": "뉴시스",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE81YzlzNTIzVEQ4dTdsQkNqc2dKM2ZNNTIzR0NfVUlpcVpRak1BLWs4T0lOS3hoa055ZV9LQXZmVDk5cnlkMXBILXZtbDNJa2hYaXlDYmlsLTFmNnN5bGhvSnRPMVF2emlrMHJwMVBXcWl2dExvVkc0S9IBeEFVX3lxTE81YzlzNTIzVEQ4dTdsQkNqc2dKM2ZNNTIzR0NfVUlpcVpRak1BLWs4T0lOS3hoa055ZV9LQXZmVDk5cnlkMXBILXZtbDNJa2hYaXlDYmlsLTFmNnN5bGhvSnRPMVF2emlrMHJwMVBXcWl2dExvVkc0Sw?oc=5",
+     "title": "평창군, 전 사업장 위험성평가…고위험 요인 즉시 조치",
+     "summary": "평창군이 관내 전 사업장을 대상으로 위험성평가를 실시하고 고위험 요인을 즉시 조치하도록 했습니다.",
+     "point": "사내 위험성평가 실시 결과를 점검하고 도출된 유해·위험요인에 대한 개선 조치가 적시에 이루어지는지 확인하세요.",
+     "tags": [
+      "위험성평가",
+      "재해예방"
+     ],
+     "addedAt": "2026-11-19T03:55:36+00:00"
+    },
+    {
+     "id": "a747fdc16001e95d",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-18",
+     "source": "전자신문",
+     "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE93bDg2c2oyTGxob0NLbGNMSXFTSGJKQzlUTGVSNTZ2ZldCZ0V4YUZpN3V4azR0eGVPamNMZlc1cjM0ODNMUjExdHVFUlp5QQ?oc=5",
+     "title": "“새벽배송 규제, 배송기사 건강권·소비자 편익 균형 찾아야”",
+     "summary": "새벽배송 규제 논의 과정에서 배송기사의 건강권과 소비자 편익 간의 균형을 찾아야 한다는 지적이 나왔습니다.",
+     "point": "야간 및 장시간 근로에 노출되는 이동노동자의 건강보호 대책을 살펴보세요.",
+     "tags": [
+      "건강권",
+      "야간근로"
+     ],
+     "addedAt": "2026-11-19T03:55:36+00:00"
+    },
+    {
+     "id": "ab37859d5ebeee3e",
+     "cat": "case",
+     "imp": 2,
+     "date": "2026-11-18",
+     "source": "안전신문",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTYTlXT0h5TGppSVNyTjI1VzNGY05SOW9JeV9USVU2UDVhR2NWMHZGZzRXVHJUUFA4RlNMcFdzaG8wR1F6MUFZQTdiQ05URkViNkJCZE54OU96YjJQNUpLa0tmODZZRnVtLVpIWWhYYWc?oc=5",
+     "title": "“직장 내 정신건강 위험도 산업재해 예방 대상에 포함해야”",
+     "summary": "직장 내 정신건강 위험도를 산업재해 예방 대상에 포함해야 한다는 의견이 제기되었습니다.",
+     "point": "근로자의 직무스트레스 측정 및 정신건강 고위험군 상담 체계를 더욱 강화하세요.",
+     "tags": [
+      "정신건강",
+      "직무스트레스",
+      "산업재해"
+     ],
+     "addedAt": "2026-11-19T03:55:36+00:00"
+    },
+    {
+     "id": "ecdca3a961d3209a",
+     "cat": "case",
+     "imp": 2,
+     "date": "2026-11-18",
+     "source": "뉴스1",
+     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9ISWNYLUUwYmJjMkFJU2g0UUZGTDhsY1o4cTNhTG9Ea2Q2R1ZhVjJhZkNiLUtoMXBPUnlqNG9DWWh4TzJ4V0tiU21sVGgwdjZqdG5nNTJ0amZSRzhz?oc=5",
+     "title": "\"일하다 다친 마음도 보호\"…정신질환 산재 판정 전 지원 제안",
+     "summary": "정신질환 산재 판정 과정에서 신속한 지원을 제공하기 위한 방안이 제안되었습니다.",
+     "point": "사업장 내 직무스트레스로 인한 정신건강 고위험군을 파악하고 조기 개입 체계를 점검하세요.",
+     "tags": [
+      "정신건강",
+      "산재"
+     ],
+     "addedAt": "2026-11-19T03:55:36+00:00"
+    },
+    {
+     "id": "7a370e0351a648dc",
+     "cat": "case",
+     "imp": 2,
+     "date": "2026-11-18",
+     "source": "뉴스투데이",
+     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE54T2NmZllzWUJteW9iTUdQeFoxeENYR09Mdks1YnNjWnE1ak1ETzVkSU0xd0NoOG1KMzNuTUdKNjJabEgxRGhoaUdVZ0pjbzhqZmxqdkE0N3E2cVoxTlE?oc=5",
+     "title": "[현장 : 국회자살예방포럼] 자살 산재 승인율 58.3%→35.0%…판정 전 휴업급여 지급 제안",
+     "summary": "자살 산재 승인율 변화와 함께 판정 전 휴업급여를 지급하는 방안이 논의되었습니다.",
+     "point": "근로자 직무스트레스 상담 및 자살 예방을 위한 사내 고위험군 관리 대책을 강화하세요.",
+     "tags": [
+      "자살예방",
+      "산재"
+     ],
+     "addedAt": "2026-11-19T03:55:36+00:00"
+    },
+    {
+     "id": "30cb8932bbc92855",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-18",
+     "source": "머니투데이",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE82ZWZrMGQybVBPemc2b3dxU0h6cDNUNEEyU2Q0cFU4ZUM1R3p0b1V4ZWRzUk5DZVNZOU9VVUFtR3JYVWZvOEFiVVNpN0JleHdhZ0JnZ3FTdF96YS1ER2dtS0Q3S0wzS2U1OERUU1VROULSAXBBVV95cUxPNmVmazBkMm1QT3pnNm93cVNIenAzVDRBMlNkNHBVOGVDNUd6dG9VeGVkc1JOQ2VTWTlPVVVBbUdyWFVmbzhBYlVTaTdCZXh3YWdCZ2dxU3RfemEtREdnbUtEN0tMM0tlNThEVFNVUTlC?oc=5",
+     "title": "자살사망자 2명 중 1명은 직업인…\"일터 정신건강 관리해야\" - 머니투데이",
+     "summary": "직업인 자살사망자 비율이 높게 나타남에 따라 일터 차원의 체계적인 정신건강 관리 필요성이 강조되었습니다.",
+     "point": "근로자 정기 건강검진 연계 스트레스 평가 및 사내 심리상담 채널을 활성화하세요.",
+     "tags": [
+      "정신건강",
+      "직무스트레스"
+     ],
+     "addedAt": "2026-11-19T03:55:36+00:00"
+    },
+    {
+     "id": "452041a58383c038",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-18",
+     "source": "더리포트",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5YZlJxODF2MFU1ZEJYc0NWQW5EZ1hmd3BfeE4zN3l6SlpzZ3haaDNucEJyb0I2MnVqUXo0alRtWEVkRzdtTVVjSWk2bWhLUUZQbW1PUDM2SHFLNkd1R0FYbXZnb09pR1ZvLTl4SkV3?oc=5",
+     "title": "산재 사망 2.7% 증가···소규모 현장은 14.5% 급증",
+     "summary": "전체 산재 사망 사고가 증가한 가운데 소규모 현장 중심의 증가세가 두드러지게 나타났습니다.",
+     "point": "소규모 사업장 및 협력업체 작업 시 안전보건 수칙 준수 여부를 철저히 모니터링하세요.",
+     "tags": [
+      "산재사망",
+      "소규모사업장"
+     ],
+     "addedAt": "2026-11-19T03:55:36+00:00"
+    },
+    {
+     "id": "11fd0aa40060b121",
+     "cat": "job",
+     "imp": 2,
+     "date": "2026-11-18",
+     "source": "Vietnam.vn",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZGJ1emdxQWlLZW5vV29fd21COUZwNHdzN2ZYUDZoY2FSaG9tSjk1dmZ3WHItT0hlU2hvNDkwX09jMEluVWZJbWlyd3dzQ1ZIbVowb0MweUNYOXJHSnlYdlFuSDNTRnhOZEZoY1htOHdabkFMaGh5TDhqdnNCbUhXd29DSllEeU1fT1FKZmxtLXpINW11UHF6RFk3bGpfNzVFUDB1Q1l0WU92UmNUT1RPUkRn?oc=5",
+     "title": "산업통상부 산하 산업보건환경센터에서 2026년 공무원 채용을 공고합니다.",
+     "summary": "산업통상부 산하 산업보건환경센터에서 공무원 채용을 공고했습니다.",
+     "point": "",
+     "tags": [
+      "채용",
+      "공무원",
+      "산업보건환경센터"
+     ],
+     "addedAt": "2026-11-19T03:55:36+00:00"
+    },
+    {
+     "id": "b27ab94cc08ad25a",
+     "cat": "notice",
+     "imp": 2,
+     "date": "2026-11-18",
+     "source": "고용노동부 보도자료",
+     "url": "https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=20268",
+     "title": "건설근로자공제회, SK 용인 반도체 클러스터 건설현장 방문",
+     "summary": "건설근로자공제회가 주요 대규모 건설현장을 방문하여 현장 상황을 점검했습니다.",
+     "point": "대규모 현장 방문 및 지원 동향을 참고하여 사업장 내 근로자 복지 및 안전점검 체계를 정비합니다.",
+     "tags": [
+      "건설현장",
+      "근로자복지",
+      "현장점검"
+     ],
+     "addedAt": "2026-11-19T03:55:36+00:00"
+    },
+    {
+     "id": "4ffa8a4c9682e5b7",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-15",
+     "source": "라포르시안",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE95TzkxNXhKdkZUT0s1M0NpbDFqY0RzSDlOb0lMNzRoUEd4VlYyQlBUZ1MtMFZtUU5Kb0VzUmhzd296UGtNcC1jdkxxTVA0NTJsQ085QzRFT3d1SVVfUy1YLXk2WUNHLXpkUWJPWmp3?oc=5",
+     "title": "“병원 등 보건업의 보건관리자 배치 기준 현실화해야\"",
+     "summary": "병원 등 보건업 종사자의 보건관리자 배치 기준을 현실화해야 한다는 목소리가 제기되었습니다.",
+     "point": "보건업종 사업장의 보건관리자 업무 부담 완화 및 인력 배치 제도 개선 동향을 파악하세요.",
+     "tags": [
+      "보건관리자",
+      "배치기준"
+     ],
+     "addedAt": "2026-11-19T03:55:36+00:00"
+    },
+    {
+     "id": "ac35559d656e2386",
+     "cat": "news",
+     "imp": 1,
+     "date": "2026-11-19",
+     "source": "Vietnam.vn",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBubzJKd0VOaDR3dUtfSEdyOHhEWFpMRG1zakVQMUJfZGowVE5BZnRzc2xVcFNZOWpUNEZ6elI2NldCX0djR1BfWDJvSjVMdVZlNW92dDNNb3U0LUF0M2s0cHhTV1FiYTFqZ1hxMzlYQm8ydw?oc=5",
+     "title": "직업병은 초기 단계부터 적극적으로 예방해야 합니다.",
+     "summary": "직업병을 효과적으로 방지하기 위해 초기 단계부터 적극적인 예방 조치가 필요하다는 의견이 나왔습니다.",
+     "point": "사업장 내 유해인자에 노출되는 근로자를 대상으로 초기 증상을 살피고 조기 발견 체계를 점검하세요.",
+     "tags": [
+      "직업병",
+      "건강관리"
+     ],
+     "addedAt": "2026-11-19T03:55:36+00:00"
+    },
+    {
+     "id": "c329beec7d9772e5",
+     "cat": "news",
+     "imp": 1,
+     "date": "2026-11-19",
+     "source": "www.ebn.co.kr",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE01WnpIWHkxRTBOWlIweVd0QWpBcFFzcjJqbk03RWdmVlNKV2tUeHVEU2NHT1dTZ3R0aVM0RUhYRUlYTUpienNaR0xqUENmOEFGd3IteGJzdURXVGRzMnA4RHpFQldWYXM5?oc=5",
+     "title": "[EBN 칼럼] ①노동의 ‘위험’은 진화하는가",
+     "summary": "현대 노동 환경에서 다양하게 진화하는 위험 요소들에 대한 고찰 칼럼입니다.",
+     "point": "사업장 내 잠재된 새로운 형태의 유해·위험 요인을 선제적으로 파악하세요.",
+     "tags": [
+      "산업안전",
+      "노동환경"
+     ],
+     "addedAt": "2026-11-19T03:55:36+00:00"
+    },
+    {
+     "id": "b79717748b6fe3a9",
+     "cat": "news",
+     "imp": 1,
+     "date": "2026-11-18",
+     "source": "OMATE 시니어",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9mYWFYM0xac2VzY091QWVpYUxIVmVvUjF2MWFFamVGaEgwdGJkZmJCNlVJRlNqNFVTbHEtM0tBWE5PZjV6RjZlZV9XQVFEaThNbnVSZmg3OW5QeWx5Wlk2Y2k4UlM?oc=5",
+     "title": "포항시, 11월 음주폐해 예방의 달 맞아 건강한 직장문화 조성 나서",
+     "summary": "지자체에서 음주폐해 예방의 달을 맞아 건강한 직장문화 조성을 위한 활동에 나섰습니다.",
+     "point": "사내 절주 문화 정착을 위한 음주 폐해 예방 교육 및 캠페인을 실시하세요.",
+     "tags": [
+      "경북 포항시",
+      "음주예방",
+      "직장문화"
+     ],
+     "addedAt": "2026-11-19T03:55:36+00:00"
+    },
+    {
+     "id": "32b4885e076a7779",
+     "cat": "news",
+     "imp": 1,
+     "date": "2026-11-17",
+     "source": "데일리한국",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBqZ3NNU081WGVtMlhTMDYwYlRDLU14R2hodmp3VEx5R1VtaWs5bDIwaGNXNldEak1ma2c2OHc1a0ZfOWRWc29ocHB3NGpsLTdaWUVhY2NaVDlVdW1sc3FjLVRKY05pSnZpQ3RWd1h3OWV5OXPSAXNBVV95cUxQamdzTVNPNVhlbTJYUzA2MGJUQy1NeEdoaHZqd1RMeUdVbWlrOWwyMGhjVzZXRGpNZmtnNjh3NWtGXzlkVnNvaHBwdzRqbC03WllFYWNjWlQ5VXVtbHNxYy1USmNOaUp2aUN0VndYdzlleTlz?oc=5",
+     "title": "경산시, 외국인 근로자 건강 챙긴다…올해 337명 검진",
+     "summary": "지자체에서 관내 외국인 근로자를 대상으로 건강검진을 지원하는 사업을 실시했습니다.",
+     "point": "사내 외국인 근로자의 건강검진 수검 현황을 파악하고 건강 관리 상태를 확인하세요.",
+     "tags": [
+      "경북 경산시",
+      "외국인근로자",
+      "건강검진"
+     ],
+     "addedAt": "2026-11-19T03:55:36+00:00"
+    }
+   ],
+   "updatedAt": "2026-11-19T03:55:36+00:00"
+  },
   {
    "date": "2026-11-18",
    "items": [
