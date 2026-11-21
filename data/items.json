@@ -1,6 +1,163 @@
 {
- "updatedAt": "2026-11-20T03:48:18+00:00",
+ "updatedAt": "2026-11-21T03:39:59+00:00",
  "days": [
+  {
+   "date": "2026-11-21",
+   "items": [
+    {
+     "id": "f5a361e5e4542a4d",
+     "cat": "notice",
+     "imp": 3,
+     "date": "2026-11-20",
+     "source": "고용노동부 입법·행정예고",
+     "url": "https://www.moel.go.kr/info/lawinfo/lawmaking/view.do?bbs_seq=20261100730",
+     "title": "[행정] 「안전보건 현황 공시 가이드(안)」 행정예고",
+     "summary": "고용노동부가 사업장의 안전보건 현황 공시 절차와 기준을 담은 가이드라인 제정안을 행정예고했습니다.",
+     "point": "안전보건 공시 대상 사업장은 신규 가이드라인의 주요 내용을 확인하고 공시 준비 사항을 점검하세요.",
+     "tags": [
+      "고용노동부",
+      "안전보건공시",
+      "행정예고"
+     ],
+     "addedAt": "2026-11-21T03:39:59+00:00"
+    },
+    {
+     "id": "d7188c8293e14956",
+     "cat": "news",
+     "imp": 3,
+     "date": "2026-11-05",
+     "source": "세계일보",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE91NGxoblJyRkxEQURlQVJ6QllsU3dFVVl5bl9XSm80NFBqYUJ0Qk8xSE1ncEVpanBWbE9kSl9jOVBVWmg4aGlRUU5ocUNuYWtEcV9GanNqVWzSAVRBVV95cUxOZUZraEVXYzVpUmV3YXRQb3ZISEszdlZYQU5qRWJhc2RGRXljRjZibTlLRTJoVzBnakJ6cU0xelhMdklBMVZFZzVsT2otMXlhSEZNeEw?oc=5",
+     "title": "2028년부터 20인 이상 사업장도 안전관리자 둬야… 이재명정부 경사노위, 첫 노사정 합의",
+     "summary": "노사정 합의에 따라 2028년부터 20인 이상 사업장에도 안전관리자 선임이 의무화될 전망입니다.",
+     "point": "향후 사업장 규모 확대에 따른 안전보건 인력 배치 및 법적 기준 변화를 미리 확인해 두세요.",
+     "tags": [
+      "안전관리자",
+      "법령개정",
+      "경사노위"
+     ],
+     "addedAt": "2026-11-21T03:39:59+00:00"
+    },
+    {
+     "id": "c8c8b3215aa52e81",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-20",
+     "source": "매일경제 마켓",
+     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9URlduT1BaeHRkZkxSSFhJYnhvd3ZoWTFuTVBQSWRucU9Pcm8wN1VmcmY0X0hrUTVuR01yQUpBeVBXVjdoUGVfNk9sc1FDNlVCQVE?oc=5",
+     "title": "카르나AI아시아, AI 건강관리 기술로 산업보건 분야 공략",
+     "summary": "AI 건강관리 기술을 활용한 산업보건 분야 진출 관련 소식입니다.",
+     "point": "사업장 건강관리 업무에 최신 AI 기술 도입 동향을 참고하세요.",
+     "tags": [
+      "산업보건",
+      "AI",
+      "건강관리"
+     ],
+     "addedAt": "2026-11-21T03:39:59+00:00"
+    },
+    {
+     "id": "fbdabc9a082aad5e",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-20",
+     "source": "메트로신문",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1taWhsMVlfeHUtOVg2RDRkZk5TYmx0N0I5MGh6bXJ0clphRHRzSWZiNWZMemk3RGp1LUplWUlxWlQtSjNjcWVpQ3RhOUFHendGM0tOVGx3VUdtb0Z0ZTNsUw?oc=5",
+     "title": "제물포구, 현장 근로자 직무스트레스 예방·관리 강화",
+     "summary": "현장 근로자의 직무스트레스 예방 및 관리를 강화하는 조치가 시행됩니다.",
+     "point": "사내 근로자 직무스트레스 요인을 파악하고 상담 및 관리 프로그램을 운영하세요.",
+     "tags": [
+      "직무스트레스",
+      "근로자건강",
+      "정신건강"
+     ],
+     "addedAt": "2026-11-21T03:39:59+00:00"
+    },
+    {
+     "id": "c3a0c8b187f09436",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-20",
+     "source": "여성종합뉴스",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0xWXZjSzhTMUNQRlo5cnBqZzNkaVY3YnRLOGZndl9lNnJTcm13enQ0akp4ZnFudXhKTFNYTTduUGhxVnpIVmd3N1NfUXdHZlp4SXVEY21OWWRkRHZYQ04zSS1UalFFQVJsS0d3Zm44aw?oc=5",
+     "title": "인천 제물포구, 현장 근로자 직무스트레스 예방·관리 강화",
+     "summary": "현장 근로자들의 직무스트레스 예방과 관리를 강화하기 위한 활동이 추진됩니다.",
+     "point": "현장 근로자의 직무스트레스 완화를 위한 정신건강 관리 프로그램을 점검하세요.",
+     "tags": [
+      "직무스트레스",
+      "근로자건강"
+     ],
+     "addedAt": "2026-11-21T03:39:59+00:00"
+    },
+    {
+     "id": "574afec7fa91ea94",
+     "cat": "fund",
+     "imp": 2,
+     "date": "2026-11-20",
+     "source": "안전신문",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBDRmJQM1cyd1ZjMGNtcmM3ZmdVSG93UU5tNjZWSGlUWWl2aWhMZmVxZEVFMUlfNkNBTjBPRmp5NWJVa0JuaDlRRklocHdCeVJJUlhEdkVBOXg3ZTZ6ekpIMjRJY3haeko5RGROVVFLMng?oc=5",
+     "title": "삼성바이오로직스 등 3곳, 근로자 건강증진 우수사업장 선정",
+     "summary": "근로자 건강증진 우수사업장으로 삼성바이오로직스 등 3개소가 선정되었습니다.",
+     "point": "우리 사업장도 건강증진 우수사업장 인증 제도를 활용하여 건강친화적 작업환경을 구축해보세요.",
+     "tags": [
+      "건강증진",
+      "우수사업장",
+      "근로자건강"
+     ],
+     "addedAt": "2026-11-21T03:39:59+00:00"
+    },
+    {
+     "id": "95e228a09e0e22d5",
+     "cat": "fund",
+     "imp": 2,
+     "date": "2026-11-20",
+     "source": "비욘드포스트",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBSQU91QmdQQ0I2ZE1vRWVzRTVobjhRVUE5NkkzSnFDb2JhbWxsZkxPcjZGT0o2THFib08wbTRJS2hhbzlxRVhOR1Q1c3hIbEFvdzM1Q0s3YVBhVlFQOHY3N0hMRmRwNXZiSDQ5dldRSWQzbmxBVFJZalBGNVI?oc=5",
+     "title": "안전보건공단 인천광역본부, 삼성바이오로직스 등 3곳 '건강증진 우수사업장' 선정",
+     "summary": "안전보건공단에서 근로자 건강증진 우수사업장을 선정했습니다.",
+     "point": "건강증진 우수사업장 선정 기준을 참고하여 사내 보건관리 우수 사례를 벤치마킹하세요.",
+     "tags": [
+      "건강증진",
+      "인천",
+      "우수사업장"
+     ],
+     "addedAt": "2026-11-21T03:39:59+00:00"
+    },
+    {
+     "id": "fa26cfa1fe7fc910",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-19",
+     "source": "안전신문",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5XU2FCbU1zMDZUZldIcXFVcEV2VDRNeXdKbVNtd2FKZXBzY2c5RlBOdDZsSVhzXzlLNUM4WVNKM0hmWU9QbU5PUEJCc29jRGJTVVFUbE0zMVFBQV9paFRsU2Y3SUtvTXh1aHVmTE1hMm4?oc=5",
+     "title": "“정부의 안전보건 지도감독, 컨설팅 기관 아닌 ‘사업주’에 초점 맞춰야”",
+     "summary": "정부의 안전보건 지도감독이 컨설팅 기관보다 사업주 중심으로 이루어져야 한다는 제언이 나왔습니다.",
+     "point": "정부 지도감독 방향에 맞춰 사업주 중심의 안전보건 체계를 점검하세요.",
+     "tags": [
+      "안전보건",
+      "지도감독",
+      "산업안전"
+     ],
+     "addedAt": "2026-11-21T03:39:59+00:00"
+    },
+    {
+     "id": "40ff036b708d640f",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-19",
+     "source": "세이프타임즈",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1iNTdZbWEzOHlSMXFydUJyd2JmZjBaVFVwMXhVdE1OX3YtTTZMalc5dHBIUjFHRE5uM2NlZWdlMno3d3FGRVFpekJ6cklsVDlLelpNVXNpREVVRWhfU2VVbXBvZFhzVnA4NmtoMk9fU3hXZFnSAXNBVV95cUxNYjU3WW1hMzh5UjFxcnVCcndiZmYwWlRVcDF4VXRNTl92LU02TGpXOXRwSFIxR0RObjNjZWVnZTJ6N3dxRkVRaXpCenJJbFQ5S3paTVVzaURFVUVoX1NlVW1wb2RYc1ZwODZraDJPX1N4V2RZ?oc=5",
+     "title": "'수능 한파' 속 모인 중소기업 … '산업안전 격차' 해법 찾는다",
+     "summary": "중소기업들이 모여 산업안전 격차 해법을 논의했습니다.",
+     "point": "사내 안전보건 수준을 점검하고 격차 해소를 위한 대책을 고민해보세요.",
+     "tags": [
+      "중소기업",
+      "산업안전"
+     ],
+     "addedAt": "2026-11-21T03:39:59+00:00"
+    }
+   ],
+   "updatedAt": "2026-11-21T03:39:59+00:00"
+  },
   {
    "date": "2026-11-20",
    "items": [
