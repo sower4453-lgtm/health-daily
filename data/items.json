@@ -1,6 +1,62 @@
 {
- "updatedAt": "2026-11-21T03:39:59+00:00",
+ "updatedAt": "2026-11-22T02:46:15+00:00",
  "days": [
+  {
+   "date": "2026-11-22",
+   "items": [
+    {
+     "id": "65cd83a0960fd8d5",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-22",
+     "source": "일간투데이",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ZdUNPWVk2eUpXUVh2N2NzWTFoSGJTR1VZdjJDZ1dFbmNma1N4V01DYTZnZC1HRkxxdm1pRUVRX1BnUjFZNWdSZ2Z0WGVyUFFSTUJCWTM1ZW9aSlE3dWE3VG9Sb2JxRnhCbWo4?oc=5",
+     "title": "인천 제물포구, 현장근로자 직무스트레스 대책 추진",
+     "summary": "인천 제물포구가 현장 근로자의 직무스트레스 예방 및 관리를 위한 대책을 추진합니다.",
+     "point": "현장 근로자들의 정신 건강을 위해 직무스트레스 요인을 파악하고 상담 프로그램을 연계합니다.",
+     "tags": [
+      "인천",
+      "직무스트레스",
+      "근로자건강"
+     ],
+     "addedAt": "2026-11-22T02:46:15+00:00"
+    },
+    {
+     "id": "606e05a60673619b",
+     "cat": "fund",
+     "imp": 2,
+     "date": "2026-11-22",
+     "source": "더코리아",
+     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5aTzN4SzZkT2llcEtSRG9RY1l5Ynd3dUw3dUVrS3BERHpqWUxtQjZfWkg3OUVNS3JSU2ctYU5DZEQxMlI2RlpLSGNlbw?oc=5",
+     "title": "의왕시, 의료급여 특화사업 ‘건강한 마음, 건강한 일’ 자활근로자 대상 건강관리 프로그램 운영 > 뉴스",
+     "summary": "의왕시가 자활근로자를 대상으로 건강관리 프로그램을 운영합니다.",
+     "point": "지역 내 취약계층 근로자의 건강 증진 프로그램 운영 방식을 참고합니다.",
+     "tags": [
+      "의왕",
+      "건강관리",
+      "취약계층"
+     ],
+     "addedAt": "2026-11-22T02:46:15+00:00"
+    },
+    {
+     "id": "ace4f8a4316b0aa6",
+     "cat": "law",
+     "imp": 2,
+     "date": "2026-11-21",
+     "source": "한국방송뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9WMGNpVTRUdmtEVGdwY3FHN1N6aU94RFIzUC1vV1JMYmpZOGZGS09adWd0QWI1VDR6S2VKRFA5MkNCY3BNZjdfVVp1ZFBvVktUNTJvTTVxZjB4M1dHUlRVVA?oc=5",
+     "title": "정부, 노동시장 이중구조 개선과제 발굴 착수…\"원점에서 재점검\"",
+     "summary": "정부가 노동시장 이중구조 개선을 위한 과제 발굴에 착수했습니다.",
+     "point": "고용 형태별 근로조건 및 보건관리 격차 개선 동향을 모니터링합니다.",
+     "tags": [
+      "노동시장",
+      "고용정책"
+     ],
+     "addedAt": "2026-11-22T02:46:15+00:00"
+    }
+   ],
+   "updatedAt": "2026-11-22T02:46:15+00:00"
+  },
   {
    "date": "2026-11-21",
    "items": [
