@@ -1,6 +1,526 @@
 {
- "updatedAt": "2026-11-23T03:24:11+00:00",
+ "updatedAt": "2026-11-24T06:38:03+00:00",
  "days": [
+  {
+   "date": "2026-11-24",
+   "items": [
+    {
+     "id": "01c8595dcf6a4c8d",
+     "cat": "notice",
+     "imp": 3,
+     "date": "2026-11-23",
+     "source": "기계설비신문",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9mOGc4OEVSTzJpY212UDh5WjV4QTVxSUlxcVVpTWtZa1FHNEVRdTRkQlJja3cydDl6LTdOSG1OLW9ZVXF1c2NtUmxJX09teDhUY09zcVhHMGVpMlVTRWFEdk45WW5BRmFlRHRkbg?oc=5",
+     "title": "이종배 의원, 폭염·한파 등 작업중지 기준 명문화 추진",
+     "summary": "폭염과 한파 등 기상 악화 시 작업중지 기준을 법적으로 명문화하는 방안이 추진됩니다.",
+     "point": "향후 온열·한랭질환 예방 및 작업중지 지침 개정 동향을 모니터링하세요.",
+     "tags": [
+      "작업중지",
+      "폭염한파",
+      "법령개정"
+     ],
+     "addedAt": "2026-11-24T06:38:03+00:00"
+    },
+    {
+     "id": "738b7a86b45056e5",
+     "cat": "notice",
+     "imp": 3,
+     "date": "2026-11-23",
+     "source": "중부매일",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0yRHVXM2gzX3J5SDQ5Q3A0MG05SG5UWmZacGRXNnZKdlg3NTB0T19MQWhHVzFUQWg5SlBQcXV1bXc0eXN2VVJBbmxMTjNkVkhCNnBXazB2QmNwZC1VdmhsN01RNFFoMHcyUFHSAW5BVV95cUxQRnZ3Ql91VndBalNBanpvYkxyd2NKTmNJQjhSaFhzV2VCQ2phLTBoVXpXazhiV1ZtcHpvTWc0TFlPMjFyZHlCVFNHMlhKb2hyWjBlNGpobWtqaHhmYkNzV0tvY1NBOXJ5c0Q2OXdCQQ?oc=5",
+     "title": "이종배 의원, 근로자 작업중지·대피 기준 구체화 법안 대표발의",
+     "summary": "근로자의 작업중지 및 대피 기준을 더욱 구체화하는 법안이 대표 발의되었습니다.",
+     "point": "급박한 위험 시 작업중지 및 대피 절차 관련 사내 규정 정비 소요를 파악해 두세요.",
+     "tags": [
+      "작업중지",
+      "대피기준",
+      "산업안전보건법"
+     ],
+     "addedAt": "2026-11-24T06:38:03+00:00"
+    },
+    {
+     "id": "4f01c666d9f7e775",
+     "cat": "law",
+     "imp": 3,
+     "date": "2026-11-23",
+     "source": "헤럴드경제",
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE42X1ZYNUlhRy14eEQwLTAwUjJhWVJYYVJxMWRTWlh4ekt3aFh0MWcwaTBxNHJoQnRDN3ZtbE5XTjE1ZHhlUEcwRXlKNk5mcmJMYlpaT0hB?oc=5",
+     "title": "500인 이상 기업·1200억 이상 건설사, 내년 6월 ‘안전보건 성적표’ 공개",
+     "summary": "대규모 기업과 건설사를 대상으로 한 안전보건 성적표 공개가 내년 6월부터 시행됩니다.",
+     "point": "기업의 안전보건 투자 및 산재 지표 공개에 대비해 관련 데이터를 체계적으로 관리해야 합니다.",
+     "tags": [
+      "안전보건공시",
+      "산재현황",
+      "법령개정"
+     ],
+     "addedAt": "2026-11-24T06:38:03+00:00"
+    },
+    {
+     "id": "71ea39134b00b494",
+     "cat": "law",
+     "imp": 3,
+     "date": "2026-11-23",
+     "source": "뉴스1",
+     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9qX3JSTmpPQW5xN2NNWDN1QzhNbFRfLWFKN1l1MWVUZFZxTVpEOS1qNGh6Z1hzNktuYjg1Q0pIOWttb1ZnUzhTSzZuVWI0amZlbFIyYnczdE93QnNiNVRVam54OA?oc=5",
+     "title": "500명 이상 기업, 내년 4월까지 산재·안전투자 첫 공시",
+     "summary": "500명 이상 기업은 내년 4월까지 산재 발생 건수와 안전 투자 비용을 처음으로 공시해야 합니다.",
+     "point": "대상 기업의 보건관리자는 사내 산재 현황 및 안전·보건 관련 투입 예산을 점검하고 집계해야 합니다.",
+     "tags": [
+      "안전보건공시",
+      "안전투자",
+      "법령제도"
+     ],
+     "addedAt": "2026-11-24T06:38:03+00:00",
+     "deadline": "2027-04-30"
+    },
+    {
+     "id": "b4386b7d944f62b9",
+     "cat": "news",
+     "imp": 3,
+     "date": "2026-11-23",
+     "source": "한국재난안전뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE10YW1Ja1RRaVRMMnFKLUVlcmJyR3ZDcXRCZ1hvQklBNktrYWJzdzlBWXdVZjVOQU1ZY0l3d3lLdEpmaktsYkYwS2UzTEdTck11S1RWdzAzd2JBbUtlZFE?oc=5",
+     "title": "\"기업 안전보건활동, 내년 6월부터 깐깐히 공개된다\".. 공시가이드 첫 오픈",
+     "summary": "기업의 안전보건활동 공시 가이드가 첫 오픈되었으며 내년 6월부터 본격적으로 시행됩니다.",
+     "point": "내년 6월부터 적용되는 안전보건활동 공시 제도를 미리 확인하고 사내 관련 지표 준비 사항을 점검하세요.",
+     "tags": [
+      "안전보건공시",
+      "ESG",
+      "안전보건활동"
+     ],
+     "addedAt": "2026-11-24T06:38:03+00:00"
+    },
+    {
+     "id": "185d2f25a75eadde",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-24",
+     "source": "안전신문",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBzXzdaUGhad1g3VUFfM21JZGx4bF9OSWdMZlk5UFpOM2lFdGlsUVpUN3hWajBBNlFxU2tlQjlxNHVmTlhLS3YwZk53Tl9QOUtmYjJMSmRHeW03cGZEODc2Ymp2cWpwc3FmZklvTVhKQ08?oc=5",
+     "title": "‘직업병 예방’ 김포근로자건강센터 문 활짝",
+     "summary": "직업병 예방과 취약 노동자 건강지원을 위한 김포근로자건강센터가 문을 열었습니다.",
+     "point": "사업장 인근 근로자건강센터의 무료 상담 및 건강관리 프로그램을 활용하여 근로자 건강증진에 연계합니다.",
+     "tags": [
+      "경기",
+      "근로자건강센터",
+      "직업병예방"
+     ],
+     "addedAt": "2026-11-24T06:38:03+00:00"
+    },
+    {
+     "id": "dfdad09333244cfd",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-24",
+     "source": "안전저널",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBhdDBmRmlEOENIVmlfMktSNWswdm5XYzVWWkhrWWQzcW94eGlVZWFQVXg0Z3JRUnhacGQzR200OVBJRXUzOW4xM2NVME1Lck0wdkgxelNiWW5hTVF2UHQ1Z3VHT3ltX2M?oc=5",
+     "title": "김포·포항에도 근로자건강센터 개소…무료 건강상담 등 실시",
+     "summary": "김포와 포항에 근로자건강센터가 신설되어 무료 건강상담 및 직업병 예방 서비스를 제공합니다.",
+     "point": "소규모 사업장의 경우 인근 근로자건강센터의 무료 건강상담 및 지원 프로그램을 적극 활용합니다.",
+     "tags": [
+      "경기",
+      "경북",
+      "근로자건강센터",
+      "건강상담"
+     ],
+     "addedAt": "2026-11-24T06:38:03+00:00"
+    },
+    {
+     "id": "773a9081087e8ec7",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-24",
+     "source": "김포시민신문",
+     "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE01UlNzdml1aGJmZGt5MHh5cEhocU1XaWxtQXdlUm5LYXVnZEkwVC1uZmJ4WkF6V1VkQlk0dlp5dFlidw?oc=5",
+     "title": "김포근로자건강센터 신설…소규모 사업장‧취약계층 노동자 건강 사각지대 해소 기대",
+     "summary": "소규모 사업장과 취약계층 노동자의 건강 보호를 위한 김포근로자건강센터가 신설되었습니다.",
+     "point": "인근 소규모 협력업체나 취약 노동자 대상 건강센터 연계 프로그램을 확인해 보세요.",
+     "tags": [
+      "경기",
+      "근로자건강센터",
+      "건강관리"
+     ],
+     "addedAt": "2026-11-24T06:38:03+00:00"
+    },
+    {
+     "id": "905258e4cb7f4950",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-24",
+     "source": "현대경제",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA1NkZxTUJoeThPMG5SWm9sXzNIelZHTXBPZ3ByRFZhZ2NGWDJXMHlkTF9zbVNlNFJ4NEpuTGNUVW5zeHZwMHc4bjFJZkNGd0wyWUctYUxuUUZyNkZ4Vm9RanRHM1UyRVdZMXVN?oc=5",
+     "title": "한국기술교육대, 근골격계질환 예방체조 개발로 인간공학회 우수상",
+     "summary": "근로자 근골격계질환 예방을 위한 체조 프로그램이 개발되어 학회에서 우수상을 수상했습니다.",
+     "point": "현장 근로자들의 작업 전 스트레칭 및 근골격계 예방 프로그램에 활용해 보세요.",
+     "tags": [
+      "근골격계질환",
+      "예방체조",
+      "인간공학"
+     ],
+     "addedAt": "2026-11-24T06:38:03+00:00"
+    },
+    {
+     "id": "5c9bc5887d028fcf",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-24",
+     "source": "인사이트에너지뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9tbFozN0NxdXhkUFY2Y0dVZXZDZTVNa3pRUWlZSHRXZE9WOFRkWkVDc0xFUmxSMHNqdmM3c2VTdk04YzJHZGRSMnBxLThZNUFKamU2cjE0VnNnNUdocGpXLTBVNWlXdjTSAWtBVV95cUxNYjdtdnRDVlpBc0dkRmRqUG55MFY0NThJSEhJcXFvVDQ3ekotMDlFWEZIWVVJSnNtOURkZ3VTa29Ed29Mc1VaUkdEeGJja2RHM1hrUV9HZ0NCcV9wVEwweThFY3dUVlVodnNKTQ?oc=5",
+     "title": "안전보건公, 김포근로자건강센터 개소",
+     "summary": "안전보건공단이 주도하여 소규모 사업장 지원을 위한 김포근로자건강센터가 개소했습니다.",
+     "point": "공단 지원 사업 연계를 위해 관할 근로자건강센터의 위치와 프로그램을 확인해 두세요.",
+     "tags": [
+      "경기",
+      "안전보건공단",
+      "근로자건강센터"
+     ],
+     "addedAt": "2026-11-24T06:38:03+00:00"
+    },
+    {
+     "id": "992024da70bd0f42",
+     "cat": "fund",
+     "imp": 2,
+     "date": "2026-11-24",
+     "source": "일간투데이",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE92U0R2VnpLSWZHTGsyUklydkpUeW9rbGgyZWVWUFNJZVYzMVRhLVhJNVl2T1JwNi1qZEZ6Z3ZwaFFpaDdMNjRVWDBfS3JmbGRrYXlmS2RIZG45RVRYb1JMQ25MdHVsWGROUnJR?oc=5",
+     "title": "김주영 의원, 김포근로자건강센터 개소… 노동자 건강권 강화",
+     "summary": "김포에 근로자건강센터가 새롭게 개소하여 노동자들의 건강권 강화를 지원합니다.",
+     "point": "인근 소규모 사업장 근로자들의 건강상담 및 직업병 예방 프로그램 연계를 지원받을 수 있습니다.",
+     "tags": [
+      "김포",
+      "근로자건강센터",
+      "지원사업"
+     ],
+     "addedAt": "2026-11-24T06:38:03+00:00"
+    },
+    {
+     "id": "8a9f1f7bc4738a36",
+     "cat": "fund",
+     "imp": 2,
+     "date": "2026-11-24",
+     "source": "아웃소싱타임스",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE4wV09LQkRCclowTTFLQTQ3RUtSNElSM2JibDZ1Nm5fa0xPaUtEOVJwdDNpNjhBRHdYZGF1MmFGWE9FaW01MFY4TUV0dVk2QkNMOFMxc2RMUGdVd0dfVzlfVnBLeGphc2ZBR296YzJldVc0QQ?oc=5",
+     "title": "[노동뉴스] 김포·포항에 근로자건강센터 개소, 소규모 사업장 무료 건강관리 확대",
+     "summary": "김포와 포항에 근로자건강센터가 개소함에 따라 소규모 사업장을 위한 무료 건강관리 지원이 확대됩니다.",
+     "point": "보건관리자는 소속 사업장의 규모와 지역에 맞춰 근로자건강센터의 무료 건강증진 프로그램을 적극 활용해야 합니다.",
+     "tags": [
+      "전국",
+      "근로자건강센터",
+      "소규모사업장"
+     ],
+     "addedAt": "2026-11-24T06:38:03+00:00"
+    },
+    {
+     "id": "d0c4d06f46986c71",
+     "cat": "fund",
+     "imp": 2,
+     "date": "2026-11-24",
+     "source": "여성종합뉴스",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5ZRGtUOWFUNHU1a210WG9MdTVCMmkzY0k1UFZCeFh6UlNHNndfQ2VDYWZiam1aeVdhVXFvanlpemM4WjZQYzNyVlVZMENvSTVLYzFOd1U4WTJPNGVqSzV1d2VORDIydGg4M3hfY05QSQ?oc=5",
+     "title": "김포근로자건강센터, 소규모 사업장 및 취약계층 노동자 건강관리 지원 시작",
+     "summary": "김포근로자건강센터가 본격적으로 소규모 사업장 및 취약계층 노동자를 위한 건강관리 지원을 시작합니다.",
+     "point": "취약 노동자의 건강관리 지원 서비스를 확인하고 사내 보건 프로그램에 연계할 수 있습니다.",
+     "tags": [
+      "김포",
+      "근로자건강센터",
+      "건강관리"
+     ],
+     "addedAt": "2026-11-24T06:38:03+00:00"
+    },
+    {
+     "id": "6c1b16ca27160f5c",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-23",
+     "source": "뉴스핌",
+     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9jcy0yeVJkeVV2bnJFbV90elkxekhud25nOEMyREVlUVlSdWxiWWFNcGl1T25OakdTZXJMSWQycnhUOG1LR2diaUItblpKU3RNd0ZxejA0MVIzOURY?oc=5",
+     "title": "김포·포항 근로자건강센터 개소…전국 26곳으로 확대",
+     "summary": "김포와 포항에 근로자건강센터가 새로 개소하면서 전국적으로 총 26곳으로 확대 운영됩니다.",
+     "point": "소속 사업장 근처에 신설된 센터의 위치를 확인하고 보건관리 업무에 참고합니다.",
+     "tags": [
+      "근로자건강센터",
+      "직업병예방"
+     ],
+     "addedAt": "2026-11-24T06:38:03+00:00"
+    },
+    {
+     "id": "7102467098a992af",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-23",
+     "source": "뉴시스",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0yRU93Rl83R0otSlVhR0dOcjhNaHdVSW9GT1pldGFjY1kwRWFaQ2dYcExOQldPWWFOcGJjWkJtMFh5cGQ1N1AwU3IxX2prLWdvX0JQUzZyZFVGakRVWmtYONIBeEFVX3lxTFBzczlxWkEwMTVLMjVNTGxSdEhOeFV2cUtvNVVYSmhnYnBMU05jemdHNUsyV0FmdDFfaXYySVFvOUh3NGtneEt4eHJocnB3eW5EN1FuVkhYNXQ5Q0tvdHBZVlFnMk5CUWtLV3kyeHMxTFlZTXBsT2NLNg?oc=5",
+     "title": "김포·포항에 취약 노동자 '무료 건강상담센터' 신설",
+     "summary": "취약 노동자를 위한 무료 건강상담센터가 김포와 포항 지역에 새롭게 신설되었습니다.",
+     "point": "보건관리 여력이 부족한 소규모 사업장 근로자들이 무료 건강상담 서비스를 이용하도록 안내합니다.",
+     "tags": [
+      "경기",
+      "경북",
+      "근로자건강센터",
+      "건강상담"
+     ],
+     "addedAt": "2026-11-24T06:38:03+00:00"
+    },
+    {
+     "id": "54b90af2dcaab74d",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-23",
+     "source": "헤럴드경제",
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9Icms1cjRZTHlPWXdWTW9lTklyVW1weUVEdFR6YXF5VFZ6VnZNd2FXeUM5VS1CdVJIYS14bW5aZFRDWTBTUDFlOUhQRGNsTWw3V2N1aXhB?oc=5",
+     "title": "김포·포항에 근로자건강센터 신설…50인 미만 사업장 우선 지원",
+     "summary": "김포와 포항에 신설된 근로자건강센터는 50인 미만 사업장 노동자를 우선적으로 지원합니다.",
+     "point": "50인 미만 소규모 사업장 보건관리 시 해당 지역 센터의 무료 지원 사업을 연계 활용합니다.",
+     "tags": [
+      "경기",
+      "경북",
+      "근로자건강센터",
+      "소규모사업장"
+     ],
+     "addedAt": "2026-11-24T06:38:03+00:00"
+    },
+    {
+     "id": "720ac46a47be39d8",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-23",
+     "source": "데일리안",
+     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBtRk1NdEMtSmtReHcyb0NyS3ZSZXR2NHFmbEktVW9tNTg3bDljb0lLWEt4eDl0dGFyRVRwZ09rYWotaVhXNGotSXN1cFVILUxQaXpZ?oc=5",
+     "title": "작은 사업장 노동자 건강관리 가까워진다…김포·포항에 무료 상담센터 개소",
+     "summary": "소규모 사업장 노동자들이 쉽게 이용할 수 있는 무료 건강상담센터가 김포와 포항에 문을 열었습니다.",
+     "point": "사업장 근로자들의 건강관리를 위해 지역 근로자건강센터의 전문 상담 서비스를 활용합니다.",
+     "tags": [
+      "경기",
+      "경북",
+      "근로자건강센터",
+      "건강관리"
+     ],
+     "addedAt": "2026-11-24T06:38:03+00:00"
+    },
+    {
+     "id": "c7247413df36e3b3",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-23",
+     "source": "www.skedaily.com",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9XYU9vY09nUk5GbF9OeVpKTHdOZnU3WlpLZmVLWHNHWEtmeVd0NE5MSGtyWlF6T0FkeVhpbTlQRlVyeTdBNTR4N0k0V1VVRW5mc2pZZUs3R0J1QnRLSVo0TWpwSllFaHVCU1E?oc=5",
+     "title": "고용노동부, 작은 사업장 건강지킴이 '근로자건강센터', 김포·포항에 새로 문 연다.",
+     "summary": "고용노동부가 소규모 사업장 지원을 위해 김포와 포항에 근로자건강센터를 새로 개소했습니다.",
+     "point": "사업장 근로자 건강상담 및 직무스트레스 예방 서비스 연계 시 활용하세요.",
+     "tags": [
+      "근로자건강센터",
+      "고용노동부",
+      "건강지원"
+     ],
+     "addedAt": "2026-11-24T06:38:03+00:00"
+    },
+    {
+     "id": "9ac3f2954f7790ff",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-23",
+     "source": "신아일보",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1HSDJ4S3J5cEt5UWdlRzRSWXd0LW40QmdndVdkNXVLbHh2bnh0V2VZaGVaSC1hMHRfdFd3M1NwcUhYanNUZE1oSjdaaU9FZnh3WnVKMzRKQ3RaRHZoTEI1YnBvNmd4RmpUNThZWG42TUk?oc=5",
+     "title": "김포근로자건강센터 문 열어…취약 노동자 건강관리 지원 본격화",
+     "summary": "김포근로자건강센터가 문을 열고 지역 내 취약 노동자들을 위한 본격적인 건강관리 지원을 시작합니다.",
+     "point": "사내 보건관리 지원이 필요한 취약 노동층의 건강센터 이용을 독려하세요.",
+     "tags": [
+      "경기",
+      "근로자건강센터",
+      "취약계층"
+     ],
+     "addedAt": "2026-11-24T06:38:03+00:00"
+    },
+    {
+     "id": "03d6bf461a91662b",
+     "cat": "law",
+     "imp": 2,
+     "date": "2026-11-23",
+     "source": "핀포인트뉴스",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5oWWpZMzRXNW9KYURKdFlaa2ZWZjFJMlJlWEdCS1NRVjZHTkQxSzZvZnFUNmlERTREbGJGZEtnMjBkQkZfdVJVSjdvWkZxdk14V25ITzN2cW5vUjJyRjhXOWlzNlVqVklCUUowNjRQbHpLNEx4TlRF0gF3QVVfeXFMTmhZalkzNFc1b0phREp0WVprZlZmMUkyUmVYR0JLU1FWNkdORDFLNm9mcVQ2aURFNERsYkZkS2cyMGRCRl91UlVKN29aRnF2TXhXbkhPM3Zxbm9SMnJGOFc5aXM2VWpWSUJRSjA2NFBseks0THhOVEU?oc=5",
+     "title": "이종배 의원, 폭염·한파 등 작업중지 사유 구체화 법안 대표발의",
+     "summary": "폭염과 한파 등 기상 악화 시 작업중지 사유를 더욱 구체화하는 법안이 대표발의되었습니다.",
+     "point": "폭염·한파 특보 발령 시 현장 근로자의 작업중지 기준을 점검하고 대응 지침을 재정비해야 합니다.",
+     "tags": [
+      "작업중지",
+      "폭염한파",
+      "법령입법"
+     ],
+     "addedAt": "2026-11-24T06:38:03+00:00"
+    },
+    {
+     "id": "cd3da5e0329aa508",
+     "cat": "law",
+     "imp": 2,
+     "date": "2026-11-23",
+     "source": "대한전문건설신문",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE84ZldweDExS01NTDlHQ3Z5NEFaRTQyVVg5bVZraUJRd3JSSGdLdnpKemFfemZaZXN1a3k3MDdQR0JEdjJNSHdCLW1GYXA1QjZPb1diRml0WURDNXJnVXlXa0t5WnZqaGw10gFsQVVfeXFMUEFSRWlsdE1fMkhSS0hQdWNEdGo1ZHhBd2YwTnYzQmVCaW9fMVVDMS1hVC1qS1psNkhxYk5tRTZEMjVFT2hfMWFRdFhiaUVVU0RkWFo0YlRMTTl3UGtZbUpMRHJWckcyN0FrdzQz?oc=5",
+     "title": "안전조치 미이행·위험 기상상황·건강장해 등 작업중지 기준 명확화 법안 발의",
+     "summary": "안전조치 미이행이나 위험한 기상 상황 및 건강장해 우려 시 작업중지 기준을 명확히 하는 법안이 발의되었습니다.",
+     "point": "기상 악화나 건강장해 발생 우려에 따른 현장 작업중지 기준을 사내 규정에 반영해야 합니다.",
+     "tags": [
+      "작업중지",
+      "건강장해",
+      "안전기준"
+     ],
+     "addedAt": "2026-11-24T06:38:03+00:00"
+    },
+    {
+     "id": "a0a35f0df0e18d7e",
+     "cat": "law",
+     "imp": 2,
+     "date": "2026-11-23",
+     "source": "아이뉴스24",
+     "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE15VEo1alN2b1FZVlBzZE8yTHBJNHUxLWxyWnZxOEc0MXRSWkU0ZXZfYUVucF9ENGpGTnlGQTNubFp2MS0wVU1FRk9UeUs?oc=5",
+     "title": "이종배 의원 “작업중지 기준 명확화해 근로자 보호”",
+     "summary": "근로자 보호를 위해 작업중지 기준을 명확히 하는 법안이 추진됩니다.",
+     "point": "향후 법안 통과 시 사업장의 기상 관련 작업중지 및 보호 조치 프로세스를 보완해야 합니다.",
+     "tags": [
+      "작업중지",
+      "근로자보호",
+      "법안발의"
+     ],
+     "addedAt": "2026-11-24T06:38:03+00:00"
+    },
+    {
+     "id": "3c6b35a3af170233",
+     "cat": "notice",
+     "imp": 2,
+     "date": "2026-11-23",
+     "source": "메가충청뉴스",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1hdHNIbWhKZlpQZWYtZExzb1dVcklONVNMRzBSRWVXQVpNWWZqZ0Y5YVpjMUFoc0tZbDNTcjhJZUozdVEyNzl0RlllRHN4MTJ1VF9zSmgwZ2xyWFFZc1dreWVMREJ4Z1lsUXB1UA?oc=5",
+     "title": "고용노동부, 한국경영자총협회와 공동으로 안전보건 현황 공시가이드 설명회 개최",
+     "summary": "고용노동부와 한국경영자총협회가 공동으로 안전보건 현황 공시가이드 설명회를 개최했습니다.",
+     "point": "안전보건 공시 대상 기업의 보건관리자는 관련 가이드라인과 공시 항목을 숙지해야 합니다.",
+     "tags": [
+      "안전보건공시",
+      "고용노동부",
+      "설명회"
+     ],
+     "addedAt": "2026-11-24T06:38:03+00:00"
+    },
+    {
+     "id": "e046bd149f5d3c7c",
+     "cat": "fund",
+     "imp": 2,
+     "date": "2026-11-23",
+     "source": "메디포뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4wOEhEWjdVY2hUUVlTZ3JyWjZCTG5YTmZLd2NCdDc4QVBzOTlEU2h3QWlZWTJnM3dQVEU0alhFYWhHVVZhelRqVzVld2lXSE1EelZEajVGMTMtZFpMWENaQTE4Mnk?oc=5",
+     "title": "김포·포항에 근로자건강센터 개소…전국 26곳으로 늘어",
+     "summary": "김포와 포항에 근로자건강센터가 문을 열며 관련 지원 인프라가 전국 26곳으로 확대되었습니다.",
+     "point": "지역 내 근로자건강센터의 위치와 제공 프로그램을 파악하여 보건관리에 활용해야 합니다.",
+     "tags": [
+      "전국",
+      "근로자건강센터",
+      "인프라확대"
+     ],
+     "addedAt": "2026-11-24T06:38:03+00:00"
+    },
+    {
+     "id": "2ef1ab3c9fca5ea1",
+     "cat": "fund",
+     "imp": 2,
+     "date": "2026-11-23",
+     "source": "아주경제",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9fbE1Hd1ZqTjRHSmZLQkFEM1RGOW5rbloyVEFvODdnbjhQUXZzZzBjMDlLTFJVcnlyYndta281ZTJRdVI0MkJIdlhRX2dBY0ZHQVhCbldnbm5sd9IBWEFVX3lxTE1qSHMwOVY2b2dqMk0yRTVrN1FGYnFtN28tSGJ6U2JpNW1aVE9nUmxYd2RlVmNDbjFjNUhsNjFXUTFZRXlNTG1ab3JCcm94X3JRT0ItUGZkZi0?oc=5",
+     "title": "김포·포항 근로자건강센터 개소…소규모 사업장 노동자 건강 지킨다",
+     "summary": "김포와 포항 지역에 근로자건강센터가 신설되어 소규모 사업장 노동자들의 건강을 체계적으로 지원합니다.",
+     "point": "보건인력이 부족한 소규모 사업장에서는 지역 건강센터의 전문 건강상담 서비스를 연계 활용하는 것이 좋습니다.",
+     "tags": [
+      "전국",
+      "근로자건강센터",
+      "소규모사업장"
+     ],
+     "addedAt": "2026-11-24T06:38:03+00:00"
+    },
+    {
+     "id": "c3e10de67ad0aafb",
+     "cat": "fund",
+     "imp": 2,
+     "date": "2026-11-23",
+     "source": "간호사신문",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9ZcUVxam5KZi1mSlZDMnZ1WjluNWwwZVpONWdEbjN4Y1RpTVpHdTZvWGRGaDg0RXhCMF9RcUNBYWE3ekpQNS0zQ2ltRl9rYllSZTYzR0l0ZEhmT1JGTlNUTkphSGZkaTBSbzhicl93?oc=5",
+     "title": "작은 사업장 노동자도 간호사·전문의와 건강상담…김포·포항에 센터 개소",
+     "summary": "김포와 포항에 소규모 사업장 노동자들이 간호사와 전문의로부터 건강상담을 받을 수 있는 센터가 개소했습니다.",
+     "point": "소규모 사업장 건강상담 지원 센터의 위치와 서비스 내용을 파악하고 근로자 건강관리 연계 방안을 확인하세요.",
+     "tags": [
+      "경기 김포",
+      "경북 포항",
+      "건강상담",
+      "소규모사업장"
+     ],
+     "addedAt": "2026-11-24T06:38:03+00:00"
+    },
+    {
+     "id": "e8d7bc6167694eb1",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-22",
+     "source": "시민일보",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBSVkNuNWFneWE3bElKTTZRUVVIQ0d4X3BpaHFiSHB2b3M2ZzdFREhvamo5OGszTllmTU83akVheXBfanBmMHJ4cHlsZUo3Zl82VlJWallWcmhLTXpLbzZMcU5Ndi1kY01XX0lMM0d1a9IBb0FVX3lxTFBSVkNuNWFneWE3bElKTTZRUVVIQ0d4X3BpaHFiSHB2b3M2ZzdFREhvamo5OGszTllmTU83akVheXBfanBmMHJ4cHlsZUo3Zl82VlJWallWcmhLTXpLbzZMcU5Ndi1kY01XX0lMM0d1aw?oc=5",
+     "title": "인천시 제물포구, 현장근로자 직무스트레스 관리 대책 추진",
+     "summary": "지자체 차원에서 현장 근로자들을 위한 직무스트레스 관리 대책을 마련하여 추진합니다.",
+     "point": "현장 현업 근로자의 정신건강 증진 및 스트레스 관리 대책 수립에 참고하세요.",
+     "tags": [
+      "인천",
+      "직무스트레스",
+      "근로자건강"
+     ],
+     "addedAt": "2026-11-24T06:38:03+00:00"
+    },
+    {
+     "id": "3f31720ac1fb4eab",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-13",
+     "source": "인사이트에너지뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBUSGN5cmdVSXQ2SUNSSTVDa3FmNk5Rbkw4dF9TSWw2Nl8zT1FVZGYxUmtEaUhtbU1fUmM4MF80cHdJck9aWUtjMFFudW1IS2tUbTFMUDEtU1l4LW51N1l4dVhOVTl0bzDSAWtBVV95cUxPZG1CTWVmQzZ0TkUyUWlSYVpxb0huUjNKUkdqUVRxa2hRb0FpbmZiZkFpVkRsTGE0cGhnYnRwLVRiNGhodTBtaGg0YkpLXzR1QW9QUUp0b0dKSXhhVUhNV0VjbUxKTEFReWM0MA?oc=5",
+     "title": "안전보건公, 베트남 진출기업 안전보건·노무관리 지원",
+     "summary": "안전보건공단이 베트남 진출 기업을 대상으로 현지 안전보건 및 노무관리 지원 활동을 전개했습니다.",
+     "point": "해외 법인이나 협력사가 있는 경우 관련 안전보건 및 노무 관리 지침을 참고하세요.",
+     "tags": [
+      "해외진출",
+      "안전보건공단",
+      "노무관리"
+     ],
+     "addedAt": "2026-11-24T06:38:03+00:00"
+    },
+    {
+     "id": "13a35847e88cb488",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-13",
+     "source": "비욘드포스트",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5mMlBTeG5LaUhGdDRYZGo2cUUtcXJ1bXY0bzd0bDJFdjJ6VUNIMl9HR0d3cHN3bHZjS3VPX25Tc3EwZHBscnU5QTZqTldsVXBpUkJtN1Z3SWVoVHFLTmo0eTMxdE8zT19kMGhmWTlMVE9OdVd5a3dqbm5fWEc?oc=5",
+     "title": "안전보건공단, 베트남 진출기업에 현지 산업안전보건 정책·대응전략 공유",
+     "summary": "안전보건공단이 베트남 진출 기업들을 대상으로 현지 산업안전보건 정책과 대응 전략을 공유했습니다.",
+     "point": "베트남 현지 진출 사업장은 공단의 안전보건 정책 및 대응 전략 자료를 활용해 관리 체계를 점검하세요.",
+     "tags": [
+      "해외사업장",
+      "안전보건정책",
+      "산업안전"
+     ],
+     "addedAt": "2026-11-24T06:38:03+00:00"
+    },
+    {
+     "id": "73070fa2147d692f",
+     "cat": "news",
+     "imp": 1,
+     "date": "2026-11-24",
+     "source": "부산일보",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8yMmNqa3NXNlVSMGhVU2Y1SEV6dWRuNXhLaFRJM00welR3VDRPaE5PT2dKN2xQV05hcTBfZktDX3hkUjJPa3N2c1laYkRCVW16Ry01UFdPRjRfUDZfN2ZPVW12QllVU0N0X1MzR3cxSmQ1QnFNUXdQRmJ2Zw?oc=5",
+     "title": "직업적 요인·개인 데이터 결합해 ‘장기적 건강 변화’ 점검",
+     "summary": "직업적인 요인과 개인 건강 데이터를 결합하여 장기적인 건강 변화를 점검하는 방안이 다뤄졌습니다.",
+     "point": "근로자의 장기적 건강 변화 추적 및 데이터 기반 건강관리 동향을 참고합니다.",
+     "tags": [
+      "건강관리",
+      "직업병예방"
+     ],
+     "addedAt": "2026-11-24T06:38:03+00:00"
+    }
+   ],
+   "updatedAt": "2026-11-24T06:38:03+00:00"
+  },
   {
    "date": "2026-11-23",
    "items": [
