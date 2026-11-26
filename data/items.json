@@ -1,6 +1,356 @@
 {
- "updatedAt": "2026-11-25T05:10:13+00:00",
+ "updatedAt": "2026-11-26T04:38:03+00:00",
  "days": [
+  {
+   "date": "2026-11-26",
+   "items": [
+    {
+     "id": "3788280b91b90bcc",
+     "cat": "case",
+     "imp": 3,
+     "date": "2026-11-26",
+     "source": "대한경제",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5ncjNZMFVhN21PM3lVMnltU1liZER0cFBWRE1YeGJZVUJrT2tiRXExRkdTS3NIXzR6UGV1bUxBN1pJOXhReXY2aDE5NDlQRl9WWnpYNndtTnp4bFlsRjluQXc5OFZXMER2TGgwZ3lVeHVoOEs1?oc=5",
+     "title": "[단독] “사고사망만인율 통보 취소”… 첫 판결 나왔다",
+     "summary": "사고사망만인율 통보 처분을 취소해달라는 소송에서 첫 법원 판결이 나왔다.",
+     "point": "사고사망만인율 산정 및 통보와 관련된 법적 쟁점을 파악하고 사업장 안전 지표 관리 실태를 확인하세요.",
+     "tags": [
+      "사고사망만인율",
+      "행정소송",
+      "판결"
+     ],
+     "addedAt": "2026-11-26T04:38:03+00:00"
+    },
+    {
+     "id": "e32921560919f6ed",
+     "cat": "notice",
+     "imp": 3,
+     "date": "2026-11-26",
+     "source": "고용노동부 보도자료",
+     "url": "https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=20311",
+     "title": "노동부, 최초 지방감독 위임 사업장 선정",
+     "summary": "고용노동부가 최초로 지방감독을 위임한 사업장을 선정했습니다.",
+     "point": "관할 지역 고용노동청의 산업안전보건 감독 방향과 대상 확대 여부를 확인해야 합니다.",
+     "tags": [
+      "고용노동부",
+      "지방감독",
+      "산업안전보건"
+     ],
+     "addedAt": "2026-11-26T04:38:03+00:00"
+    },
+    {
+     "id": "abeeddbe139bfc35",
+     "cat": "law",
+     "imp": 3,
+     "date": "2026-11-25",
+     "source": "사례뉴스",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE10cXFTdW50c29fa042VkoyVU80NVM0SUNydGs3TXN1a1NkaExGMU42b1pHY0NkaWRRSzRBY1VLVXMyeWJ4R1phUGZjOFhXekpScVBIelJrNE41SS1fd3JQNndYVThUSV9HMkl6S9IBb0FVX3lxTE12bHMtTm1pU2tHck5jN0VmUHhDdnZBOTB4SkVsTnQ0OVFzQ3pnMXBmc0dybkhYeERFYThiMFFoNWxyM1YtdjBUakFjNFFrZzladjZNNkZqX3NUYmk1M3M4Y204U1ZGcmpLVHgwU1JlNA?oc=5",
+     "title": "안전보건 공시 설명회에 담당자 200명, 첫 공시는 2027년 4월 30일",
+     "summary": "안전보건 공시 설명회에 담당자 다수가 참석한 가운데 첫 공식 공시는 2027년 4월 30일에 시행될 예정이다.",
+     "point": "2027년 첫 안전보건 공시 의무 대상 여부를 확인하고 사내 공시 전담 조직 및 자료 수집 체계를 준비하세요.",
+     "tags": [
+      "안전보건공시",
+      "설명회",
+      "법적의무"
+     ],
+     "addedAt": "2026-11-26T04:38:03+00:00"
+    },
+    {
+     "id": "f61bbc3f58548755",
+     "cat": "chem",
+     "imp": 3,
+     "date": "2026-11-25",
+     "source": "프레시안",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5feGpaSTJlT2FRRWs1NkE2NExsb0cyMURCalhKbkh4VldPcnFJXzUxYkNVX2xoSkNVcVRHeWhiNlhVaUo0MzFNaEJHcmdZSExjYTNJRVZpTDY3emEzSGNZZmhqRU93dXR2WnBaOFRMTE5fTXhIUzNYTEpwRHFvV0E?oc=5",
+     "title": "\"물고기가 떼로 죽고, 분진이 가득했다\"…반도체 폐수 처리 노동자의 일과 죽음",
+     "summary": "반도체 폐수 처리 과정에서 발생한 환경오염과 현장 노동자의 건강 위험 문제가 제기됐다.",
+     "point": "화학물질 취급 공정 및 폐수 처리 시설에서 노출될 수 있는 유해 물질에 대한 환기 설비와 보호구 착용 상태를 점검하세요.",
+     "tags": [
+      "반도체",
+      "유해화학물질",
+      "직업병"
+     ],
+     "addedAt": "2026-11-26T04:38:03+00:00"
+    },
+    {
+     "id": "a14f8173449514c7",
+     "cat": "law",
+     "imp": 3,
+     "date": "2026-11-25",
+     "source": "고용노동부 훈령·예규·고시",
+     "url": "https://www.moel.go.kr/info/lawinfo/instruction/view.do?bbs_seq=20261100886",
+     "title": "[고시] 출산전후휴가 급여등 상한액 고시",
+     "summary": "출산전후휴가 등 급여의 상한액 기준이 고시되었습니다.",
+     "point": "근로자의 출산전후휴가 신청 시 변경된 급여 상한액 기준을 숙지하고 관련 행정 처리에 반영해야 합니다.",
+     "tags": [
+      "출산전후휴가",
+      "모성보호",
+      "고용노동부고시"
+     ],
+     "addedAt": "2026-11-26T04:38:03+00:00"
+    },
+    {
+     "id": "32c1a8ff3e3e6cef",
+     "cat": "law",
+     "imp": 3,
+     "date": "2026-11-23",
+     "source": "글로벌뉴스통신GNA",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8wY3VGS1BnV0NSclNNbVJBb29JN3FDbzVQX1B3el8yNU8ybjhoN3V4MnNrMUhMLXNSU2pxRlpWaVpjV2lXODRybmFZdjJaQ1c2SlE5Yk9taURPNkd5Rkp4NFplemhHdk5fM2M3THFWaUpBNUR3?oc=5",
+     "title": "이종배 의원, '산업안전보건법 개정안' 대표발의",
+     "summary": "이종배 의원이 산업안전보건법 일부개정법률안을 대표발의했다.",
+     "point": "산안법 개정안의 주요 내용과 향후 입법 동향을 모니터링하여 법적 의무 사항 변경에 대비하세요.",
+     "tags": [
+      "산업안전보건법",
+      "법안발의",
+      "법령"
+     ],
+     "addedAt": "2026-11-26T04:38:03+00:00"
+    },
+    {
+     "id": "ec0e6d272b97e7f8",
+     "cat": "news",
+     "imp": 3,
+     "date": "2026-11-05",
+     "source": "동아일보",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1PdzFLM3IzZ3J0anFnekQza3Z6YS0yZERQRVRRSmx0WDJHWUtxYVhEdzFieWJIbmxxVzhkdzJqUXJfOWx4UVA4YXpoVVNwNldvdTd5OENSRjJ6YlQ4UXBpOE1HVjQ1V29ZN1FVTlB1MUtSUjRDVVHSAWZBVV95cUxPT3JNam5RcXpuazlvazRYVXU1d2xYUWlJZ2Z1WXZlVEFmQndVNFBaRC1IQTZpV0FXdWdZZDN6eklXUXR3bmFMOEVDVW9XaEZzZEN6THlNc1I3Z0FCYUR0OWhxc09OSEE?oc=5",
+     "title": "“소규모 사업장도 안전보건관리자 선임”…李정부 경사노위 첫 합의",
+     "summary": "경제사회노동위원회에서 소규모 사업장까지 안전보건관리자 선임을 확대하는 방안에 대해 처음으로 합의를 이루었습니다.",
+     "point": "향후 소규모 사업장의 안전보건관리자 선임 의무화 관련 법령 개정 동향을 주시해야 합니다.",
+     "tags": [
+      "안전보건관리자",
+      "경사노위",
+      "소규모사업장",
+      "법령개정"
+     ],
+     "addedAt": "2026-11-26T04:38:03+00:00"
+    },
+    {
+     "id": "c32903dedafb5f87",
+     "cat": "edu",
+     "imp": 3,
+     "date": "2026-10-30",
+     "source": "매일노동뉴스",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE91Y1dJNnM3N0ZlZEtSZDAxVGI5REJMXzZYaHRDZ0szZG9uUTdLYzJtcDhoUFZ0c3c1NnZzRVp0MWxHNGlDZjBhTExuWDN4eEpmeDVpbjBBM2dEYS1QeWZUT1dRaUJjTk0xdG0xajk4cFI?oc=5",
+     "title": "[단독] “20명 기업도 안전·보건관리자 선임” 노사정 곧 합의한다",
+     "summary": "20인 미만 소규모 기업에도 안전 및 보건관리자 선임을 의무화하는 방안을 노사정이 곧 합의할 예정이다.",
+     "point": "소규모 사업장의 보건관리자 선임 기준 확대에 따른 향후 법 개정 추이를 모니터링하세요.",
+     "tags": [
+      "보건관리자선임",
+      "노사정합의",
+      "소규모기업"
+     ],
+     "addedAt": "2026-11-26T04:38:03+00:00"
+    },
+    {
+     "id": "4cfb15f67ceb13ce",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-26",
+     "source": "데일리환경",
+     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBJWU0wd1lNemI2ck56Y0NfWHhZU0gtWGNLMUU1NVZGUWc2dmdFeG9LRnBZWDRRcXhxQlctekp6ampXeXZLOWgxRTRiUFZzV3ZhUjNaMTBheXhGMlBaY3c?oc=5",
+     "title": "김포·포항에 근로자건강센터, 작은 사업장 무료 건강상담 확대",
+     "summary": "김포와 포항 지역에 근로자건강센터가 신설되어 소규모 사업장 노동자를 위한 무료 건강상담 서비스가 확대된다.",
+     "point": "사내 소규모 협력업체나 현장 근로자들이 지역 근로자건강센터의 무료 건강상담 프로그램을 이용할 수 있도록 안내하세요.",
+     "tags": [
+      "근로자건강센터",
+      "건강상담",
+      "소규모사업장"
+     ],
+     "addedAt": "2026-11-26T04:38:03+00:00"
+    },
+    {
+     "id": "0871e9b894f3ddfe",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-26",
+     "source": "투데이에너지",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5qYjhsc21vWUl6bkp4Wl82U3FkTm1iUFh1WnRRLXpSMm9uXzZGQnJNSjFZQnItREhKajRrRmlSZzVuNmtNVUlpaE85R2JhdXlFZGZ6c1JvV21YMEFQbjBIS3gwa1k5QzluejBLeWJn?oc=5",
+     "title": "안전보건공단 '김포 근로자 건강센터' 개소... 현재 전국 26개소 운영",
+     "summary": "안전보건공단이 김포 근로자 건강센터를 새롭게 열며 전국적으로 운영 중인 센터가 26개소로 확대됐다.",
+     "point": "사업장 인근 근로자건강센터의 위치와 이용 방법을 확인하여 직장인 건강증진 프로그램 연계에 활용하세요.",
+     "tags": [
+      "김포",
+      "근로자건강센터",
+      "안전보건공단"
+     ],
+     "addedAt": "2026-11-26T04:38:03+00:00"
+    },
+    {
+     "id": "8d9d81f97600ca21",
+     "cat": "law",
+     "imp": 2,
+     "date": "2026-11-26",
+     "source": "안전신문",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA1VWFSZHNrWjNMS2MwYTBDZnpJRXBhcXVQcDdhNF91NHpJTi16bzhVLVF2NC1RaHFkUWk2NW5sX1RsaFZxMkZnRUxENXdzRmJha1VpVjRpSFR1Z0Iwd0lmR1BBQ0FOdUJ6NExlUVBqMGY?oc=5",
+     "title": "[기고-신유림]공시는 투명하게, 예방은 철저하게, 일터는 안전하게",
+     "summary": "안전보건 공시의 투명성과 철저한 예방을 강조하는 전문가 기고문이 게재됐다.",
+     "point": "개편된 안전보건 공시 제도의 요구 사항을 숙지하고 사내 관련 데이터 정비 계획을 수립하세요.",
+     "tags": [
+      "안전보건공시",
+      "중대재해예방",
+      "기고"
+     ],
+     "addedAt": "2026-11-26T04:38:03+00:00"
+    },
+    {
+     "id": "e1f1babcf6e78d18",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-26",
+     "source": "시사일보",
+     "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5CMVJzd2V5TXFIT2tVaEE5RzRTeFZmWUhRX2pkYS1rQ2JkYms5eVRGQjBhZTNvQVl2SUk4Y2pucHBrM3h3dUdvRmExYlo?oc=5",
+     "title": "포항시, 388개 사업장 대상 현장 위험성평가로 중대재해 예방 총력",
+     "summary": "포항시가 관내 388개 사업장을 대상으로 중대재해 예방을 위한 현장 위험성평가를 실시합니다.",
+     "point": "지자체 및 정부의 현장 위험성평가 지도·점검에 대비해 사업장 내 유해위험요인 자율 개선 활동을 점검해야 합니다.",
+     "tags": [
+      "위험성평가",
+      "중대재해예방",
+      "지자체점검"
+     ],
+     "addedAt": "2026-11-26T04:38:03+00:00"
+    },
+    {
+     "id": "b818e00e9b53a9b1",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-25",
+     "source": "화성인터넷신문",
+     "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE91NlZtZ29DSnpjeDduVWRCZE9GbGM4OXNJd0JVU1dlTEg1bG1CNS0xRzU2TGJWNkY2TTJwWXlDdWRHUQ?oc=5",
+     "title": "화성특례시, 중대시민재해 예방 교육... 시설별 위기 대응",
+     "summary": "화성특례시가 중대시민재해 예방을 위한 시설별 위기 대응 교육을 실시했다.",
+     "point": "",
+     "tags": [
+      "화성시",
+      "중대재해",
+      "안전교육"
+     ],
+     "addedAt": "2026-11-26T04:38:03+00:00"
+    },
+    {
+     "id": "21947f3ba1c855b9",
+     "cat": "case",
+     "imp": 2,
+     "date": "2026-11-25",
+     "source": "노컷뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1lTWdfc285MTdqd0swVGEzanhfNFU4eHVMTFlRZmZwb2FaV2t3UndVd2ZXSXI4ck9wMlA4QmF6QXFDVTYyNkhvTUhTaG5NQXowTnc?oc=5",
+     "title": "\"트라우마·불면에도\"…울산 노동자에게 닿지 않는 '마음 안전망'",
+     "summary": "울산 지역 노동자들을 위한 트라우마 및 불면증 관련 심리지원 안전망이 부족하다는 지적이 제기됐다.",
+     "point": "사내 근로자들의 직무 스트레스와 정신건강 고위험군을 조기 발굴할 수 있는 상담 체계를 점검하세요.",
+     "tags": [
+      "울산",
+      "직무스트레스",
+      "정신건강"
+     ],
+     "addedAt": "2026-11-26T04:38:03+00:00"
+    },
+    {
+     "id": "077268b67e6ea0e3",
+     "cat": "law",
+     "imp": 2,
+     "date": "2026-11-25",
+     "source": "대한전문건설신문",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBDdEZlYWRPeTVqRmdzYzFHc2tFLWl1dGQyOGtkSVlTRmdPWGtBVTVmelUxbzViWEd4UXcwamV4T2owYnkyd1AtdlJJUmp5dlhwcF9GOXpjS0tabWxuaWM1N0FhcEM1NF9KSDN4T9IBbEFVX3lxTFBDdEZlYWRPeTVqRmdzYzFHc2tFLWl1dGQyOGtkSVlTRmdPWGtBVTVmelUxbzViWEd4UXcwamV4T2owYnkyd1AtdlJJUmp5dlhwcF9GOXpjS0tabWxuaWM1N0FhcEM1NF9KSDN4Tw?oc=5",
+     "title": "동절기 건설현장 2946곳 점검···한파로 공사 밀리면 연장 요청",
+     "summary": "정부가 동절기를 맞아 전국의 건설현장 2,946곳을 점검하며 한파로 공정이 지연될 경우 공사기간 연장을 요청할 수 있도록 했다.",
+     "point": "동절기 한파 대비 현장 근로자 한랭질환 예방 대책과 작업 중지 기준을 철저히 이행하세요.",
+     "tags": [
+      "동절기",
+      "건설현장",
+      "한랭질환"
+     ],
+     "addedAt": "2026-11-26T04:38:03+00:00"
+    },
+    {
+     "id": "da7572e055534a50",
+     "cat": "edu",
+     "imp": 2,
+     "date": "2026-11-25",
+     "source": "메디포뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5oRkd0ZkE4a01fRDhoUUxVR05wdXZJLVdyS2daMUFWUTVuYTBhWV91RG5aOUdFVWtIS1RWZUtINmpITFlIa3gwaFV5VHFUN19WX3ZHZzNNSW1aTE1BanBvQVVZUkU?oc=5",
+     "title": "대한간호학회, 27일 창립 학술대회 개최",
+     "summary": "대한간호학회가 창립 학술대회를 개최합니다.",
+     "point": "간호 및 보건학 분야 최신 연구 동향을 파악하기 위해 참여를 검토합니다.",
+     "tags": [
+      "온라인",
+      "대한간호학회",
+      "학술대회",
+      "보건교육"
+     ],
+     "addedAt": "2026-11-26T04:38:03+00:00",
+     "eventDate": "2026-11-27"
+    },
+    {
+     "id": "e8a3a6d1b708824c",
+     "cat": "edu",
+     "imp": 2,
+     "date": "2026-11-25",
+     "source": "오토투데이",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5DODRWeUItdWVDd3EwNXllQ1BEcVlqU0xyR0dnSk42YWg0ejh5MUJULVRUbE1YVl9oQ3pTbnFIOEoyOFUxeWxPbVVRZ2RGNkkyZEJjSU9QcEY1SVZoNnFJMFhRVEVPYXE5dHowckF5UQ?oc=5",
+     "title": "미래 간호학 모색 … 대한간호학회 창립 학술대회",
+     "summary": "미래 간호학의 방향성을 모색하는 대한간호학회 창립 학술대회가 열립니다.",
+     "point": "간호 및 보건 정책의 미래 방향을 확인하기 위해 참석을 고려합니다.",
+     "tags": [
+      "온라인",
+      "대한간호학회",
+      "학술대회"
+     ],
+     "addedAt": "2026-11-26T04:38:03+00:00",
+     "eventDate": "2026-11-27"
+    },
+    {
+     "id": "981934ca84b09580",
+     "cat": "news",
+     "imp": 1,
+     "date": "2026-11-25",
+     "source": "데일리한국",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1walpjMlBxM3VteGZrZ1EyZ3lvT1JESTExbV9nWHRmWXlKV0tjQzNBYndGTm45VUJQQmhGWm9qbms3cDBxZkJhQXdWakt3emViXzYzeHJzbF9GU1hZZUt4VWowV3pyT1F4amstQlNyVdIBc0FVX3lxTE9mYUhjam1qQmZtc0gtaHRaLV9lZGdYbmJGTUtFenNRYjczVTh0SW9hWVlZTlU1VlY5VzNpdGJsVUY4UUpvU3RQV1BaZHVucDU2X3RaNzFBY1FfMGliTlNIYmo0bDE2X0psYnJRY3BSYkNkOGs?oc=5",
+     "title": "걷기부터 맞춤형 건강관리까지…삼성바이오로직스, 건강증진 우수사업장 재인증",
+     "summary": "삼성바이오로직스가 맞춤형 건강관리와 걷기 프로그램 등을 통해 건강증진 우수사업장 재인증을 획득했다.",
+     "point": "사내 건강증진 프로그램 우수 운영 사례를 참고하여 임직원 건강관리 체계를 점검해 보세요.",
+     "tags": [
+      "건강증진",
+      "우수사업장",
+      "삼성바이오로직스"
+     ],
+     "addedAt": "2026-11-26T04:38:03+00:00"
+    },
+    {
+     "id": "87d4c6f1f6fd2578",
+     "cat": "notice",
+     "imp": 1,
+     "date": "2026-11-25",
+     "source": "고용노동부 보도자료",
+     "url": "https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=20307",
+     "title": "노사와 지역사회가 함께 만드는 안전문화",
+     "summary": "노사와 지역사회가 협력하여 안전문화를 조성하기 위한 활동 내용입니다.",
+     "point": "사내 안전문화 확산을 위한 노사 합동 캠페인이나 프로그램 기획 시 참고합니다.",
+     "tags": [
+      "안전문화",
+      "노사협력",
+      "고용노동부"
+     ],
+     "addedAt": "2026-11-26T04:38:03+00:00"
+    },
+    {
+     "id": "09d6c9cf75383160",
+     "cat": "news",
+     "imp": 1,
+     "date": "2026-11-24",
+     "source": "한국데이터경제신문",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1KRlFXQjJGYUFCRW8xV0VDR0dpX3JzNGUwT2MzZHI2bDNMOWNtZ2pOTHd6Sm9uaWxpODR2UW1XX093YWNlc0l2d2tqamZTdl90ajhpRk9TUUJFVi15QlRGd1BheHplUnBwbVcxZ21QaTXSAXRBVV95cUxQMjRGZ2xmSGhZb2p2clBuWEt2MGZuZ1g2SUptVVNsdzV2VEFEeXZIdjFLMWR1VDRJckdpTENYWE5sYy1URlpSQjd4VFI0UmwyM3ZnQkU2U3E0TVRzRFhNRlpxVDR3QmYwVVhXUUw2OGpuUWxLUw?oc=5",
+     "title": "3분 측정으로 지표 250여 개…카르나AI아시아, 일터 건강 데이터 시장 노린다",
+     "summary": "카르나AI아시아가 단시간 측정으로 다양한 건강 지표를 산출하는 일터 건강 데이터 시장 진출을 추진한다.",
+     "point": "",
+     "tags": [
+      "디지털헬스케어",
+      "건강데이터",
+      "AI"
+     ],
+     "addedAt": "2026-11-26T04:38:03+00:00"
+    }
+   ],
+   "updatedAt": "2026-11-26T04:38:03+00:00"
+  },
   {
    "date": "2026-11-25",
    "items": [
