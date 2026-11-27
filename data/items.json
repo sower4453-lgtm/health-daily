@@ -1,6 +1,335 @@
 {
- "updatedAt": "2026-11-26T04:38:03+00:00",
+ "updatedAt": "2026-11-27T04:40:45+00:00",
  "days": [
+  {
+   "date": "2026-11-27",
+   "items": [
+    {
+     "id": "c4fa67d9b44e6025",
+     "cat": "case",
+     "imp": 3,
+     "date": "2026-11-26",
+     "source": "CEO저널",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1NQV9zanFRQVVLelpiNlotcEZ1M2x0MGJEcHFYY19ZUjN0bU1DWGEzNWVZTWo3N1ZITVhKSk5WTVRXN3VnMWtjRlJLUHl2eE0tOXgzY3l2anBUeGhPUW0zQllxYlplc2REVE9j0gFrQVVfeXFMTU1BX3NqcVFBVUt6WmI2Wi1wRnUzbHQwYkRwcVhjX1lSM3RtTUNYYTM1ZVlNajc3VkhNWEpKTlZNVFc3dWcxa2NGUktQeXZ4TS05eDNjeXZqcFR4aE9RbTNCWXFiWmVzZERUT2M?oc=5",
+     "title": "전영현 삼성전자 부회장, 화성사업장 하청노동자 혈액암 사망…유족 산재 신청",
+     "summary": "화성사업장 하청노동자가 혈액암으로 사망하여 유족이 산업재해를 신청했습니다.",
+     "point": "유해화학물질 취급 공정에서 근무하는 하청 근로자를 포함한 전반적인 작업환경 및 건강장해 요인을 면밀히 관리해야 합니다.",
+     "tags": [
+      "산업재해",
+      "혈액암",
+      "직업병"
+     ],
+     "addedAt": "2026-11-27T04:40:45+00:00"
+    },
+    {
+     "id": "10c819f2a475afd4",
+     "cat": "law",
+     "imp": 3,
+     "date": "2026-11-26",
+     "source": "조세금융신문",
+     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE02b1F3ZVRueFpQWS1CLU9DXzEwZDVCU0dWQ1F6ZWtEOEhTQWlDczI5WExPRDlidk15blB0dkVwZDdFUkxPNTRLalNSWFhMdEE3a1dXcTUtMG8wMnVIaXZjbGFUTQ?oc=5",
+     "title": "[전문가 칼럼] 2026년 12월 지방노동감독 확대와 사업주 대응사항",
+     "summary": "지방노동감독 확대 시기에 맞춰 사업장이 준수해야 할 노동관계법 및 안전보건 관련 대응 사항을 정리한 전문가 칼럼입니다.",
+     "point": "정기·수시 노동감독에 대비하여 안전보건 교육 실시 여부 및 관련 서류 비치 상태를 미리 점검하세요.",
+     "tags": [
+      "노동감독",
+      "법령대응",
+      "안전보건"
+     ],
+     "addedAt": "2026-11-27T04:40:45+00:00"
+    },
+    {
+     "id": "eda8fe34801b9f7b",
+     "cat": "chem",
+     "imp": 3,
+     "date": "2026-11-26",
+     "source": "법률신문",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1iNXowenY2ZTlPU1NaZWZ5NUdqV2h1cnl3WEt1Y2czNk1SRWRJVEhKTFBZd2pxTzlvdXljQUhxZzRXNjlYcmtLNjN3ckdiVWZfZlBCUU5VUmVwWWZQSmRPVE16VzBfTUxvZ2dIR2130gFyQVVfeXFMUFFXUnlfa2VuelM1VWZFTHM2SWxaMFZpeldTSHdsUmM3Yi15NUZTa3JIbTM0NDFYWE5Nd0RDcGptTlFSdkVTUTVTUXBab0hzMzYyU09TTkF2NzlkcHRPaGNwUkJqcDFXWkZmTkNkZEs0Nkl3?oc=5",
+     "title": "화학물질 65종, 인체등유해성물질 신규지정 예고 - 우리 사업장도 대상일까?",
+     "summary": "인체 및 환경에 유해한 화학물질 65종이 신규 유해성 물질로 지정될 예정입니다.",
+     "point": "신규 지정 예고된 화학물질 목록을 확인하고 당사 사업장에서 취급 중인지 파악하여 MSDS를 현행화하세요.",
+     "tags": [
+      "화학물질",
+      "유해성지정",
+      "MSDS"
+     ],
+     "addedAt": "2026-11-27T04:40:45+00:00"
+    },
+    {
+     "id": "31f09effabb33e50",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-27",
+     "source": "비즈중앙",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5PR2V4UnBGSWs5Ui1fdzRmSUhLM0syVklQa25Tc244czUyZ1ItUXdMTVJnd1NsNUdTNjRWVzRLMGE5TndPZm92Tmg3ZWtTT2Z6QzZGdldWRGZiQTdraXdsUURuRHNoS01kOWhiWTUzb0k?oc=5",
+     "title": "[안전한 일터] 진동공구 건강관리, 문진만으론 부족…사용시간·정비 함께 봐야",
+     "summary": "진동공구를 다루는 작업자의 건강관리를 위해서는 단순 문진뿐만 아니라 실제 사용 시간과 장비 정비 상태를 함께 점검해야 합니다.",
+     "point": "진동작업 유해인자 관리 시 근로자의 작업 시간 확인과 함께 진동공구의 정기적인 점검 및 정비를 병행해야 합니다.",
+     "tags": [
+      "진동공구",
+      "근골격계질환",
+      "작업환경관리"
+     ],
+     "addedAt": "2026-11-27T04:40:45+00:00"
+    },
+    {
+     "id": "736f43445f39120a",
+     "cat": "job",
+     "imp": 2,
+     "date": "2026-11-27",
+     "source": "서울Pn",
+     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9kMFAzVkNDZTRabGRtb29sVHd3ZWNic2owZWdsZEM4V2paN0UzalkyOFdKZll1OUI5Vm1CdkVLcTd0MUdKaG9MNnA0U2pVMGFkaTRyU3o3dGVyX2VyUGZFZzBn?oc=5",
+     "title": "[국군복지단] 27년 1차(27년 1월) 공무직근로자 등 채용 공고",
+     "summary": "국군복지단에서 2027년 1차 공무직근로자 등 채용을 공고했습니다.",
+     "point": "",
+     "tags": [
+      "전국",
+      "채용",
+      "공무직"
+     ],
+     "addedAt": "2026-11-27T04:40:45+00:00"
+    },
+    {
+     "id": "fb9d7d28625ea9e0",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-27",
+     "source": "김천신문",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA3M1p2M3ViaTNPOU95dWh1WVVJWm9zMUxOWjVmenJEMFhLRmVoZlBZWGxBaEsxQ1U2M25qVWN3bkJ6cGs0VFpaUVBGQjBQWFo5M1ZkUWhXOXFPdjJoT3VjSXZ0eTZ2eGZobjVBN3J2Z1E0dTlhVDRiZ1dlMjlUQQ?oc=5",
+     "title": "김천시, 시 소속 근로자 근골격계질환 예방 관리 프로그램 운영",
+     "summary": "김천시가 소속 근로자들을 대상으로 근골격계질환 예방 관리 프로그램을 운영하고 있습니다.",
+     "point": "사내 근골격계질환 예방을 위한 유해요인 조사 및 올바른 작업 자세 지도 프로그램을 점검해 보세요.",
+     "tags": [
+      "경북 김천시",
+      "근골격계질환",
+      "근로자건강관리"
+     ],
+     "addedAt": "2026-11-27T04:40:45+00:00"
+    },
+    {
+     "id": "3041dca66d2d3021",
+     "cat": "case",
+     "imp": 2,
+     "date": "2026-11-27",
+     "source": "경인방송 뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE14akd5R21fem5KdzRJdDV0aUpVd3ZPUkhJZml5cHhCcnY1QzVxUVFOTzV1WVJxdXBpZ0pYSUg0UnBMMm5haHUxSUYxWHlPRTRNdEV6M201MlVMWGRaYzUzZWxvZGfSAWhBVV95cUxPWlU0MGhNOVA1LUVLbFJSRlFOU0xoOE1BQlcxZkEzWTZiQzR3WHMzY1NZTHdHV2RvZXNaeVVmbloyRGFWTDg5LVliZTNtdUdKSTFVWlNVcnZWcTNmY0ZuTmtTOWtrZ1djeg?oc=5",
+     "title": "손끝 하나 대지 않아도 ‘상해죄’… 고(故) 강수빈 간호사 사건으로 본 ‘태움’ 처벌의 첫 선례와 법적 쟁점 [굿모닝 인천-이승기 변호사의 사건수첩]",
+     "summary": "직장 내 괴롭힘 및 이른바 태움 행위와 관련해 신체적 접촉이 없더라도 상해죄가 성립될 수 있는 법적 쟁점과 판례의 의미를 다룬 칼럼입니다.",
+     "point": "직장 내 괴롭힘이 근로자의 신체적·정신적 건강에 미치는 심각성을 인지하고 사내 예방 체계를 재정비하세요.",
+     "tags": [
+      "직장내괴롭힘",
+      "태움",
+      "법적쟁점"
+     ],
+     "addedAt": "2026-11-27T04:40:45+00:00"
+    },
+    {
+     "id": "ce00b3e33dbfb949",
+     "cat": "info",
+     "imp": 2,
+     "date": "2026-11-27",
+     "source": "고용노동부 정책자료실",
+     "url": "https://www.moel.go.kr/policy/policydata/view.do?bbs_seq=20261100963",
+     "title": "2026년 동절기 건설현장 안전보건길잡이",
+     "summary": "고용노동부가 동절기 현장의 안전보건 관리를 위해 배포한 지침 자료입니다.",
+     "point": "동절기 한랭질환 및 현장 안전사고 예방을 위한 세부 지침을 확인하고 사업장 내 방한 대책을 점검하세요.",
+     "tags": [
+      "동절기안전",
+      "한랭질환",
+      "안전보건가이드"
+     ],
+     "addedAt": "2026-11-27T04:40:45+00:00"
+    },
+    {
+     "id": "020918fcf1f8f21b",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-26",
+     "source": "안전저널",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1HQ21QXzJaeTEtT1BXY2ZNSnVoeVlsZXN0X2Y0TEVnMUZyY09sMEpxa3dqbzIwOHhENTRIQWt2ZDRqcUxMa2NBSVFMTUN2dGJrV2tzSmFVekRyU2hpMW9hTFBFbzQ2OUU?oc=5",
+     "title": "산업재해 예방정책 변화에 따른 안전보건전문기관의 역할 및 기능 강화",
+     "summary": "산업재해 예방 정책 변화에 맞춰 안전보건전문기관의 역할과 기능 강화 방안이 논의되었습니다.",
+     "point": "변화하는 산재 예방 정책 기조에 발맞추어 사내 안전보건전문기관과의 협력 체계를 점검해야 합니다.",
+     "tags": [
+      "산재예방",
+      "안전보건",
+      "전문기관"
+     ],
+     "addedAt": "2026-11-27T04:40:45+00:00"
+    },
+    {
+     "id": "6d661d4b2808a997",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-26",
+     "source": "핀포인트뉴스",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9UVmRwUkFhMnVyWHFMN1VOQmdSXzdJZElENWtUc1NwQ1JNSktlbUVkcWJVWmFOY2FPOEM3RnJpRHk4RV9pNkdGZ3pCbE9WbC11d2c4V3dxRzdKNnQxR0NWRDhSb01jaXA0YkxPWGdzczFHdTNwQkNN0gF3QVVfeXFMT1RWZHBSQWEydXJYcUw3VU5CZ1JfN0lkSUQ1a1RzU3BDUk1KS2VtRWRxYlVaYU5jYU84QzdGcmlEeThFX2k2R0ZnekJsT1ZsLXV3ZzhXd3FHN0o2dDFHQ1ZEOFJvTWNpcDRiTE9YZ3NzMUd1M3BCQ00?oc=5",
+     "title": "대책은 세웠다는데 현장에선 또 사망…DL이앤씨 안전관리 도마",
+     "summary": "건설현장에서 안전대책 마련에도 불구하고 사망사고가 발생하여 안전관리 체계가 도마 위에 올랐습니다.",
+     "point": "현장 안전보건 대책이 형식적인 수립에 그치지 않고 현장에서 실효성 있게 작동하는지 지속적으로 점검해야 합니다.",
+     "tags": [
+      "중대재해",
+      "안전관리",
+      "사망사고"
+     ],
+     "addedAt": "2026-11-27T04:40:45+00:00"
+    },
+    {
+     "id": "9915c143ca93bc76",
+     "cat": "case",
+     "imp": 2,
+     "date": "2026-11-25",
+     "source": "매일노동뉴스",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9FbXB6QlBEblRnYi1PYnB5UTRVUWFRN0prSTlkZmhlWDl3SjZLREZ2YnJDNmlpUi1jWjVOMXZpcXFQWFhvZzJWNnN4OGZ5eHYwWW9BSWNSZVNlWTZEdENXUW8yU2Q3MVhPVWt2N0UxRHg?oc=5",
+     "title": "결정형 유리규산, 시멘트와 모래 사이",
+     "summary": "시멘트와 모래 등 건설·제조 현장에서 노출될 수 있는 결정형 유리규산의 유해성과 관리의 중요성을 다룬 기사입니다.",
+     "point": "유리규산 취급 공정에서 국소배기장치 작동 상태를 점검하고 방진마스크 착용 등 호흡기 보호 조치를 강화하세요.",
+     "tags": [
+      "유리규산",
+      "직업병",
+      "호흡기보호"
+     ],
+     "addedAt": "2026-11-27T04:40:45+00:00"
+    },
+    {
+     "id": "4cff02fdd705b380",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-24",
+     "source": "뉴시스",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5BNmFGT3h2TmZWR25nRjEyYmdMdExHRThSZ1phYzd6Y1YyRWxOa0hwRFViWTRhdnkxMjFrdndhTGQ3MEs1XzJpb1NGNGpXbXQyOVUxbE1pREVwWlBHWnZCYzgyTlFKM0tKTS1rMWxpUWtPWWkzOE5JOdIBeEFVX3lxTE5BNmFGT3h2TmZWR25nRjEyYmdMdExHRThSZ1phYzd6Y1YyRWxOa0hwRFViWTRhdnkxMjFrdndhTGQ3MEs1XzJpb1NGNGpXbXQyOVUxbE1pREVwWlBHWnZCYzgyTlFKM0tKTS1rMWxpUWtPWWkzOE5JOQ?oc=5",
+     "title": "전남광주 근로자 '납 배출 약' 의혹 공장…성분 미검출",
+     "summary": "납축전지 제조 공장에서 제기된 근로자 납 배출 약물 복용 의혹에 대해 전수조사를 실시한 결과 성분이 검출되지 않았습니다.",
+     "point": "사업장 내 유해물질 취급 공정에서 근로자 건강관리 실태를 점검하고 관련 의혹이 발생하지 않도록 작업환경을 철저히 관리해야 합니다.",
+     "tags": [
+      "납",
+      "유해물질",
+      "건강관리"
+     ],
+     "addedAt": "2026-11-27T04:40:45+00:00"
+    },
+    {
+     "id": "777f69ffdf09d5a9",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-24",
+     "source": "슬로우뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE50TkRjX0p6TjAtR0NHTjJORTlKUkFERmRhUklzVFhCNUpTM1FlVnpHM2dRRGJYTkYyNEIweTVZWQ?oc=5",
+     "title": "DN오토모티브 노동자들이 맞은 ‘비타민’ 주사의 비밀",
+     "summary": "제조업 사업장에서 발생한 노동자 건강관리 관련 논란을 다룬 기사입니다.",
+     "point": "사업장 내 보건관리 프로그램 운영 시 근로자 건강증진 활동의 투명성과 적절성을 확보해야 합니다.",
+     "tags": [
+      "건강증진",
+      "보건관리",
+      "작업환경"
+     ],
+     "addedAt": "2026-11-27T04:40:45+00:00"
+    },
+    {
+     "id": "86faa5cb84c115fa",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-24",
+     "source": "남도일보",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9xVFFEMHFBRmV6VTFFODZ2Nl94R21kbUNqUWZ0ZmJDc0ZLY0cwV0hqRWotLVZoTFQ4R0ZNWXpNYmpzRHd2V3JHX21hVVcxOHZwRy1MY1R1R05yamxHZkZIVTY3dTlZbW9Hb21GbdIBcEFVX3lxTFA1QmhxLVpQem5HNGYxaXlLYXB4Q2RoYlZEUGVEeGxHMHoyQm1WaHdSY0tDLWpmb2FCeWREOGEyN1NpUVB3bklab0RFV052M0FJaWN4TFM4WGRuOHJKeVk1M2Qxam81NFZDTXcxQkxadVY?oc=5",
+     "title": "납축전지 공장 ‘납 배출 약물’ 의혹…성분 미검출",
+     "summary": "납축전지 공정에서 제기된 납 배출 약물 복용 의혹에 대한 전수조사 결과 성분이 검출되지 않았습니다.",
+     "point": "납 취급 공정의 유해인자 노출 여부를 상시 모니터링하고 근로자 건강보호 조치를 점검해야 합니다.",
+     "tags": [
+      "납",
+      "직업병",
+      "작업환경측정"
+     ],
+     "addedAt": "2026-11-27T04:40:45+00:00"
+    },
+    {
+     "id": "41c6367b2f87641e",
+     "cat": "news",
+     "imp": 2,
+     "date": "2026-11-24",
+     "source": "뉴스1",
+     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1UZmNyQkxkWkpENzF5aTRKQU9yc25fQ19SUUJBYmJrQnYxZXlqa1ZIdmhPcWxYTW4wN0NsdzNPUjROY2Z1amdJdzFSMndNMW5sMWF2WW1LX09MX3FUZXFz?oc=5",
+     "title": "광주 납축전지 공장 '납 배출 약 복용' 의혹…전수조사 성분 미검출",
+     "summary": "광주 납축전지 제조업체에서 제기된 납 배출 약 복용 의혹과 관련해 전수조사를 벌인 결과 성분이 검출되지 않은 것으로 나타났습니다.",
+     "point": "납 등 중금속 취급 사업장은 작업환경 개선과 함께 근로자 건강검진 및 유해인자 관리를 철저히 해야 합니다.",
+     "tags": [
+      "납",
+      "중금속",
+      "건강검진"
+     ],
+     "addedAt": "2026-11-27T04:40:45+00:00"
+    },
+    {
+     "id": "1ea7427e382f45c6",
+     "cat": "news",
+     "imp": 1,
+     "date": "2026-11-27",
+     "source": "아시아경제",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5laHFDZUZFa0p1akRKbmt3WjY0QWhZX2NhNHhtNWdpLVhSZDdjVWh3NklXUnN0Z3FHb21ZTXJqQ2FxSVhjOWk4Vy11a3RqcmNFYTM3djJvQ05YelhmTkdsNQ?oc=5",
+     "title": "[위기 속 기회 K건설]드론이 안전관리·AI가 현장통역…더 스마트한 '아이파크'",
+     "summary": "건설현장에서 드론을 활용한 안전관리와 AI 통역 등 스마트 기술 도입이 확대되고 있습니다.",
+     "point": "스마트 안전 기술을 현장 보건 및 안전 관리에 적극 접목하여 위험요소를 사전에 차단해야 합니다.",
+     "tags": [
+      "스마트안전",
+      "드론",
+      "건설안전"
+     ],
+     "addedAt": "2026-11-27T04:40:45+00:00"
+    },
+    {
+     "id": "b61d27174bf6b2f1",
+     "cat": "news",
+     "imp": 1,
+     "date": "2026-11-26",
+     "source": "타임뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4yeXlGd1NQS2hTaFBkalZ3Rmk0YW1hUkd6RXlqZGpabFJRSnZIQkJaWVlGQi1uZVFMejY5a1lMaHJHMUZwdE9aRGhaejFiN1Y3cHhGaA?oc=5",
+     "title": "대전도시공사, 전국 최초 ‘AI 안전비서’ 개발로 국무총리상 수상",
+     "summary": "대전도시공사가 전국 최초로 개발한 'AI 안전비서'가 국무총리상을 수상했습니다.",
+     "point": "AI 기술을 활용한 안전보건 관리 시스템 도입 사례를 참고하여 사업장 내 안전관리 효율성 제고 방안을 검토할 수 있습니다.",
+     "tags": [
+      "AI안전비서",
+      "안전관리",
+      "수상"
+     ],
+     "addedAt": "2026-11-27T04:40:45+00:00"
+    },
+    {
+     "id": "5c362476c28415af",
+     "cat": "news",
+     "imp": 1,
+     "date": "2026-11-26",
+     "source": "뉴스프리존",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9lSXhLYjVseldIbXNwUERxdklwQ24zcU9SRHlubktvdEFVcG5KVGNFUVp3R0VQYTdMN2ZCWXR6WVpnUmJad3I0VXlQaXNCaFd3YmFFcFhhUGN3ZVVVYktDUFM3MXgyaFRQRW9ObWZXVksyUGPSAXdBVV95cUxPVGpkaE9XWkJPNWdsNlRrclM0VWxfMXltY01qR0tkUm9Rbk1lUTlxM2xTd2xOTVdpMWEya1Mtc2tTVUVibG1WZ1hOZzFjTjJzZGoySDNVU2Vxb25Xdk56TVJEX01oTjJOVFJfUjg4QzlaeFZFempPcw?oc=5",
+     "title": "대전도시공사, 적극행정 경진대회 국무총리상… AI 안전비서 앱 성과",
+     "summary": "대전도시공사가 적극행정 경진대회에서 AI 안전비서 앱 성과로 국무총리상을 수상했습니다.",
+     "point": "스마트 모바일 앱 등을 활용한 현장 안전보건 관리 우수사례를 벤치마킹할 수 있습니다.",
+     "tags": [
+      "AI안전비서",
+      "적극행정",
+      "안전관리"
+     ],
+     "addedAt": "2026-11-27T04:40:45+00:00"
+    },
+    {
+     "id": "9acbabeb6ce64b32",
+     "cat": "news",
+     "imp": 1,
+     "date": "2026-11-26",
+     "source": "뉴스1",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1acHNXSW9NSFFHaTU5VS1oT3VqZjlSWEZsWFVadjJMcEJiM05IMFlyZ0taNVBucEc4bk5WOTJva3RiZ2FQQVcyMC1DZDUtRHllalpxcXpBMU5veTBoaUJpdA?oc=5",
+     "title": "대전도시공사 적극행정 우수사례 국무총리상 수상",
+     "summary": "대전도시공사의 적극행정 우수사례가 국무총리상을 수상했습니다.",
+     "point": "안전보건 분야의 혁신적인 행정 및 시스템 개선 사례를 업무에 참고할 수 있습니다.",
+     "tags": [
+      "적극행정",
+      "안전관리",
+      "우수사례"
+     ],
+     "addedAt": "2026-11-27T04:40:45+00:00"
+    }
+   ],
+   "updatedAt": "2026-11-27T04:40:45+00:00"
+  },
   {
    "date": "2026-11-26",
    "items": [
